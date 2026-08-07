@@ -1,17 +1,33 @@
-      - name: 🔍 调试：检查环境变量
+name: Generate Report
+
+on:
+  schedule:
+    - cron: '0 23 * * *' # 每天北京时间早上7点运行 (UTC 23:00)
+  workflow_dispatch:     # 允许手动点击运行
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
         run: |
-          echo "正在检查环境变量..."
-          # 检查 Key 是否存在
-          if [ -z "$FINNHUB_API_KEY" ]; then
-            echo "❌ 错误：FINNHUB_API_KEY 为空！"
-          else
-            echo "✅ 成功：FINNHUB_API_KEY 已找到！"
-          fi
-          
-          # 列出所有变量名（为了安全，不显示值）
-          echo "当前所有环境变量名："
-          printenv | grep -v "TOKEN\|KEY\|SECRET" || true
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # --- 关键修复步骤：在这里显式传递环境变量 ---
+      - name: Run python main.py
+        run: python main.py
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+     
