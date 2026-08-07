@@ -2,79 +2,79 @@ import os
 import requests
 import json
 from datetime import datetime
-import time
 
 # --- 配置部分 ---
 PUSHPLUS_TOKEN = os.environ.get('PUSHPLUS_TOKEN')
 DEEPSEEK_API_KEY = os.environ.get('DEEPSEEK_API_KEY')
-# 这里会自动读取你刚才在 GitHub Secrets 里配置的 FINNHUB_API_KEY
 FINNHUB_API_KEY = os.environ.get('FINNHUB_API_KEY') 
 
+def send_pushplus(title, content):
+    """直接使用 requests 发送推送，无需安装 pushplus 包"""
+    if not PUSHPLUS_TOKEN:
+        print("未配置 PUSHPLUS_TOKEN，跳过推送")
+        return
+    
+    url = "http://www.pushplus.plus/send"
+    payload = {
+        "token": PUSHPLUS_TOKEN,
+        "title": title,
+        "content": content,
+        "template": "html" 
+    }
+    try:
+        resp = requests.post(url, json=payload, timeout=10)
+        print(f"推送结果: {resp.text}")
+    except Exception as e:
+        print(f"推送失败: {e}")
+
 def get_exchange_rate():
-    """获取离岸人民币汇率 (使用免费且稳定的接口)"""
+    """获取离岸人民币汇率"""
     try:
         url = "https://open.er-api.com/v6/latest/USD"
         response = requests.get(url, timeout=5)
         data = response.json()
         if data['result'] == 'success':
-            rate = data['rates']['CNH']
-            return f"{rate:.4f}"
+            return f"{data['rates']['CNH']:.4f}"
     except Exception as e:
         print(f"汇率获取失败: {e}")
     return "N/A"
 
-def get_fed_rate():
-    """获取美联储利率 (FRED API 或 硬编码备用)"""
-    # 注意：FRED API 需要申请 Key，为了稳定性，这里暂时使用固定值或简单抓取
-    # 如果你需要实时精确值，建议去 St. Louis Fed 申请 Key
-    try:
-        # 尝试一个简单的宏观数据源，如果失败则返回最近已知数据
-        url = "https://api.federalreserve.gov/data.json" # 这是一个示例，实际可能需要更复杂的解析
-        # 为了保证不报错，这里我们做一个简单的模拟返回，或者你可以填入你的 FRED KEY
-        return "5.25% - 5.50% (维持不变)" 
-    except:
-        return "5.25% - 5.50% (参考值)"
-
 def get_us_stock(symbol):
     """使用 Finnhub 获取美股数据"""
     if not FINNHUB_API_KEY or FINNHUB_API_KEY.startswith('cxxx'):
-        return "Error: 请配置 Finnhub API Key"
-    
+        return {"price": "Key缺失", "change": "--"}
+        
     try:
         url = f"https://finnhub.io/api/v1/quote?symbol={symbol}&token={FINNHUB_API_KEY}"
-        response = requests.get(url, timeout=10)
+        response = requests.get(url, timeout=5)
         data = response.json()
         
-        # Finnhub 返回: c:当前价格, d:涨跌额, dp:涨跌幅, h:最高, l:最低
-        if 'c' in data and data['c'] != 0:
-            price = data['c']
-            change = data['d']
-            percent = data['dp']
-            sign = "+" if change > 0 else ""
-            return f"${price:.2f} ({sign}{change:.2f}, {sign}{percent:.2f}%)"
-        else:
-            return "休市中或无数据"
+        current_price = data.get('c', 0)
+        previous_close = data.get('pc', 1)
+        
+        if current_price == 0:
+            return {"price": "休市中", "change": "--"}
+            
+        change_pct = ((current_price - previous_close) / previous_close) * 100
+        return {
+            "price": f"{current_price:.2f}",
+            "change": f"{change_pct:+.2f}%"
+        }
     except Exception as e:
-        return f"Error: {str(e)[:30]}"
+        print(f"美股数据获取失败: {e}")
+        return {"price": "Error", "change": "--"}
 
-def get_ai_analysis(stock_data, macro_data):
-    """调用 DeepSeek 进行综合研判"""
+def get_ai_analysis(stock_data, rate):
+    """调用 DeepSeek 进行分析"""
     if not DEEPSEEK_API_KEY:
-        return "AI Key 未配置"
-    
+        return "未配置 DeepSeek Key，无法分析"
+        
     prompt = f"""
-    你是一个专业的金融分析师。请根据以下数据生成一份简短的【每日投资内参】：
-    
-    1. 市场数据：
-       - 雅保(ALB) 股价：{stock_data}
-       - 美元兑离岸人民币：{macro_data.get('rate', 'N/A')}
-       - 美联储利率环境：{macro_data.get('fed', 'N/A')}
-    
-    2. 分析要求：
-       - 结合锂矿行业现状（如碳酸锂价格波动）分析 ALB 走势。
-       - 结合汇率分析对中概股或跨境资金的影响。
-       - 给出具体的操作建议（如：观望、低吸、高抛）。
-       - 语气专业、客观，字数控制在 300 字以内。
+    作为锂矿行业分析师，请根据以下数据给出简短点评（100字内）：
+    1. 雅保(ALB)现价: {stock_data.get('price')}美元，涨跌幅: {stock_data.get('change')}
+    2. 美元兑离岸人民币: {rate}
+    3. 当前时间: {datetime.now().strftime('%Y-%m-%d')}
+    请重点分析汇率对锂矿进口成本的影响及股价短期趋势。
     """
     
     try:
@@ -84,70 +84,36 @@ def get_ai_analysis(stock_data, macro_data):
         }
         payload = {
             "model": "deepseek-chat",
-            "messages": [{"role": "user", "content": prompt}],
-            "temperature": 0.7
+            "messages": [{"role": "user", "content": prompt}]
         }
-        resp = requests.post("https://api.deepseek.com/v1/chat/completions", json=payload, headers=headers, timeout=15)
-        result = resp.json()
-        return result['choices'][0]['message']['content']
+        resp = requests.post("https://api.deepseek.com/v1/chat/completions", headers=headers, json=payload, timeout=15)
+        return resp.json()['choices'][0]['message']['content']
     except Exception as e:
-        return f"AI 生成失败: {e}"
-
-def send_pushplus(title, content):
-    """发送 PushPlus 消息"""
-    if not PUSHPLUS_TOKEN:
-        print("未配置 PushPlus Token")
-        return
-    
-    url = "http://www.pushplus.plus/send"
-    data = {
-        "token": PUSHPLUS_TOKEN,
-        "title": title,
-        "content": content,
-        "template": "markdown"
-    }
-    requests.post(url, json=data)
+        return f"AI分析失败: {str(e)[:50]}"
 
 def main():
-    print("开始收集数据...")
+    print("开始采集数据...")
     
     # 1. 获取基础数据
-    alb_price = get_us_stock("ALB")
-    usd_cnh = get_exchange_rate()
-    fed_rate = get_fed_rate()
+    rate = get_exchange_rate()
+    alb_data = get_us_stock("ALB")
     
-    # 2. 组装宏观数据包
-    macro_data = {
-        "rate": usd_cnh,
-        "fed": fed_rate
-    }
+    # 2. 组装消息
+    title = f"锂矿日报 | {datetime.now().strftime('%m-%d')}"
+    content = f"""
+    <h3>💰 核心数据</h3>
+    <ul>
+        <li><b>雅保(ALB):</b> {alb_data['price']} USD ({alb_data['change']})</li>
+        <li><b>美元/人民币:</b> {rate}</li>
+    </ul>
+    <hr>
+    <h3>🤖 AI 研判</h3>
+    <p>{get_ai_analysis(alb_data, rate)}</p>
+    """
     
-    # 3. 生成 AI 研判
-    ai_comment = get_ai_analysis(alb_price, macro_data)
-    
-    # 4. 组装最终日报
-    today = datetime.now().strftime("%Y-%m-%d %H:%M")
-    report = f"""
-### 📅 每日投资内参 | {today}
-
-**1. 核心标的追踪**
-- **雅保 (ALB)**: `{alb_price}`
-- **美元/离岸人民币**: `{usd_cnh}`
-
-**2. 宏观环境**
-- **美联储利率**: {fed_rate}
-
----
-
-### 🤖 AI 综合研判
-{ai_comment}
-
-> *注：数据仅供参考，不构成投资建议。*
-"""
-    
-    print("发送日报...")
-    send_pushplus(f"投资内参-{today}", report)
-    print("任务完成！")
+    # 3. 发送推送
+    send_pushplus(title, content)
+    print("任务完成")
 
 if __name__ == "__main__":
     main()
