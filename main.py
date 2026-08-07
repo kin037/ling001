@@ -21,60 +21,82 @@ if not FINNHUB_API_KEY:
 else:
     print(f"✅ 成功读取到 Finnhub Key (长度: {len(FINNHUB_API_KEY)})")
     
-    # --- 2. 获取股票数据 (只有在有Key时才运行) ---
+    # --- 2. 获取股票数据 (ALB) ---
     try:
         url = f"https://finnhub.io/api/v1/quote?symbol=ALB&token={FINNHUB_API_KEY}"
-        response = requests.get(url, timeout=10)
+        response = requests.get(url)
         data = response.json()
         
-        # Finnhub 返回的数据结构：c=当前价格, dp=涨跌幅百分比
+        # Finnhub 返回的数据结构: c=当前价格, d=涨跌额, dp=涨跌幅
         if 'c' in data and data['c'] > 0:
-            STOCK_PRICE = str(data['c'])
-            CHANGE_PCT = str(round(data['dp'], 2)) + "%"
+            STOCK_PRICE = data['c']
+            CHANGE_PCT = data['dp']
         else:
-            STOCK_PRICE = "API返回异常"
+            STOCK_PRICE = "API限流或错误"
             CHANGE_PCT = "--"
     except Exception as e:
-        print(f"获取股价出错: {e}")
-        STOCK_PRICE = "获取失败"
+        STOCK_PRICE = f"网络错误: {str(e)}"
         CHANGE_PCT = "--"
 
-# --- 3. 获取汇率 (使用免费接口) ---
+# --- 3. 获取汇率数据 (使用免费接口) ---
 try:
-    # 使用 exchangerate-api 的免费公开接口
+    # 使用免费的汇率接口
     rate_url = "https://api.exchangerate-api.com/v4/latest/USD"
-    r_data = requests.get(rate_url, timeout=10).json()
-    USD_CNY = str(r_data['rates']['CNY'])
+    rate_res = requests.get(rate_url).json()
+    USD_CNY = rate_res['rates']['CNY']
 except:
-    USD_CNY = "6.75 (估算)"
+    USD_CNY = 7.10  # 默认备用值
 
-# --- 4. 组装推送内容 ---
-date_str = datetime.now().strftime("%m-%d")
-title = f"锂矿日报 | {date_str}"
+# --- 4. 构建 AI 分析 Prompt ---
+ai_prompt = f"""
+你是一位专业的锂矿行业分析师。
+当前时间：{datetime.now().strftime('%Y-%m-%d')}
+核心数据：
+1. 雅保(ALB)股价：{STOCK_PRICE} USD (涨跌幅: {CHANGE_PCT}%)
+2. 美元/人民币汇率：{USD_CNY}
 
-content = f"""
-<h3>💰 核心数据</h3>
-<p><b>雅保(ALB):</b> {STOCK_PRICE} USD ({CHANGE_PCT})</p>
-<p><b>美元/人民币:</b> {USD_CNY}</p>
-
-<h3>🤖 AI 研判</h3>
-<p>截至2026年{date_str}，美元兑离岸人民币报{USD_CNY}。</p>
-<p>雅保股份(ALB)最新报价为 <b>{STOCK_PRICE}</b> 美元。结合当前汇率波动，建议关注锂矿板块的短期回调机会。</p>
+请根据以上数据，结合锂矿行业近期趋势（如供需关系、电动车销量等），写一段简短的【AI研判】（200字以内）。
+如果股价数据异常，请在研判中提示风险。
 """
 
-# --- 5. 发送 PushPlus 推送 ---
+# --- 5. 调用 DeepSeek API 进行分析 ---
+ai_analysis = "暂无分析"
+if DEEPSEEK_API_KEY and STOCK_PRICE != "Key缺失":
+    try:
+        headers = {
+            "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
+            "Content-Type": "application/json"
+        }
+        payload = {
+            "model": "deepseek-chat",
+            "messages": [{"role": "user", "content": ai_prompt}],
+            "temperature": 0.7
+        }
+        res = requests.post("https://api.deepseek.com/v1/chat/completions", headers=headers, json=payload, timeout=30)
+        ai_analysis = res.json()['choices'][0]['message']['content']
+    except Exception as e:
+        ai_analysis = f"AI分析失败: {str(e)}"
+
+# --- 6. 组装最终消息并推送 ---
+content = f"""
+# 💰 核心数据
+**雅保(ALB): {STOCK_PRICE} USD ({CHANGE_PCT}%)**
+**美元/人民币: {USD_CNY}**
+
+# 🤖 AI 研判
+{ai_analysis}
+"""
+
+# 推送到 PushPlus
 if PUSHPLUS_TOKEN:
     push_url = "http://www.pushplus.plus/send"
-    payload = {
+    data = {
         "token": PUSHPLUS_TOKEN,
-        "title": title,
+        "title": f"锂矿日报 | {datetime.now().strftime('%m-%d')}",
         "content": content,
-        "template": "html"
+        "template": "markdown"
     }
-    try:
-        requests.post(push_url, json=payload)
-        print("📤 推送发送成功")
-    except Exception as e:
-        print(f"推送失败: {e}")
+    r = requests.post(push_url, json=data)
+    print(f"PushPlus 推送结果: {r.text}")
 else:
-    print("⚠️ 未配置 PUSHPLUS_TOKEN，跳过推送")
+    print("❌ 未配置 PUSHPLUS_TOKEN")
