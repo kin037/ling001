@@ -1,4 +1,4 @@
-import requests
+requests
 import os
 from datetime import datetime
 import pytz
