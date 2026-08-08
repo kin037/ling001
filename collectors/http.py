@@ -1,4 +1,4 @@
-iimport logging
+import logging
 import time
 
 import requests
@@ -11,27 +11,15 @@ import requests
 SESSION = requests.Session()
 
 SESSION.headers.update({
-    "User-Agent": (
-        "Mozilla/5.0 "
-        "(Windows NT 10.0; Win64; x64) "
-        AppleWebKit/537.36 "
-        "(KHTML, like Gecko) "
-        Chrome/131.0.0.0 "
-        Safari/537.36"
-    ),
-    "Accept": (
-        "application/json,"
-        "text/plain,"
-        "text/html,"
-        "*/*"
-    ),
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "Accept": "application/json,text/plain,text/html,*/*",
     "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
     "Connection": "keep-alive",
 })
 
 
 # =========================================================
-# 通用 GET
+# 通用 GET 请求
 # =========================================================
 
 def request_get(
