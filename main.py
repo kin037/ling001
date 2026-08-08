@@ -4,7 +4,7 @@ import json
 import logging
 import re
 from datetime import datetime
-# 【修复】不再依赖 pytz，改用 Python 3.9+ 自带的 zoneinfo
+# 【修复1】彻底移除 pytz，改用 Python 自带的 zoneinfo
 try:
     from zoneinfo import ZoneInfo
 except ImportError:
@@ -22,8 +22,6 @@ def fetch_real_macro():
         "verdict": "🟡 观望",
         "position": "建议 50% 仓位"
     }
-    
-    # 1.1 抓取真实汇率
     try:
         url = "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.min.json"
         resp = requests.get(url, timeout=10)
@@ -31,111 +29,102 @@ def fetch_real_macro():
         cny_rate = data.get("usd", {}).get("cny")
         if cny_rate:
             macro_data["cny"] = f"{cny_rate}"
-            logging.info(f"汇率获取成功: {cny_rate}")
+            # 简单逻辑：汇率破7.3偏空
+            if cny_rate > 7.3:
+                macro_data["verdict"] = "🔴 偏空"
+                macro_data["position"] = "建议 30% 仓位"
+            else:
+                macro_data["verdict"] = "🟢 偏稳"
+                macro_data["position"] = "建议 70% 仓位"
     except Exception as e:
         logging.warning(f"汇率获取失败: {e}")
-
-    # 1.2 宏观裁定逻辑
-    try:
-        if float(macro_data["cny"]) > 7.25:
-            macro_data["verdict"] = "🔴 偏空（汇率贬值压力）"
-            macro_data["position"] = "建议 30% 仓位"
-        else:
-            macro_data["verdict"] = "🟢 偏稳"
-            macro_data["position"] = "建议 70% 仓位"
-    except:
-        pass
-        
     return macro_data
 
-# ---------- 2. 真实锂价数据（国内现货 + 期货）----------
+# ---------- 2. 真实锂价数据（国内现货+期货）----------
 def fetch_real_lithium_prices():
-    price_data = {
-        "smm": "--",
-        "futures": "--",
-        "basis": "--"
-    }
+    price_data = {"smm": "--", "futures": "--", "basis": "--"}
     
-    # 2.1 现货价格（SMM）
+    # 2.1 现货 (SMM) - 保持原有逻辑，若失败则留空
     try:
         smm_url = "https://hq.smm.cn/price"
-        headers = {"User-Agent": "Mozilla/5.0"}
-        resp = requests.get(smm_url, timeout=12, headers=headers)
-        
-        # 尝试匹配 "电池级碳酸锂" 后的价格
+        resp = requests.get(smm_url, timeout=12, headers={"User-Agent": "Mozilla/5.0"})
         price_match = re.search(r'电池级碳酸锂.*?(\d+[,.]?\d+?)\s*元', resp.text, re.DOTALL)
         if price_match:
             raw = price_match.group(1).replace(',', '')
-            price_yuan = float(raw) / 10000 
+            price_yuan = float(raw) / 10000
             price_data["smm"] = f"{price_yuan:.2f}"
-            logging.info(f"SMM现货价获取成功: {price_yuan:.2f}")
-        else:
-            # 备用正则
-            fallback = re.search(r'(\d{5,6})\s*元/吨', resp.text)
-            if fallback:
-                price_yuan = float(fallback.group(1)) / 10000
-                price_data["smm"] = f"{price_yuan:.2f}"
     except Exception as e:
-        logging.warning(f"SMM现货价抓取失败: {e}")
+        logging.warning(f"SMM现货抓取失败: {e}")
 
-    # 2.2 期货价格（东方财富接口）
+    # 2.2 期货 (东方财富)
     try:
-        # 广期所碳酸锂主力合约 secid 通常为 106.LC0 或 106.LC9999
-        future_url = "https://push2.eastmoney.com/api/qt/stock/get?secid=106.LC0&fields=f43,f44,f45,f46"
+        future_url = "https://push2.eastmoney.com/api/qt/stock/get?secid=106.LC9999&fields=f43,f44,f45,f46"
         resp = requests.get(future_url, timeout=10)
         data = resp.json()
-        if data.get("data"):
-            price = data["data"].get("f43")
-            if price:
-                price_yuan = float(price) / 10000
-                price_data["futures"] = f"{price_yuan:.2f}"
-                logging.info(f"期货价获取成功: {price_yuan:.2f}")
+        if data.get("data") and data["data"].get("f43"):
+            price_yuan = float(data["data"]["f43"]) / 10000
+            price_data["futures"] = f"{price_yuan:.2f}"
     except Exception as e:
         logging.warning(f"期货价抓取失败: {e}")
 
     # 2.3 计算基差
     try:
-        smm_val = float(re.search(r'(\d+\.\d+)', price_data["smm"]).group(1))
-        fut_val = float(re.search(r'(\d+\.\d+)', price_data["futures"]).group(1))
-        basis = smm_val - fut_val
-        price_data["basis"] = f"{basis:+.2f}"
+        if price_data["smm"] != "--" and price_data["futures"] != "--":
+            basis = float(price_data["smm"]) - float(price_data["futures"])
+            price_data["basis"] = f"{basis:+.2f}"
     except:
-        price_data["basis"] = "--"
+        pass
     
     return price_data
 
-# ---------- 3. 海外锂矿股监控（Finnhub API）----------
+# ---------- 3. 【新增】海外锂矿股监控 (Finnhub + Yahoo 双备份) ----------
 def fetch_overseas_stocks():
+    stocks_info = {}
+    symbols = ["ALB", "LAC", "SQM"]
+    
+    # --- 方案 A: 尝试 Finnhub (需要 Key) ---
     api_key = os.environ.get("FINNHUB_API_KEY")
-    stocks_info = {
-        "ALB": "--",  # Albemarle (雅保)
-        "LAC": "--",  # Lithium Americas
-        "SQM": "--"   # SQM (智利矿业)
-    }
-    
-    if not api_key:
-        logging.warning("未检测到 FINNHUB_API_KEY，跳过美股数据抓取")
-        return stocks_info
+    if api_key:
+        for symbol in symbols:
+            try:
+                url = f"https://finnhub.io/api/v1/quote?symbol={symbol}&token={api_key}"
+                resp = requests.get(url, timeout=8)
+                data = resp.json()
+                if 'c' in data and data['c'] != 0:
+                    change_pct = data.get('d', 0) / data.get('c', 1) * 100
+                    stocks_info[symbol] = f"${data['c']:.2f} ({change_pct:+.2f}%)"
+                    continue # 成功则跳过方案 B
+            except Exception as e:
+                logging.warning(f"Finnhub 获取 {symbol} 失败: {e}")
+    else:
+        logging.info("未检测到 FINNHUB_API_KEY，将直接使用 Yahoo Finance 备用源。")
 
-    headers = {"X-Finnhub-Token": api_key}
+    # --- 方案 B: 备用 Yahoo Finance (无需 Key，GitHub Actions 兼容性好) ---
+    # 检查哪些还没获取到
+    missing_symbols = [s for s in symbols if s not in stocks_info]
     
-    for symbol in ["ALB", "LAC", "SQM"]:
+    if missing_symbols:
         try:
-            url = f"https://finnhub.io/api/v1/quote?symbol={symbol}"
-            resp = requests.get(url, headers=headers, timeout=10)
-            data = resp.json()
-            
-            # c: 当前价格, d: 涨跌额, dp: 涨跌幅%
-            current_price = data.get('c', 0)
-            change_percent = data.get('dp', 0)
-            
-            if current_price and change_percent is not None:
-                color = "🔴" if change_percent < 0 else "🟢"
-                stocks_info[symbol] = f"${current_price:.2f} ({color}{change_percent:+.2f}%)"
-                logging.info(f"美股 {symbol} 获取成功: {current_price}")
+            # 使用 crumb 机制或简单的正则抓取 Yahoo Finance 页面
+            # 这里使用一个公开的聚合接口作为备选，或者模拟浏览器请求
+            headers = {"User-Agent": "Mozilla/5.0"}
+            for symbol in missing_symbols:
+                # 使用 query1.finance.yahoo.com 接口
+                url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&range=1d"
+                resp = requests.get(url, headers=headers, timeout=10)
+                data = resp.json()
+                result = data['chart']['result'][0]
+                meta = result['meta']
+                price = meta['regularMarketPrice']
+                prev_close = meta['previousClose']
+                change_pct = (price - prev_close) / prev_close * 100
+                stocks_info[symbol] = f"${price:.2f} ({change_pct:+.2f}%)"
+                logging.info(f"Yahoo Finance 获取 {symbol} 成功: {stocks_info[symbol]}")
         except Exception as e:
-            logging.warning(f"美股 {symbol} 获取失败: {e}")
-            
+            logging.error(f"Yahoo Finance 备用源也失败了: {e}")
+            for s in missing_symbols:
+                stocks_info[s] = "数据获取失败"
+
     return stocks_info
 
 # ---------- 4. 核心数据整合 ----------
@@ -145,90 +134,90 @@ def fetch_data():
     prices = fetch_real_lithium_prices()
     overseas_stocks = fetch_overseas_stocks()
     
+    # 构造海外动态文本
+    overseas_text_parts = []
+    for symbol, info in overseas_stocks.items():
+        overseas_text_parts.append(f"{symbol}: {info}")
+    overseas_conclusion = " | ".join(overseas_text_parts) if overseas_text_parts else "暂无数据"
+
     return {
         "macro": macro,
         "prices": prices,
-        "stocks": overseas_stocks,
-        # 模拟供需数据（保持原样）
-        "util": {"signal": "🟢 8月排产+8%（模拟）"},
-        "inventory": {"change": "🟢 去库6773吨（模拟）"}
+        "overseas_stocks": overseas_stocks,
+        "overseas_conclusion": overseas_conclusion,
+        # 模拟数据保留
+        "util": "🟢 8月排产+8%（模拟）",
+        "inventory": "🟢 去库6773吨（模拟）"
     }
 
 # ---------- 5. DeepSeek AI 分析 ----------
 def fetch_ai_analysis(data):
     api_key = os.environ.get("DEEPSEEK_API_KEY")
     if not api_key:
-        return "（💡 未配置 AI Key）"
+        return "（未配置 AI Key，无法生成研判）"
     
     try:
         prompt = f"""
-你是资深锂电分析师。根据以下数据给出**50字以内**研判：
-1. 汇率：{data['macro']['cny']}
-2. 碳酸锂现货：{data['prices']['smm']} 万元/吨
-3. 碳酸锂期货：{data['prices']['futures']} 万元/吨
-4. 基差：{data['prices']['basis']}
-5. 美股雅保(ALB)：{data['stocks']['ALB']}
-6. 美股LAC：{data['stocks']['LAC']}
-7. 供需信号：{data['util']['signal']}
-
-请只输出研判结论。
+你是锂电分析师。基于以下数据给出50字内研判：
+汇率：{data['macro']['cny']}
+锂现货：{data['prices']['smm']}万
+锂期货：{data['prices']['futures']}万
+基差：{data['prices']['basis']}
+海外锂股：{data['overseas_conclusion']}
+排产：{data['util']}
+库存：{data['inventory']}
+只输出结论。
 """
-        headers = {
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json"
-        }
+        headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
         payload = {
-            "model": "deepseek-chat", # 或者 deepseek-v3
+            "model": "deepseek-chat", # 建议使用 deepseek-chat 或 deepseek-v3
             "messages": [{"role": "user", "content": prompt}],
-            "temperature": 0.7
+            "temperature": 0.7,
+            "max_tokens": 200
         }
-        resp = requests.post(
-            "https://api.deepseek.com/v1/chat/completions",
-            headers=headers,
-            json=payload,
-            timeout=20
-        )
+        resp = requests.post("https://api.deepseek.com/v1/chat/completions", headers=headers, json=payload, timeout=20)
         if resp.status_code == 200:
-            result = resp.json()
-            return result["choices"][0]["message"]["content"].strip()
+            return resp.json()["choices"][0]["message"]["content"].strip()
         else:
-            return f"（AI调用失败：{resp.status_code}）"
+            return f"AI调用失败: {resp.status_code}"
     except Exception as e:
-        return f"（AI异常：{str(e)}）"
+        return f"AI异常: {str(e)}"
 
 # ---------- 6. 生成报告 ----------
 def generate_report(data, ai_text):
-    # 【修复】使用 ZoneInfo 替代 pytz
     now = datetime.now(ZoneInfo("Asia/Shanghai")).strftime("%Y-%m-%d %H:%M")
-    
     return f"""
 # 锂矿狙击手 · 每日情报简报
-**报告时间：** {now}
+**时间：** {now}
 
-## 一、宏观与海外情绪
-- 离岸人民币：**{data['macro']['cny']}** ({data['macro']['verdict']})
-- 美股雅保(ALB)：**{data['stocks']['ALB']}**
-- 美股LAC：**{data['stocks']['LAC']}**
-- 智利SQM：**{data['stocks']['SQM']}**
+## 一、宏观避雷针
+- 人民币汇率：**{data['macro']['cny']}**
+- 综合裁定：**{data['macro']['verdict']}**，{data['macro']['position']}
 
-## 二、国内主战场（锂价）
+## 二、主战场（锂价）
 - 现货：**{data['prices']['smm']}** 万元/吨
 - 期货：**{data['prices']['futures']}** 万元/吨
 - 基差：**{data['prices']['basis']}**
-- 供需信号：{data['util']['signal']}
 
-## 三、🤖 AI 综合研判
+## 三、海外风向标（美股锂矿）
+- {data['overseas_conclusion']}
+
+## 四、供需与库存
+- 需求：{data['util']}
+- 库存：{data['inventory']}
+
+## 五、🤖 AI 综合研判
 {ai_text}
 
 ---
-*数据来源：SMM, EastMoney, Finnhub, DeepSeek*
+*数据来源：SMM, EastMoney, Finnhub/Yahoo Finance*
 """
 
 # ---------- 7. 微信推送 ----------
 def push_to_wechat(content):
     token = os.environ.get("PUSHPLUS_TOKEN")
     if not token:
-        print(content) # 如果没有Token，直接打印
+        print(content) # 没Token直接打印
         return
     try:
         resp = requests.post(
@@ -236,12 +225,9 @@ def push_to_wechat(content):
             json={"token": token, "title": "锂矿情报日报", "content": content, "template": "markdown"},
             timeout=10
         )
-        if resp.status_code == 200:
-            logging.info("✅ 微信推送成功！")
-        else:
-            logging.error(f"推送失败：{resp.text}")
+        logging.info(f"推送结果: {resp.text}")
     except Exception as e:
-        logging.error(f"网络异常：{e}")
+        logging.error(f"推送异常: {e}")
 
 # ---------- 8. 启动 ----------
 if __name__ == "__main__":
@@ -252,4 +238,5 @@ if __name__ == "__main__":
         push_to_wechat(report)
         logging.info("✅ 任务执行完毕。")
     except Exception as e:
-        logging.error("程序异常：" + str(e))
+        logging.error(f"程序崩溃: {e}", exc_info=True)
+        sys.exit(1)
