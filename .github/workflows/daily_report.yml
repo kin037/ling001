@@ -1,51 +1,108 @@
 name: 锂业自动化情报室
 
 on:
-  # 18:30 Asia/Tokyo = 09:30 UTC.
-  # GitHub scheduled workflows can occasionally be delayed.
+
   schedule:
-    - cron: "30 9 * * *"
-    # Weekly report: Sunday 18:30 Tokyo
-    - cron: "30 9 * * 0"
+
+    # 每天北京时间18:30
+    # 北京时间 = UTC + 8
+    - cron: "30 10 * * *"
+
   workflow_dispatch:
-    inputs:
-      mode:
-        description: "daily or weekly"
-        required: false
-        default: "daily"
+
 
 permissions:
+
   contents: write
 
+
 jobs:
+
   generate:
+
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+
+    timeout-minutes: 15
+
 
     steps:
+
+      # =========================
+      # 1. 下载仓库
+      # =========================
+
       - name: Checkout
+
         uses: actions/checkout@v4
 
+
+      # =========================
+      # 2. 安装Python
+      # =========================
+
       - name: Setup Python
+
         uses: actions/setup-python@v5
+
         with:
+
           python-version: "3.11"
 
+
+      # =========================
+      # 3. 安装依赖
+      # =========================
+
       - name: Install dependencies
-        run: pip install -r requirements.txt
+
+        run: |
+
+          pip install -r requirements.txt
+
+
+      # =========================
+      # 4. 运行情报系统
+      # =========================
 
       - name: Run intelligence room
-        env:
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          DEEPSEEK_MODEL: deepseek-v4-flash
-          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
-          REPORT_MODE: ${{ github.event.inputs.mode || (github.event.schedule == '30 9 * * 0' && 'weekly' || 'daily') }}
-        run: python main.py
 
-      - name: Commit data history
+        env:
+
+          DEEPSEEK_API_KEY:
+            ${{ secrets.DEEPSEEK_API_KEY }}
+
+          DEEPSEEK_MODEL:
+            deepseek-v4-flash
+
+          PUSHPLUS_TOKEN:
+            ${{ secrets.PUSHPLUS_TOKEN }}
+
+          REPORT_MODE:
+            daily
+
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          python main.py
+
+
+      # =========================
+      # 5. 保存历史数据
+      # =========================
+
+      - name: Save data history
+
+        run: |
+
+          git config user.name \
+            "github-actions[bot]"
+
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add data/
-          git diff --cached --quiet || git commit -m "chore: update intelligence data"
+
+          git diff --cached --quiet || \
+            git commit -m \
+            "chore: update intelligence data"
+
           git push
