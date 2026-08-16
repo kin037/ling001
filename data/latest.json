@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-15T18:49:18.283103+08:00",
+    "generated_at": "2026-08-16T18:49:51.388031+08:00",
     "timezone": "Asia/Shanghai",
     "mode": "daily",
     "system_version": "2.0"
@@ -13,7 +13,7 @@
       "currency": "CNH",
       "market_state": null,
       "exchange": "CCY",
-      "retrieved_at": "2026-08-15T10:49:18.359320+00:00",
+      "retrieved_at": "2026-08-16T10:49:51.460436+00:00",
       "source": "Yahoo Finance chart",
       "source_url": "https://finance.yahoo.com/quote/CNH=X",
       "status": "confirmed"
@@ -25,7 +25,7 @@
       "currency": "USD",
       "market_state": null,
       "exchange": "NYQ",
-      "retrieved_at": "2026-08-15T10:49:18.437540+00:00",
+      "retrieved_at": "2026-08-16T10:49:51.529961+00:00",
       "source": "Yahoo Finance chart",
       "source_url": "https://finance.yahoo.com/quote/ALB",
       "status": "confirmed"
@@ -37,7 +37,7 @@
       "currency": "USD",
       "market_state": null,
       "exchange": "NYQ",
-      "retrieved_at": "2026-08-15T10:49:18.504493+00:00",
+      "retrieved_at": "2026-08-16T10:49:51.595818+00:00",
       "source": "Yahoo Finance chart",
       "source_url": "https://finance.yahoo.com/quote/SQM",
       "status": "confirmed"
@@ -49,7 +49,7 @@
       "currency": "USD",
       "market_state": null,
       "exchange": "NYQ",
-      "retrieved_at": "2026-08-15T10:49:18.543228+00:00",
+      "retrieved_at": "2026-08-16T10:49:51.633912+00:00",
       "source": "Yahoo Finance chart",
       "source_url": "https://finance.yahoo.com/quote/LAC",
       "status": "confirmed"
@@ -59,7 +59,7 @@
     "fomc": {
       "source": "Federal Reserve",
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-      "retrieved_at": "2026-08-15T10:49:18.727788+00:00",
+      "retrieved_at": "2026-08-16T10:49:51.857635+00:00",
       "status": "confirmed",
       "page_excerpt": "ï»¿ The Fed - Meeting calendars and information Skip to main content An official website of the United States Government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock Locked padlock icon ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. Back to Home Board of Governors of the Federal Reserve System Stay Connected Federal Reserve Facebook Page Federal Reserve Instagram Page Federal Reserve YouTube Page Federal Reserve Flickr Page Federal Reserve LinkedIn Page Federal Reserve Threads Page Federal Reserve X Page Federal Reserve Bluesky Page Subscribe to RSS Subscribe to Email Recent Postings Calendar Publications Site Map A-Z index Careers FAQs Videos Contact Search Submit Search Button Advanced Toggle Dropdown Menu Board of Governors of the Federal Reserve System The Federal Reserve, the central bank of the United States, provides\r\n          the nation with a safe, flexible, and stable monetary and financial\r\n          system. Main Menu Toggle Button Sections Search Toggle Button Search Search Submit Button Submit About the Fed Structure of the Federal Reserve System The Fed Explained Board Members Advisory Councils Federal Reserve Banks Federal Reserve Bank and Branch Directors Federal Reserve Act Currency Board Meetings Board Votes Careers Do Business with the Board Holidays Observed - K.8 Ethics & Values Contact Requesting Information (FOIA) FAQs Economic Education Fed Financial Statements Financial Innovation News & Events Press Releases Speeches & Testimony Calendar Videos Photo Gallery Conferences Monetary Policy Federal Open Market Committee About the FOMC Meeting calendars and information Transcripts and other historical materials FAQs Monetary Policy Principles and Practice Notes Policy Implementation Policy Normalization Policy Tools Reports Monetary Policy Report Beige Book Federal Reserve Balance Sheet Developments Review of Monetary Policy Strategy, Tools, and Communications Overview Supervision & Regulation Supervision Community Banks Regional Banks and Foreign Banks with U.S. Assets < $100 Billion Large Banks and Large Foreign Banks Global Systemically Important Banks Financial Market\r\n                            Utilities Consumer\r\n                            Compliance Resources for Supervised Institutions Reports Federal Reserve\r\n                            Supervision and Regulation Report Reporting Forms Recent Reporting Form Updates Information Collections\r\n                            Under Review Financial\r\n                            Statements Securities Exchange Act of 1934 Applications/Structure Change FFIEC Municipal and\r\n                            Government Securities Activities Monitoring Micro Data Reference Manual Legal Developments Enforcement Actions and\r\n                            Legal Developments Mergers, Acquisitions, and Other Applications Process Filing\r\n                            Information Board and Reserve\r\n                            Bank Actions Supervision and Regulation Letters By Year By Topic Regulatory and Policy Resources Federal Reserve Act Bank Holding Company Act Regulations Supervision Manuals Federal Reserve Regulatory Service Disaster Preparedness and Recovery Resources Banking and Data Structure Beneficial Ownership\r\n                            Reports U.S. Domestically Chartered Commercial Banks Minority Depository\r\n                            Institutions U.S. Offices of Foreign Entities Financial Holding\r\n                            Companies Interstate\r\n                            Branching Securities\r\n                            Underwriting and Dealing Subsidiaries State Member Banks Supervised by the Federal Reserve Financial Stability Financial Stability Assessments About Financial Stability Types of Financial System Vulnerabilities & Risks Monitoring Risk Across the Financial System Proactive Monitoring of Markets & Institutions Financial Stability & Stress Testing Financial Stability Coordination & Actions Responding to Financial System Emergencies Cooperation on Financial Stability Reports Financial Stability Report Payment Systems Regulations & Statutes Regulation CC (Availability of Funds and Collection of Checks) Regulation II (Debit Card Interchange Fees and Routing) Regulation HH (Financial Market Utilities) Other Regulations and Statutes Payment Policies Federal Reserve's Key Policies for the Provision of Financial Services Guidelines for Evaluating Joint Account Requests Overnight Overdrafts Payment System Risk Sponsorship for Priority Telecommunication Services Reserve Bank Payment Services & Data Automated Clearinghouse Services Check Services Currency and Coin Services Daylight Overdrafts and Fees FedNow ® Service Fedwire Funds Services Fedwire Securities Services Fiscal Agency Services Master Account and Services Database ",
       "note": "会议时间以美联储官方FOMC页面为准。"
@@ -69,7 +69,7 @@
     "ASX": {
       "name": "ASX announcements",
       "source_url": "https://www.asx.com.au/asx/v2/statistics/announcements.do",
-      "retrieved_at": "2026-08-15T10:49:19.157108+00:00",
+      "retrieved_at": "2026-08-16T10:49:52.731715+00:00",
       "status": "confirmed",
       "titles": [
         "Important information about market announcements",
@@ -80,7 +80,7 @@
     "ALB": {
       "name": "Albemarle Investor Relations",
       "source_url": "https://investors.albemarle.com/news-and-events/news/default.aspx",
-      "retrieved_at": "2026-08-15T10:49:19.367034+00:00",
+      "retrieved_at": "2026-08-16T10:49:52.954728+00:00",
       "status": "confirmed",
       "titles": [
         "Skip to main content",
@@ -112,7 +112,7 @@
     "battery_operating_rate": {
       "status": "discovery_only",
       "source_url": "https://news.google.com/rss/search?q=%E9%94%82%E7%94%B5%E6%B1%A0%20%E5%BC%80%E5%B7%A5%E7%8E%87%20%E5%AE%9E%E9%99%85%20%E8%B0%83%E7%A0%94&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
-      "retrieved_at": "2026-08-15T10:50:25.930790+00:00",
+      "retrieved_at": "2026-08-16T10:50:59.497676+00:00",
       "items": [
         {
           "title": "Mysteel解读：碳酸锂“去库下跌”背后的供需现实 - 七禾网",
@@ -144,7 +144,7 @@
     "lithium_supply": {
       "status": "discovery_only",
       "source_url": "https://news.google.com/rss/search?q=%E9%94%82%E7%9B%90%20%E5%BC%80%E5%B7%A5%E7%8E%87%20%E4%BA%A7%E9%87%8F%20%E8%B0%83%E7%A0%94&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
-      "retrieved_at": "2026-08-15T10:50:26.150945+00:00",
+      "retrieved_at": "2026-08-16T10:50:59.682064+00:00",
       "items": [
         {
           "title": "Mysteel解读：碳酸锂“去库下跌”背后的供需现实 - 七禾网",
@@ -159,22 +159,10 @@
           "description": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNRmU5RmxXQVRhQTRFalc5YUJKTmd2LTI4aGozLUw0ZWFTeXJVZ0F1MUdIaWM4M05GSXQ3RTZnU1g5VGlqZjdMVTZrRjU2Wmc?oc=5\" target=\"_blank\">期货市场下周值得关注的大事件有哪些？各板块有哪些关注点？-市场参考</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">金十数据</font>"
         },
         {
-          "title": "人均江西前列，市域狭小人口有限，新余的天花板在哪里？ - 腾讯新闻",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBURmVQdHUwTHY0dWFrTmFoSnVxV01JLUhNd09zMHJ1ZFFiSmpNSEdJQl9FbTgwdmp0a1RvQWV3Mll1TGpFZmNicFE3NkNhYmV3bHkyQnJHYUVQLXhRT2lXWG53?oc=5",
-          "published": "Sat, 08 Aug 2026 02:37:00 GMT",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTFBURmVQdHUwTHY0dWFrTmFoSnVxV01JLUhNd09zMHJ1ZFFiSmpNSEdJQl9FbTgwdmp0a1RvQWV3Mll1TGpFZmNicFE3NkNhYmV3bHkyQnJHYUVQLXhRT2lXWG53?oc=5\" target=\"_blank\">人均江西前列，市域狭小人口有限，新余的天花板在哪里？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">腾讯新闻</font>"
-        },
-        {
           "title": "关键矿产日报：BHP旗下全球最大铜矿扩建获批，央行连续20月增持黄金 - news.mysteel.com",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hNndza3ZwWUI1TndibmRyS3A3Slh6RGlhOFIxNFR3eFBteEpfakNXRWk0dEptME9FbElEVTRidlNhVVJxS3A5VUdteF9aTGo0b1pBaTFHMTlhVWVTVUdUZ2MxODM2VFZI?oc=5",
           "published": "Tue, 07 Jul 2026 08:58:44 GMT",
           "description": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hNndza3ZwWUI1TndibmRyS3A3Slh6RGlhOFIxNFR3eFBteEpfakNXRWk0dEptME9FbElEVTRidlNhVVJxS3A5VUdteF9aTGo0b1pBaTFHMTlhVWVTVUdUZ2MxODM2VFZI?oc=5\" target=\"_blank\">关键矿产日报：BHP旗下全球最大铜矿扩建获批，央行连续20月增持黄金</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">news.mysteel.com</font>"
-        },
-        {
-          "title": "碳酸锂价格反弹 下游企业承压 - 人民日报",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZnJyYmtQZV9NV1hXVE91WVhRb1drMkE3XzE5ZnhRS3Z6X3Uyc095aHpFbXZkclJ4Ukp3M3g4a3FNTi1UeEQ4WFg1NEFtR3pid0EzcE5uN1NURDZPSGNnX09ZTWczZ2xaOTA2RU5BU2Z5cXBYV2huRl92Qjhua0FuUm93?oc=5",
-          "published": "Mon, 01 Sep 2025 07:00:00 GMT",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxNZnJyYmtQZV9NV1hXVE91WVhRb1drMkE3XzE5ZnhRS3Z6X3Uyc095aHpFbXZkclJ4Ukp3M3g4a3FNTi1UeEQ4WFg1NEFtR3pid0EzcE5uN1NURDZPSGNnX09ZTWczZ2xaOTA2RU5BU2Z5cXBYV2huRl92Qjhua0FuUm93?oc=5\" target=\"_blank\">碳酸锂价格反弹 下游企业承压</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">人民日报</font>"
         },
         {
           "title": "产能出清缓慢，锂价底在哪儿？ - CME Group",
