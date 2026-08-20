@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-19T18:55:12.127038+08:00",
+    "generated_at": "2026-08-20T18:57:29.852419+08:00",
     "timezone": "Asia/Shanghai",
     "mode": "daily",
     "system_version": "2.0"
@@ -8,48 +8,48 @@
   "market": {
     "USD_CNH": {
       "symbol": "CNH=X",
-      "value": 6.7397,
-      "change_pct": -0.08746442125236559,
+      "value": 6.7238,
+      "change_pct": -0.06242568370986893,
       "currency": "CNH",
       "market_state": null,
       "exchange": "CCY",
-      "retrieved_at": "2026-08-19T10:55:12.201891+00:00",
+      "retrieved_at": "2026-08-20T10:57:29.932304+00:00",
       "source": "Yahoo Finance chart",
       "source_url": "https://finance.yahoo.com/quote/CNH=X",
       "status": "confirmed"
     },
     "ALB": {
       "symbol": "ALB",
-      "value": 132.71,
-      "change_pct": 2.5896722325293706,
+      "value": 134.28,
+      "change_pct": 4.628330995792425,
       "currency": "USD",
       "market_state": null,
       "exchange": "NYQ",
-      "retrieved_at": "2026-08-19T10:55:12.263900+00:00",
+      "retrieved_at": "2026-08-20T10:57:30.011335+00:00",
       "source": "Yahoo Finance chart",
       "source_url": "https://finance.yahoo.com/quote/ALB",
       "status": "confirmed"
     },
     "SQM": {
       "symbol": "SQM",
-      "value": 74.47,
-      "change_pct": 3.1154804763223485,
+      "value": 75.38,
+      "change_pct": 5.7964912280701695,
       "currency": "USD",
       "market_state": null,
       "exchange": "NYQ",
-      "retrieved_at": "2026-08-19T10:55:12.322637+00:00",
+      "retrieved_at": "2026-08-20T10:57:30.076723+00:00",
       "source": "Yahoo Finance chart",
       "source_url": "https://finance.yahoo.com/quote/SQM",
       "status": "confirmed"
     },
     "LAC": {
       "symbol": "LAC",
-      "value": 2.96,
-      "change_pct": -8.923076923076923,
+      "value": 3.0,
+      "change_pct": -7.97546012269938,
       "currency": "USD",
       "market_state": null,
       "exchange": "NYQ",
-      "retrieved_at": "2026-08-19T10:55:12.359908+00:00",
+      "retrieved_at": "2026-08-20T10:57:30.118689+00:00",
       "source": "Yahoo Finance chart",
       "source_url": "https://finance.yahoo.com/quote/LAC",
       "status": "confirmed"
@@ -59,7 +59,7 @@
     "fomc": {
       "source": "Federal Reserve",
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-      "retrieved_at": "2026-08-19T10:55:12.620650+00:00",
+      "retrieved_at": "2026-08-20T10:57:30.358006+00:00",
       "status": "confirmed",
       "page_excerpt": "ï»¿ The Fed - Meeting calendars and information Skip to main content An official website of the United States Government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock Locked padlock icon ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. Back to Home Board of Governors of the Federal Reserve System Stay Connected Federal Reserve Facebook Page Federal Reserve Instagram Page Federal Reserve YouTube Page Federal Reserve Flickr Page Federal Reserve LinkedIn Page Federal Reserve Threads Page Federal Reserve X Page Federal Reserve Bluesky Page Subscribe to RSS Subscribe to Email Recent Postings Calendar Publications Site Map A-Z index Careers FAQs Videos Contact Search Submit Search Button Advanced Toggle Dropdown Menu Board of Governors of the Federal Reserve System The Federal Reserve, the central bank of the United States, provides\r\n          the nation with a safe, flexible, and stable monetary and financial\r\n          system. Main Menu Toggle Button Sections Search Toggle Button Search Search Submit Button Submit About the Fed Structure of the Federal Reserve System The Fed Explained Board Members Advisory Councils Federal Reserve Banks Federal Reserve Bank and Branch Directors Federal Reserve Act Currency Board Meetings Board Votes Careers Do Business with the Board Holidays Observed - K.8 Ethics & Values Contact Requesting Information (FOIA) FAQs Economic Education Fed Financial Statements Financial Innovation News & Events Press Releases Speeches & Testimony Calendar Videos Photo Gallery Conferences Monetary Policy Federal Open Market Committee About the FOMC Meeting calendars and information Transcripts and other historical materials FAQs Monetary Policy Principles and Practice Notes Policy Implementation Policy Normalization Policy Tools Reports Monetary Policy Report Beige Book Federal Reserve Balance Sheet Developments Review of Monetary Policy Strategy, Tools, and Communications Overview Supervision & Regulation Supervision Community Banks Regional Banks and Foreign Banks with U.S. Assets < $100 Billion Large Banks and Large Foreign Banks Global Systemically Important Banks Financial Market\r\n                            Utilities Consumer\r\n                            Compliance Resources for Supervised Institutions Reports Federal Reserve\r\n                            Supervision and Regulation Report Reporting Forms Recent Reporting Form Updates Information Collections\r\n                            Under Review Financial\r\n                            Statements Securities Exchange Act of 1934 Applications/Structure Change FFIEC Municipal and\r\n                            Government Securities Activities Monitoring Micro Data Reference Manual Legal Developments Enforcement Actions and\r\n                            Legal Developments Mergers, Acquisitions, and Other Applications Process Filing\r\n                            Information Board and Reserve\r\n                            Bank Actions Supervision and Regulation Letters By Year By Topic Regulatory and Policy Resources Federal Reserve Act Bank Holding Company Act Regulations Supervision Manuals Federal Reserve Regulatory Service Disaster Preparedness and Recovery Resources Banking and Data Structure Beneficial Ownership\r\n                            Reports U.S. Domestically Chartered Commercial Banks Minority Depository\r\n                            Institutions U.S. Offices of Foreign Entities Financial Holding\r\n                            Companies Interstate\r\n                            Branching Securities\r\n                            Underwriting and Dealing Subsidiaries State Member Banks Supervised by the Federal Reserve Financial Stability Financial Stability Assessments About Financial Stability Types of Financial System Vulnerabilities & Risks Monitoring Risk Across the Financial System Proactive Monitoring of Markets & Institutions Financial Stability & Stress Testing Financial Stability Coordination & Actions Responding to Financial System Emergencies Cooperation on Financial Stability Reports Financial Stability Report Payment Systems Regulations & Statutes Regulation CC (Availability of Funds and Collection of Checks) Regulation II (Debit Card Interchange Fees and Routing) Regulation HH (Financial Market Utilities) Other Regulations and Statutes Payment Policies Federal Reserve's Key Policies for the Provision of Financial Services Guidelines for Evaluating Joint Account Requests Overnight Overdrafts Payment System Risk Sponsorship for Priority Telecommunication Services Reserve Bank Payment Services & Data Automated Clearinghouse Services Check Services Currency and Coin Services Daylight Overdrafts and Fees FedNow ® Service Fedwire Funds Services Fedwire Securities Services Fiscal Agency Services Master Account and Services Database ",
       "note": "会议时间以美联储官方FOMC页面为准。"
@@ -69,7 +69,7 @@
     "ASX": {
       "name": "ASX announcements",
       "source_url": "https://www.asx.com.au/asx/v2/statistics/announcements.do",
-      "retrieved_at": "2026-08-19T10:55:13.111150+00:00",
+      "retrieved_at": "2026-08-20T10:57:30.625011+00:00",
       "status": "confirmed",
       "titles": [
         "Important information about market announcements",
@@ -80,7 +80,7 @@
     "ALB": {
       "name": "Albemarle Investor Relations",
       "source_url": "https://investors.albemarle.com/news-and-events/news/default.aspx",
-      "retrieved_at": "2026-08-19T10:55:13.368209+00:00",
+      "retrieved_at": "2026-08-20T10:57:30.853899+00:00",
       "status": "confirmed",
       "titles": [
         "Skip to main content",
@@ -112,14 +112,8 @@
     "battery_operating_rate": {
       "status": "discovery_only",
       "source_url": "https://news.google.com/rss/search?q=%E9%94%82%E7%94%B5%E6%B1%A0%20%E5%BC%80%E5%B7%A5%E7%8E%87%20%E5%AE%9E%E9%99%85%20%E8%B0%83%E7%A0%94&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
-      "retrieved_at": "2026-08-19T10:56:20.165362+00:00",
+      "retrieved_at": "2026-08-20T10:58:37.486250+00:00",
       "items": [
-        {
-          "title": "Mysteel解读：碳酸锂“去库下跌”背后的供需现实 - 七禾网",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5IR2toeDFhTHVMQ3FVaDB2QUVGVDFkcjhmRGE1WnhsSUxwUFY5UWZUem1PNk1OTHZaZ1BVQlVraXRHVW1mWkhNeTJreGtOUm9Fcy1qYQ?oc=5",
-          "published": "Wed, 12 Aug 2026 07:11:10 GMT",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE5IR2toeDFhTHVMQ3FVaDB2QUVGVDFkcjhmRGE1WnhsSUxwUFY5UWZUem1PNk1OTHZaZ1BVQlVraXRHVW1mWkhNeTJreGtOUm9Fcy1qYQ?oc=5\" target=\"_blank\">Mysteel解读：碳酸锂“去库下跌”背后的供需现实</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">七禾网</font>"
-        },
         {
           "title": "高质量发展调研行丨重庆铜梁：打造储能一小时锂电“供应链圈” - 中国科技网",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBhTFBFYlFvS0pjcjdjR0pKQm5nV1NoS1V1ZF9YWWhSNUF4MTlBb09Za1dqWC1mMmpXS0RTLWxSeWhyRzRUQzJWTEZTZThRZkxGcW1nckZ2N2R1eHpIdjVTS044MnhjVjhVazlnUlhneUI?oc=5",
@@ -144,7 +138,7 @@
     "lithium_supply": {
       "status": "discovery_only",
       "source_url": "https://news.google.com/rss/search?q=%E9%94%82%E7%9B%90%20%E5%BC%80%E5%B7%A5%E7%8E%87%20%E4%BA%A7%E9%87%8F%20%E8%B0%83%E7%A0%94&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
-      "retrieved_at": "2026-08-19T10:56:20.381066+00:00",
+      "retrieved_at": "2026-08-20T10:58:37.732797+00:00",
       "items": [
         {
           "title": "中信建投：碳酸锂库存去化加速 基本面定价迎来反弹 - 东方财富",
@@ -177,10 +171,16 @@
           "description": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wNGZNaVhxcUN3RVgxc0E0MUdrRy0wb1ZnOWlHRzlEY1YzX09mMWltOWI2cHZWRjdkSWJpNHN3aW83dWRuQ2ZtWjc5LWE1c3cwX0pZeWtB?oc=5\" target=\"_blank\">中信建投：供给端扰动持续发酵，需求侧受益海外边际增长，锂价上行</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">腾讯新闻</font>"
         },
         {
-          "title": "碳酸锂价格反弹 下游企业承压 - paper.people.com.cn",
+          "title": "碳酸锂价格反弹 下游企业承压 - 人民日报",
           "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZnJyYmtQZV9NV1hXVE91WVhRb1drMkE3XzE5ZnhRS3Z6X3Uyc095aHpFbXZkclJ4Ukp3M3g4a3FNTi1UeEQ4WFg1NEFtR3pid0EzcE5uN1NURDZPSGNnX09ZTWczZ2xaOTA2RU5BU2Z5cXBYV2huRl92Qjhua0FuUm93?oc=5",
           "published": "Mon, 01 Sep 2025 07:00:00 GMT",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxNZnJyYmtQZV9NV1hXVE91WVhRb1drMkE3XzE5ZnhRS3Z6X3Uyc095aHpFbXZkclJ4Ukp3M3g4a3FNTi1UeEQ4WFg1NEFtR3pid0EzcE5uN1NURDZPSGNnX09ZTWczZ2xaOTA2RU5BU2Z5cXBYV2huRl92Qjhua0FuUm93?oc=5\" target=\"_blank\">碳酸锂价格反弹 下游企业承压</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">paper.people.com.cn</font>"
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxNZnJyYmtQZV9NV1hXVE91WVhRb1drMkE3XzE5ZnhRS3Z6X3Uyc095aHpFbXZkclJ4Ukp3M3g4a3FNTi1UeEQ4WFg1NEFtR3pid0EzcE5uN1NURDZPSGNnX09ZTWczZ2xaOTA2RU5BU2Z5cXBYV2huRl92Qjhua0FuUm93?oc=5\" target=\"_blank\">碳酸锂价格反弹 下游企业承压</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">人民日报</font>"
+        },
+        {
+          "title": "碳酸锂2023年“成绩单”：产量约46万吨同比增31%，CR10企业市占率小幅降至53% - 21财经",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOUJibmkyY3V6VjRRQUFaU0lNbFFIazhiM2ZmbHAzZDd0QlNKek5hMVFrTG1vb1prUkdCTmxqWVA0aTI3VmdzcE5xc3ZnT3dfeEZ1NHZ6dUcxdUQ3X09xVVdxdHFXSmwwOHMxZ1dVT1AzVnVrYTNmcTVMZU5mU3oxemNlSjdzUURGTEdDNQ?oc=5",
+          "published": "Fri, 19 Jan 2024 08:00:00 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPOUJibmkyY3V6VjRRQUFaU0lNbFFIazhiM2ZmbHAzZDd0QlNKek5hMVFrTG1vb1prUkdCTmxqWVA0aTI3VmdzcE5xc3ZnT3dfeEZ1NHZ6dUcxdUQ3X09xVVdxdHFXSmwwOHMxZ1dVT1AzVnVrYTNmcTVMZU5mU3oxemNlSjdzUURGTEdDNQ?oc=5\" target=\"_blank\">碳酸锂2023年“成绩单”：产量约46万吨同比增31%，CR10企业市占率小幅降至53%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">21财经</font>"
         },
         {
           "title": "产能出清缓慢，锂价底在哪儿？ - CME Group",
@@ -199,12 +199,6 @@
           "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5DVTVISkl1UXZhU3BobUxlNmc1dmttUDVFdElpcWhvb3poc2p4anU5eEZqN0hkdURpUTM5THJFdjlBQWVkckpV?oc=5",
           "published": "Mon, 21 Sep 2020 05:47:00 GMT",
           "description": "<a href=\"https://news.google.com/rss/articles/CBMiR0FVX3lxTE5DVTVISkl1UXZhU3BobUxlNmc1dmttUDVFdElpcWhvb3poc2p4anU5eEZqN0hkdURpUTM5THJFdjlBQWVkckpV?oc=5\" target=\"_blank\">电池金属需求挺价 下跌格局或扭转？锂业有望提前迎业绩拐点</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">财联社</font>"
-        },
-        {
-          "title": "【SMM今日要闻】金属分化 镍价再遭打击 | 锂电企业年度业绩预喜 | 铝锌黄金年度回顾与展望 - 上海有色金属",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOS1oNlIwbUJXcV9laF9NOW1BazNPWVQzMEFZMU0yX3FKRi1LdTgwNUV4bTJVekhweVo2Um5PX3prb2VNdnFBV3E4WW9HU3JvUF92dHlmb2o3aHp1WGFKb3FDd3JKWl9ueHAyRXVWVk9xaTVoNXpHemZuaUhIRHpFT1hEbWQ4REFkYk56bVdtbGViSFNsZTJoUmtSblpoNW1zdkxTdFdwN1BBZw?oc=5",
-          "published": "Thu, 12 Jan 2023 08:00:00 GMT",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOS1oNlIwbUJXcV9laF9NOW1BazNPWVQzMEFZMU0yX3FKRi1LdTgwNUV4bTJVekhweVo2Um5PX3prb2VNdnFBV3E4WW9HU3JvUF92dHlmb2o3aHp1WGFKb3FDd3JKWl9ueHAyRXVWVk9xaTVoNXpHemZuaUhIRHpFT1hEbWQ4REFkYk56bVdtbGViSFNsZTJoUmtSblpoNW1zdkxTdFdwN1BBZw?oc=5\" target=\"_blank\">【SMM今日要闻】金属分化 镍价再遭打击 | 锂电企业年度业绩预喜 | 铝锌黄金年度回顾与展望</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">上海有色金属</font>"
         }
       ],
       "warning": "RSS搜索结果只能作为线索，不能直接作为真实开工率。"
