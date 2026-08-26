@@ -1,0 +1,238 @@
+{
+  "title": "锂矿自动化情报日报｜2026-08-19 18:56",
+  "generated_at": "2026-08-19T18:56:20.381770+08:00",
+  "markdown": "# 锂矿自动化情报日报｜2026-08-19 18:56\n\n## 一、AI核心判断\n\n# 锂产业链情报分析 · 2026-08-19\n\n**【核心警告】** 本次数据采集中，**实际开工率缺失、官方公告页面未返回有效内容、SQM官方源超时**。 AI不能填补缺失数据。以下所有结论仅基于已确认或仅线索级别的信息，**不建议基于本次不完整数据做方向性交易**。\n\n\n## 一、锂价格（间接观测）\n\n未直接获取到碳酸锂/氢氧化锂现货或期货报价。以下为锂业相关股票价格，仅作为**市场情绪代理指标**：\n\n| 标的 | 价格 | 涨跌幅 | 状态 |\n|---|---|---|---|\n| ALB (Albemarle) | 132.71 USD | **+2.59%** | CONFIRMED |\n| SQM | 74.47 USD | **+3.12%** | CONFIRMED |\n| LAC | 2.96 USD | **-8.92%** | CONFIRMED |\n\n**分析：**\n- ALB、SQM上涨但LAC大幅下跌8.92%，尽管同属锂业板块，资金行为明显分化，**不能简单解释为“板块普涨”**。\n- ALB与SQM的大体量标的上涨与LAC（小市值/开发阶段）大跌的背离，值得警惕。LAC单日近9%的跌幅在没有官方公告确认的情况下，应视为市场自发行为，**不排除存在尚未披露的个股风险**。\n- 中信建投8月17日标题“碳酸锂库存去化加速 基本面定价迎来反弹”（DISCOVERY_ONLY）与Mysteel 8月12日标题“碳酸锂‘去库下跌’背后的供需现实”（DISCOVERY_ONLY）同时出现，说明市场对“去库”的解读存在分歧——**去库是否等于价格见底，未被证实**。\n\n\n## 二、实际开工率 — **MISSING（数据缺失）**\n\n**必须明确告知：本次未获取到任何锂电/锂盐实际开工率的结构化数据。**\n\n- `battery_operating_rate` 与 `lithium_supply` 均为 `discovery_only`，即仅从Google News RSS搜索到新闻标题。\n- 搜索到的文章大多为**旧闻**（2020、2023、2024、2025年均有），**不可作为当前开工率依据**。\n- 唯一较新的两条线索（中信建投8月17日、Mysteel 8月12日）仅提供“库存去化”的表述，**并未提供具体开工率数字**，且两者对价格方向判断存在分歧。\n\n**结论：当前无真实开工率数据可引用，无法验证“减产/低开工”是否属实。任何关于开工率的说法均属推测。**\n\n\n## 三、进出口 — **MISSING（数据缺失）**\n\n本次数据包中**未包含任何锂盐/锂矿进出口数据**。无法对进出口变化做任何判断。\n\n\n## 四、矿山供应 / 减产 — **无官方确认**\n\n**ASX公告页面虽然访问成功，但返回的只有通用导航内容（“Important information about market announcements”、“code or name changes”等），未检索到任何具体公司公告条目。** 这意味着：\n\n- **无法确认任何澳洲锂矿公司的减产、停产、扩产或出货变动。**\n- 新闻中如提及“供给端扰动”（如中信建投3月30日旧闻），**均非当前确认事实**。\n\n**明确结论：所有供应端减产信息，当前均处于 MISSING / UNVERIFIED 状态。没有任何一个减产事件可以被标记为VERIFIED。不可在分析中当作已确认事实引用。**\n\n\n## 五、官方发布渠道状态\n\n| 渠道 | 状态 | 说明 |\n|---|---|---|\n| ASX公告 | CONFIRMED（页面可用） | 但未获取到任何具体公告内容 |\n| Albemarle IR | CONFIRMED（页面可用） | 但仅返回导航菜单，无实际新闻内容 |\n| SQM IR | **ERROR（连接超时）** | 未能访问，数据完全缺失 |\n\n\n## 六、USD/CNH\n\n- 当前价格：**6.7397**\n- 日涨跌：**-0.087%**（离岸人民币微升）\n\n这是本次数据中**唯一确认的宏观汇率数据**。人民币小幅走强，对国内锂盐进口成本理论上形成轻微向下压力，但幅度极小（<0.1%），**仅作为风险过滤参考，不应作为交易依据**。\n\n\n## 七、FOMC\n\n- 美联储FOMC官方页面访问成功，确认会议日历可查。\n- 但**本次采集仅获取了页面框架内容，未包含具体会议日期或政策表述**。\n- 当前状态：`monitor` — 无紧急信号，但也无任何宽松/紧缩确认信息。\n\n**FOMC维度：无新增信息，维持中性监控。**\n\n\n## 八、数据可信度分级总结\n\n| 数据项 | 状态 | 可信度 |\n|---|---|---|\n| ALB / SQM / LAC / CNH 价格 | ✅ CONFIRMED | 高 |\n| FOMC页面可访问性 | ✅ CONFIRMED | 高（但无实质内容） |\n| ASX / ALB公告页可访问性 | ✅ CONFIRMED | 中（无有效内容） |\n| 锂电/锂盐“开工率” | ❌ MISSING | — |\n| 进出口数据 | ❌ MISSING | — |\n| 矿山减产 | ⚠️ UNVERIFIED | 无官方来源 |\n| 库存“去化” | 🔍 DISCOVERY_ONLY | 仅新闻标题，存在观点分歧 |\n| SQM官方站 | ❌ ERROR | 不可用 |\n\n**整体数据健康度：PARTIAL（部分完整）**\n\n\n## 九、仓位风险提示\n\n**数据不足以支撑加仓或抄底决策。** 具体风险分级：\n\n1. **高确定性信息有限**：只有股价和汇率是确认的。ALB和SQM上涨背后缺乏基本面数据支撑，不能推断为“行业基本面好转”。\n2. **LAC单日-8.92%**：若持仓LAC，需警惕。在没有官方公告的情况下，需自行排查是否存在个股层面未公开事项。\n3. **开工率缺失=无法验证供需**：所有“减产”“去库”“反弹”的叙事都停留在新闻标题层面，**不足以作为建仓依据**。\n4. **宏观面**：CNH正常、FOMC无信号，没有宏观恶化需要降仓的硬证据，但也没有利好加持。\n\n**综上：建议维持观望（🟡），仓位不增不减。若已持有LAC且仓位较重，因其波动远高于ALB/SQM，建议审视自身风险承受能力。等开工率、官方减产公告、进出口数据中出现至少两项确认后，再考虑方向性动作。**\n\n\n*⚠️ 以上分析严格遵守“不补充缺失数据、不将搜索新闻视为官方公告、不将预测视为事实”原则。*\n\n## 二、数据真实性规则\n\n- 实际开工率没有来源就显示缺失。\n- 预测排产不能作为实际生产数据。\n- 境外减产必须寻找官方来源。\n- USD/CNH作为离岸人民币指标。\n- FOMC以美联储官方信息为准。\n- AI不得自行补充数据。\n",
+  "snapshot": {
+    "meta": {
+      "generated_at": "2026-08-19T18:55:12.127038+08:00",
+      "timezone": "Asia/Shanghai",
+      "mode": "daily",
+      "system_version": "2.0"
+    },
+    "market": {
+      "USD_CNH": {
+        "symbol": "CNH=X",
+        "value": 6.7397,
+        "change_pct": -0.08746442125236559,
+        "currency": "CNH",
+        "market_state": null,
+        "exchange": "CCY",
+        "retrieved_at": "2026-08-19T10:55:12.201891+00:00",
+        "source": "Yahoo Finance chart",
+        "source_url": "https://finance.yahoo.com/quote/CNH=X",
+        "status": "confirmed"
+      },
+      "ALB": {
+        "symbol": "ALB",
+        "value": 132.71,
+        "change_pct": 2.5896722325293706,
+        "currency": "USD",
+        "market_state": null,
+        "exchange": "NYQ",
+        "retrieved_at": "2026-08-19T10:55:12.263900+00:00",
+        "source": "Yahoo Finance chart",
+        "source_url": "https://finance.yahoo.com/quote/ALB",
+        "status": "confirmed"
+      },
+      "SQM": {
+        "symbol": "SQM",
+        "value": 74.47,
+        "change_pct": 3.1154804763223485,
+        "currency": "USD",
+        "market_state": null,
+        "exchange": "NYQ",
+        "retrieved_at": "2026-08-19T10:55:12.322637+00:00",
+        "source": "Yahoo Finance chart",
+        "source_url": "https://finance.yahoo.com/quote/SQM",
+        "status": "confirmed"
+      },
+      "LAC": {
+        "symbol": "LAC",
+        "value": 2.96,
+        "change_pct": -8.923076923076923,
+        "currency": "USD",
+        "market_state": null,
+        "exchange": "NYQ",
+        "retrieved_at": "2026-08-19T10:55:12.359908+00:00",
+        "source": "Yahoo Finance chart",
+        "source_url": "https://finance.yahoo.com/quote/LAC",
+        "status": "confirmed"
+      }
+    },
+    "macro": {
+      "fomc": {
+        "source": "Federal Reserve",
+        "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "retrieved_at": "2026-08-19T10:55:12.620650+00:00",
+        "status": "confirmed",
+        "page_excerpt": "ï»¿ The Fed - Meeting calendars and information Skip to main content An official website of the United States Government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock Locked padlock icon ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. Back to Home Board of Governors of the Federal Reserve System Stay Connected Federal Reserve Facebook Page Federal Reserve Instagram Page Federal Reserve YouTube Page Federal Reserve Flickr Page Federal Reserve LinkedIn Page Federal Reserve Threads Page Federal Reserve X Page Federal Reserve Bluesky Page Subscribe to RSS Subscribe to Email Recent Postings Calendar Publications Site Map A-Z index Careers FAQs Videos Contact Search Submit Search Button Advanced Toggle Dropdown Menu Board of Governors of the Federal Reserve System The Federal Reserve, the central bank of the United States, provides\r\n          the nation with a safe, flexible, and stable monetary and financial\r\n          system. Main Menu Toggle Button Sections Search Toggle Button Search Search Submit Button Submit About the Fed Structure of the Federal Reserve System The Fed Explained Board Members Advisory Councils Federal Reserve Banks Federal Reserve Bank and Branch Directors Federal Reserve Act Currency Board Meetings Board Votes Careers Do Business with the Board Holidays Observed - K.8 Ethics & Values Contact Requesting Information (FOIA) FAQs Economic Education Fed Financial Statements Financial Innovation News & Events Press Releases Speeches & Testimony Calendar Videos Photo Gallery Conferences Monetary Policy Federal Open Market Committee About the FOMC Meeting calendars and information Transcripts and other historical materials FAQs Monetary Policy Principles and Practice Notes Policy Implementation Policy Normalization Policy Tools Reports Monetary Policy Report Beige Book Federal Reserve Balance Sheet Developments Review of Monetary Policy Strategy, Tools, and Communications Overview Supervision & Regulation Supervision Community Banks Regional Banks and Foreign Banks with U.S. Assets < $100 Billion Large Banks and Large Foreign Banks Global Systemically Important Banks Financial Market\r\n                            Utilities Consumer\r\n                            Compliance Resources for Supervised Institutions Reports Federal Reserve\r\n                            Supervision and Regulation Report Reporting Forms Recent Reporting Form Updates Information Collections\r\n                            Under Review Financial\r\n                            Statements Securities Exchange Act of 1934 Applications/Structure Change FFIEC Municipal and\r\n                            Government Securities Activities Monitoring Micro Data Reference Manual Legal Developments Enforcement Actions and\r\n                            Legal Developments Mergers, Acquisitions, and Other Applications Process Filing\r\n                            Information Board and Reserve\r\n                            Bank Actions Supervision and Regulation Letters By Year By Topic Regulatory and Policy Resources Federal Reserve Act Bank Holding Company Act Regulations Supervision Manuals Federal Reserve Regulatory Service Disaster Preparedness and Recovery Resources Banking and Data Structure Beneficial Ownership\r\n                            Reports U.S. Domestically Chartered Commercial Banks Minority Depository\r\n                            Institutions U.S. Offices of Foreign Entities Financial Holding\r\n                            Companies Interstate\r\n                            Branching Securities\r\n                            Underwriting and Dealing Subsidiaries State Member Banks Supervised by the Federal Reserve Financial Stability Financial Stability Assessments About Financial Stability Types of Financial System Vulnerabilities & Risks Monitoring Risk Across the Financial System Proactive Monitoring of Markets & Institutions Financial Stability & Stress Testing Financial Stability Coordination & Actions Responding to Financial System Emergencies Cooperation on Financial Stability Reports Financial Stability Report Payment Systems Regulations & Statutes Regulation CC (Availability of Funds and Collection of Checks) Regulation II (Debit Card Interchange Fees and Routing) Regulation HH (Financial Market Utilities) Other Regulations and Statutes Payment Policies Federal Reserve's Key Policies for the Provision of Financial Services Guidelines for Evaluating Joint Account Requests Overnight Overdrafts Payment System Risk Sponsorship for Priority Telecommunication Services Reserve Bank Payment Services & Data Automated Clearinghouse Services Check Services Currency and Coin Services Daylight Overdrafts and Fees FedNow ® Service Fedwire Funds Services Fedwire Securities Services Fiscal Agency Services Master Account and Services Database ",
+        "note": "会议时间以美联储官方FOMC页面为准。"
+      }
+    },
+    "official_supply": {
+      "ASX": {
+        "name": "ASX announcements",
+        "source_url": "https://www.asx.com.au/asx/v2/statistics/announcements.do",
+        "retrieved_at": "2026-08-19T10:55:13.111150+00:00",
+        "status": "confirmed",
+        "titles": [
+          "Important information about market announcements",
+          "code or name changes",
+          "Adobe Acrobat Reader"
+        ]
+      },
+      "ALB": {
+        "name": "Albemarle Investor Relations",
+        "source_url": "https://investors.albemarle.com/news-and-events/news/default.aspx",
+        "retrieved_at": "2026-08-19T10:55:13.368209+00:00",
+        "status": "confirmed",
+        "titles": [
+          "Skip to main content",
+          "News & Events",
+          "Financials",
+          "Quarterly Results",
+          "Annual Reports",
+          "SEC Filings",
+          "IRS Form 8937",
+          "Governance",
+          "Board of Directors",
+          "Corporate Governance",
+          "Governance Documents",
+          "Code of Conduct",
+          "Integrity Helpline",
+          "Political Contribution Policy",
+          "California Transparency in Supply Chains Act of 2010"
+        ]
+      },
+      "SQM": {
+        "name": "SQM Investor Relations",
+        "source_url": "https://ir.sqm.com/news-events/news",
+        "status": "error",
+        "error": "HTTPSConnectionPool(host='ir.sqm.com', port=443): Read timed out. (read timeout=20)"
+      },
+      "verification_rule": "供应端减产信息只有在官方来源中找到原始证据后才允许标记为 VERIFIED。"
+    },
+    "industry": {
+      "battery_operating_rate": {
+        "status": "discovery_only",
+        "source_url": "https://news.google.com/rss/search?q=%E9%94%82%E7%94%B5%E6%B1%A0%20%E5%BC%80%E5%B7%A5%E7%8E%87%20%E5%AE%9E%E9%99%85%20%E8%B0%83%E7%A0%94&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "retrieved_at": "2026-08-19T10:56:20.165362+00:00",
+        "items": [
+          {
+            "title": "Mysteel解读：碳酸锂“去库下跌”背后的供需现实 - 七禾网",
+            "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5IR2toeDFhTHVMQ3FVaDB2QUVGVDFkcjhmRGE1WnhsSUxwUFY5UWZUem1PNk1OTHZaZ1BVQlVraXRHVW1mWkhNeTJreGtOUm9Fcy1qYQ?oc=5",
+            "published": "Wed, 12 Aug 2026 07:11:10 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE5IR2toeDFhTHVMQ3FVaDB2QUVGVDFkcjhmRGE1WnhsSUxwUFY5UWZUem1PNk1OTHZaZ1BVQlVraXRHVW1mWkhNeTJreGtOUm9Fcy1qYQ?oc=5\" target=\"_blank\">Mysteel解读：碳酸锂“去库下跌”背后的供需现实</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">七禾网</font>"
+          },
+          {
+            "title": "高质量发展调研行丨重庆铜梁：打造储能一小时锂电“供应链圈” - 中国科技网",
+            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBhTFBFYlFvS0pjcjdjR0pKQm5nV1NoS1V1ZF9YWWhSNUF4MTlBb09Za1dqWC1mMmpXS0RTLWxSeWhyRzRUQzJWTEZTZThRZkxGcW1nckZ2N2R1eHpIdjVTS044MnhjVjhVazlnUlhneUI?oc=5",
+            "published": "Sat, 28 Sep 2024 07:00:00 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFBhTFBFYlFvS0pjcjdjR0pKQm5nV1NoS1V1ZF9YWWhSNUF4MTlBb09Za1dqWC1mMmpXS0RTLWxSeWhyRzRUQzJWTEZTZThRZkxGcW1nckZ2N2R1eHpIdjVTS044MnhjVjhVazlnUlhneUI?oc=5\" target=\"_blank\">高质量发展调研行丨重庆铜梁：打造储能一小时锂电“供应链圈”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">中国科技网</font>"
+          },
+          {
+            "title": "[头豹研究院]：市场洞察：2025年中国环氧丙烷行业简报：全球供给重构——海外产能退出下的中国机遇与全球布局 - 发现报告",
+            "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5TaHRXcDNQUGR5Z2x6Wk9jWjRCLTlJSUlDZnJraHR0S29Lel82dVA5MzloOVB5QmRaVU53Zy1WdG9xMXA1aXBlVWF1elVNMjNU?oc=5",
+            "published": "Wed, 18 Jun 2025 07:00:00 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE5TaHRXcDNQUGR5Z2x6Wk9jWjRCLTlJSUlDZnJraHR0S29Lel82dVA5MzloOVB5QmRaVU53Zy1WdG9xMXA1aXBlVWF1elVNMjNU?oc=5\" target=\"_blank\">[头豹研究院]：市场洞察：2025年中国环氧丙烷行业简报：全球供给重构——海外产能退出下的中国机遇与全球布局</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">发现报告</font>"
+          },
+          {
+            "title": "【SMM今日要闻】金属分化 镍价再遭打击 | 锂电企业年度业绩预喜 | 铝锌黄金年度回顾与展望 - 上海有色金属",
+            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOS1oNlIwbUJXcV9laF9NOW1BazNPWVQzMEFZMU0yX3FKRi1LdTgwNUV4bTJVekhweVo2Um5PX3prb2VNdnFBV3E4WW9HU3JvUF92dHlmb2o3aHp1WGFKb3FDd3JKWl9ueHAyRXVWVk9xaTVoNXpHemZuaUhIRHpFT1hEbWQ4REFkYk56bVdtbGViSFNsZTJoUmtSblpoNW1zdkxTdFdwN1BBZw?oc=5",
+            "published": "Thu, 12 Jan 2023 08:00:00 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOS1oNlIwbUJXcV9laF9NOW1BazNPWVQzMEFZMU0yX3FKRi1LdTgwNUV4bTJVekhweVo2Um5PX3prb2VNdnFBV3E4WW9HU3JvUF92dHlmb2o3aHp1WGFKb3FDd3JKWl9ueHAyRXVWVk9xaTVoNXpHemZuaUhIRHpFT1hEbWQ4REFkYk56bVdtbGViSFNsZTJoUmtSblpoNW1zdkxTdFdwN1BBZw?oc=5\" target=\"_blank\">【SMM今日要闻】金属分化 镍价再遭打击 | 锂电企业年度业绩预喜 | 铝锌黄金年度回顾与展望</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">上海有色金属</font>"
+          }
+        ],
+        "warning": "RSS搜索结果只能作为线索，不能直接作为真实开工率。"
+      },
+      "lithium_supply": {
+        "status": "discovery_only",
+        "source_url": "https://news.google.com/rss/search?q=%E9%94%82%E7%9B%90%20%E5%BC%80%E5%B7%A5%E7%8E%87%20%E4%BA%A7%E9%87%8F%20%E8%B0%83%E7%A0%94&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "retrieved_at": "2026-08-19T10:56:20.381066+00:00",
+        "items": [
+          {
+            "title": "中信建投：碳酸锂库存去化加速 基本面定价迎来反弹 - 东方财富",
+            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5rQjljQVRGWjVPaVpRZ2ViMUVwdkZwN255elJ4d21uWjVQS2JsSzNmN3d1N0Zla0RkSk5WdTIyRU9leDJDSC11cTNUdTA5VmFsVXNvT2piUVNmdWVDWTlNVA?oc=5",
+            "published": "Mon, 17 Aug 2026 06:11:15 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE5rQjljQVRGWjVPaVpRZ2ViMUVwdkZwN255elJ4d21uWjVQS2JsSzNmN3d1N0Zla0RkSk5WdTIyRU9leDJDSC11cTNUdTA5VmFsVXNvT2piUVNmdWVDWTlNVA?oc=5\" target=\"_blank\">中信建投：碳酸锂库存去化加速 基本面定价迎来反弹</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">东方财富</font>"
+          },
+          {
+            "title": "Mysteel解读：碳酸锂“去库下跌”背后的供需现实 - 七禾网",
+            "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5IR2toeDFhTHVMQ3FVaDB2QUVGVDFkcjhmRGE1WnhsSUxwUFY5UWZUem1PNk1OTHZaZ1BVQlVraXRHVW1mWkhNeTJreGtOUm9Fcy1qYQ?oc=5",
+            "published": "Wed, 12 Aug 2026 07:11:10 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE5IR2toeDFhTHVMQ3FVaDB2QUVGVDFkcjhmRGE1WnhsSUxwUFY5UWZUem1PNk1OTHZaZ1BVQlVraXRHVW1mWkhNeTJreGtOUm9Fcy1qYQ?oc=5\" target=\"_blank\">Mysteel解读：碳酸锂“去库下跌”背后的供需现实</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">七禾网</font>"
+          },
+          {
+            "title": "期货市场下周值得关注的大事件有哪些？各板块有哪些关注点？-市场参考 - 金十数据",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNRmU5RmxXQVRhQTRFalc5YUJKTmd2LTI4aGozLUw0ZWFTeXJVZ0F1MUdIaWM4M05GSXQ3RTZnU1g5VGlqZjdMVTZrRjU2Wmc?oc=5",
+            "published": "Fri, 07 Aug 2026 12:31:12 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNRmU5RmxXQVRhQTRFalc5YUJKTmd2LTI4aGozLUw0ZWFTeXJVZ0F1MUdIaWM4M05GSXQ3RTZnU1g5VGlqZjdMVTZrRjU2Wmc?oc=5\" target=\"_blank\">期货市场下周值得关注的大事件有哪些？各板块有哪些关注点？-市场参考</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">金十数据</font>"
+          },
+          {
+            "title": "关键矿产日报：BHP旗下全球最大铜矿扩建获批，央行连续20月增持黄金 - news.mysteel.com",
+            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hNndza3ZwWUI1TndibmRyS3A3Slh6RGlhOFIxNFR3eFBteEpfakNXRWk0dEptME9FbElEVTRidlNhVVJxS3A5VUdteF9aTGo0b1pBaTFHMTlhVWVTVUdUZ2MxODM2VFZI?oc=5",
+            "published": "Tue, 07 Jul 2026 08:58:44 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hNndza3ZwWUI1TndibmRyS3A3Slh6RGlhOFIxNFR3eFBteEpfakNXRWk0dEptME9FbElEVTRidlNhVVJxS3A5VUdteF9aTGo0b1pBaTFHMTlhVWVTVUdUZ2MxODM2VFZI?oc=5\" target=\"_blank\">关键矿产日报：BHP旗下全球最大铜矿扩建获批，央行连续20月增持黄金</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">news.mysteel.com</font>"
+          },
+          {
+            "title": "中信建投：供给端扰动持续发酵，需求侧受益海外边际增长，锂价上行 - 腾讯新闻",
+            "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wNGZNaVhxcUN3RVgxc0E0MUdrRy0wb1ZnOWlHRzlEY1YzX09mMWltOWI2cHZWRjdkSWJpNHN3aW83dWRuQ2ZtWjc5LWE1c3cwX0pZeWtB?oc=5",
+            "published": "Mon, 30 Mar 2026 07:00:00 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wNGZNaVhxcUN3RVgxc0E0MUdrRy0wb1ZnOWlHRzlEY1YzX09mMWltOWI2cHZWRjdkSWJpNHN3aW83dWRuQ2ZtWjc5LWE1c3cwX0pZeWtB?oc=5\" target=\"_blank\">中信建投：供给端扰动持续发酵，需求侧受益海外边际增长，锂价上行</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">腾讯新闻</font>"
+          },
+          {
+            "title": "碳酸锂价格反弹 下游企业承压 - paper.people.com.cn",
+            "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZnJyYmtQZV9NV1hXVE91WVhRb1drMkE3XzE5ZnhRS3Z6X3Uyc095aHpFbXZkclJ4Ukp3M3g4a3FNTi1UeEQ4WFg1NEFtR3pid0EzcE5uN1NURDZPSGNnX09ZTWczZ2xaOTA2RU5BU2Z5cXBYV2huRl92Qjhua0FuUm93?oc=5",
+            "published": "Mon, 01 Sep 2025 07:00:00 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxNZnJyYmtQZV9NV1hXVE91WVhRb1drMkE3XzE5ZnhRS3Z6X3Uyc095aHpFbXZkclJ4Ukp3M3g4a3FNTi1UeEQ4WFg1NEFtR3pid0EzcE5uN1NURDZPSGNnX09ZTWczZ2xaOTA2RU5BU2Z5cXBYV2huRl92Qjhua0FuUm93?oc=5\" target=\"_blank\">碳酸锂价格反弹 下游企业承压</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">paper.people.com.cn</font>"
+          },
+          {
+            "title": "产能出清缓慢，锂价底在哪儿？ - CME Group",
+            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBVOHhfUUR1bFlrWFJpaDBZMWdEdHVsNGZrejJGaURETU5pSVVpTVh2QjljZjNDdG8xNXlJaUFOaFlEMF9qb3JVbE15QUcyZEdpa0d2NklRa3I3c1h3RFBfSmVWa2tPWVAtc1V5di1qVXJ2bXRfRGxEbg?oc=5",
+            "published": "Fri, 30 May 2025 07:00:00 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTFBVOHhfUUR1bFlrWFJpaDBZMWdEdHVsNGZrejJGaURETU5pSVVpTVh2QjljZjNDdG8xNXlJaUFOaFlEMF9qb3JVbE15QUcyZEdpa0d2NklRa3I3c1h3RFBfSmVWa2tPWVAtc1V5di1qVXJ2bXRfRGxEbg?oc=5\" target=\"_blank\">产能出清缓慢，锂价底在哪儿？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CME Group</font>"
+          },
+          {
+            "title": "现货市场成交重心下移 近月期货触及跌停 | 碳酸锂机构要评 - eeo.com.cn",
+            "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5pWVJ1OEdKUm5hUFl3S2JISGJEamJObXBtMUZXLXlhcEtEdmltNTZrREJrUHp1cjltZG9uQmtUZzFWMXBicG5JR0tnQXRQeWVQM0dieg?oc=5",
+            "published": "Fri, 15 Dec 2023 08:00:00 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE5pWVJ1OEdKUm5hUFl3S2JISGJEamJObXBtMUZXLXlhcEtEdmltNTZrREJrUHp1cjltZG9uQmtUZzFWMXBicG5JR0tnQXRQeWVQM0dieg?oc=5\" target=\"_blank\">现货市场成交重心下移 近月期货触及跌停 | 碳酸锂机构要评</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">eeo.com.cn</font>"
+          },
+          {
+            "title": "电池金属需求挺价 下跌格局或扭转？锂业有望提前迎业绩拐点 - 财联社",
+            "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5DVTVISkl1UXZhU3BobUxlNmc1dmttUDVFdElpcWhvb3poc2p4anU5eEZqN0hkdURpUTM5THJFdjlBQWVkckpV?oc=5",
+            "published": "Mon, 21 Sep 2020 05:47:00 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMiR0FVX3lxTE5DVTVISkl1UXZhU3BobUxlNmc1dmttUDVFdElpcWhvb3poc2p4anU5eEZqN0hkdURpUTM5THJFdjlBQWVkckpV?oc=5\" target=\"_blank\">电池金属需求挺价 下跌格局或扭转？锂业有望提前迎业绩拐点</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">财联社</font>"
+          },
+          {
+            "title": "【SMM今日要闻】金属分化 镍价再遭打击 | 锂电企业年度业绩预喜 | 铝锌黄金年度回顾与展望 - 上海有色金属",
+            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOS1oNlIwbUJXcV9laF9NOW1BazNPWVQzMEFZMU0yX3FKRi1LdTgwNUV4bTJVekhweVo2Um5PX3prb2VNdnFBV3E4WW9HU3JvUF92dHlmb2o3aHp1WGFKb3FDd3JKWl9ueHAyRXVWVk9xaTVoNXpHemZuaUhIRHpFT1hEbWQ4REFkYk56bVdtbGViSFNsZTJoUmtSblpoNW1zdkxTdFdwN1BBZw?oc=5",
+            "published": "Thu, 12 Jan 2023 08:00:00 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOS1oNlIwbUJXcV9laF9NOW1BazNPWVQzMEFZMU0yX3FKRi1LdTgwNUV4bTJVekhweVo2Um5PX3prb2VNdnFBV3E4WW9HU3JvUF92dHlmb2o3aHp1WGFKb3FDd3JKWl9ueHAyRXVWVk9xaTVoNXpHemZuaUhIRHpFT1hEbWQ4REFkYk56bVdtbGViSFNsZTJoUmtSblpoNW1zdkxTdFdwN1BBZw?oc=5\" target=\"_blank\">【SMM今日要闻】金属分化 镍价再遭打击 | 锂电企业年度业绩预喜 | 铝锌黄金年度回顾与展望</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">上海有色金属</font>"
+          }
+        ],
+        "warning": "RSS搜索结果只能作为线索，不能直接作为真实开工率。"
+      }
+    },
+    "signals": {
+      "macro_watch": {
+        "cnh": "normal",
+        "fomc": "monitor"
+      },
+      "action": "🟡 观望：核心锂产业真实开工率尚未得到结构化确认。",
+      "data_health": {
+        "market": 4,
+        "official_supply_pages": 2,
+        "industry_operating_rate": "MISSING/UNVERIFIED",
+        "overall": "PARTIAL"
+      },
+      "industry_confirmed": false,
+      "rules": [
+        "预测排产不能等同实际开工率",
+        "搜索新闻不能等同官方减产公告",
+        "缺失数据不能让AI自行补全",
+        "宏观指标只能用于风险过滤"
+      ]
+    }
+  }
+}
