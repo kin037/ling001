@@ -1,0 +1,828 @@
+{
+  "title": "锂矿自动化情报日报｜2026-09-02 22:38",
+  "generated_at": "2026-09-02T22:38:04.920850+08:00",
+  "markdown": "# 锂矿自动化情报日报｜2026-09-02 22:38\n\n## 一、分析结论\n\n# 锂产业链情报分析日报\n\n**报告时间**: 2026-09-02 22:37 (Asia/Shanghai)  \n**数据状态**: 整体 GOOD（锂价/A股/ASX公告/汇率均确认）\n\n---\n\n## 一、碳酸锂期货：主力合约大幅下挫 -3.24%\n\n| 指标 | 数值 | 变动 |\n|------|------|------|\n| **主力收盘价** | 154,780 元/吨 | **-3.24%** |\n| 开盘价 | 157,000 元/吨 | — |\n| 最高价 | 157,820 元/吨 | — |\n| 最低价 | 153,200 元/吨 | — |\n| 结算价 | 155,660 元/吨 | 较昨结 159,960 下跌 2.69% |\n| 成交量 | 395,794 手 | — |\n| 持仓量 | 186,331 手 | — |\n\n**数据状态**: ✅ CONFIRMED（广期所/新浪财经）\n\n**合约结构观察**：\n- 主力合约（连续）收于 154,780 元/吨，跌幅 -3.24%\n- 远月 2705 合约跌幅最深（-3.43%），收于 150,840 元/吨\n- 近月 2609 合约跌幅相对较小（-2.11%），收于 155,000 元/吨\n- **期限结构呈轻微反向（近高远低）**，远月贴水约 4,000 元/吨，反映市场对远期价格偏悲观\n\n**⚠️ 重要提示**：期货价格为盘面预期，不等同于现货成交价。本次数据中**未获取到可靠现货价格**，现货端数据状态为 **MISSING**。\n\n---\n\n## 二、A股锂矿板块：全线下跌，情绪偏弱\n\n| 股票 | 收盘价(元) | 涨跌幅 | 成交额(亿元) |\n|------|-----------|--------|------------|\n| 天齐锂业 | 47.08 | **-4.35%** | 20.96 |\n| 赣锋锂业 | 50.23 | **-4.38%** | 21.26 |\n| 盐湖股份 | 26.94 | **-3.27%** | 18.91 |\n| 中矿资源 | 49.30 | **-5.28%** | 13.49 |\n| 永兴材料 | 44.20 | **-2.54%** | 4.32 |\n\n**板块统计**：5 只样本股全部下跌，平均跌幅 **-3.96%**\n\n**H股**：赣锋锂业 H 收于 38.32 港元，跌幅 **-5.34%**，跌幅大于 A 股，反映外资定价更悲观。\n\n**数据状态**: ✅ CONFIRMED\n\n---\n\n## 三、美股锂业公司\n\n| 公司 | 收盘价(USD) | 涨跌幅 | 数据状态 |\n|------|------------|--------|---------|\n| Albemarle (ALB) | 135.04 | **+0.39%** | ✅ CONFIRMED |\n| SQM | 80.12 | **+2.35%** | ✅ CONFIRMED |\n| LAC | 3.03 | **-5.61%** | ✅ CONFIRMED |\n\n**观察**：美股锂业与 A 股走势分化。ALB 和 SQM 小幅上涨，而 LAC 大跌 -5.61%。LAC 作为开发阶段公司（无在产矿山），其股价波动更多反映融资/项目进展预期，与锂价相关性较弱。\n\n---\n\n## 四、离岸人民币 USD/CNH\n\n| 指标 | 数值 |\n|------|------|\n| USD/CNH | 6.7174 |\n| 变动 | -0.07%（人民币小幅升值） |\n| 当日区间 | 6.7159 - 6.7266 |\n\n**数据状态**: ✅ CONFIRMED\n\n**解读**：人民币汇率处于正常波动区间，对锂板块无显著方向性影响。\n\n---\n\n## 五、FOMC 会议日程\n\n**下一次会议**: 2026年9月15-16日（带星号，含经济预测摘要），距今约 **2 周**\n\n**数据状态**: ✅ CONFIRMED（美联储官网）\n\n**风险提示**：9月FOMC会议临近，若会议释放鹰派信号可能对全球风险资产形成压制。建议在会议前控制仓位。\n\n---\n\n## 六、ASX 锂矿公司官方公告\n\n### Pilbara Minerals (PLS)\n- **9月2日**: Ceasing to be a substantial holder（大股东减持）\n- 8月31日: 董事权益变动通知\n- 8月27日: 大股东权益变动（2.5MB 文件，规模较大）\n\n**解读**：近期连续出现大股东/董事权益变动公告，需关注是否有机构在锂价高位减持。\n\n### Mineral Resources (MIN)\n- **9月1日**: ASIC 调查结束（非价格敏感）\n- **8月26日**: FY26 财报发布（价格敏感）\n\n### IGO Limited\n- 8月31日: 非执行董事任命\n- 8月26日: FY26 矿产资源与矿石储量报告\n\n### Lithium Plus Minerals (LTR)\n- **8月31日**: Liontown 将获得 Centenario 盐湖项目最高 100% 权益（价格敏感）\n- 8月30日: FY26 全年业绩发布（价格敏感）\n\n### Core Lithium (CXO)\n- **9月2日**: 成为 substantial holder（大股东增持）\n- 9月1日: Axiant Resources 在 ASX 上市\n- 8月10日: BP33 高品位锂钻探结果（价格敏感）\n\n**数据状态**: ✅ CONFIRMED（ASX 官方公告）\n\n**⚠️ 注意**：以上均为官方公告标题，**未发现任何官方确认的减产公告**。市场流传的\"检修减产\"信息仅为新闻线索（DISCOVERY_ONLY），不可视为已确认事实。\n\n---\n\n## 七、行业新闻线索（仅供参考，非事实）\n\n以下信息来自新闻搜索，**仅作线索参考**，不构成确认事实：\n\n1. **六氟磷酸锂涨价**（9月1日，财联社）：报道称\"行业库存仅一周\"，单周涨超 12%，业内预测仍有推涨空间\n2. **碳酸锂\"去库又增仓\"**（8月30日，新浪财经）：市场出现去库但持仓增加的现象\n3. **磷酸铁锂需求不佳**（8月28日，生意社）：下游需求不佳，价格波动有限\n4. **检修减产 vs 产能释放**（8月16日）：讨论碳酸锂反弹是否为拐点\n5. **津巴布韦暂停锂矿出口**（2月26日，华尔街见闻）：旧闻，时效性已过\n\n**⚠️ 数据可信度警告**：\n- 上述新闻均为 **DISCOVERY_ONLY** 状态\n- 关于\"检修减产\"的报道**没有官方来源确认**，不得视为已确认减产\n- 六氟磷酸锂涨价与碳酸锂价格关联性需谨慎评估\n\n---\n\n## 八、数据可信度与缺失项汇总\n\n| 数据项 | 状态 | 说明 |\n|--------|------|------|\n| 碳酸锂期货价格 | ✅ CONFIRMED | 广期所官方行情 |\n| **碳酸锂现货价格** | ❌ **MISSING** | **未获取到可靠现货价格** |\n| A股锂矿板块 | ✅ CONFIRMED | 交易所数据 |\n| 美股锂业 | ✅ CONFIRMED | Yahoo Finance |\n| USD/CNH | ✅ CONFIRMED | 新浪财经 |\n| FOMC 日程 | ✅ CONFIRMED | 美联储官网 |\n| ASX 公告 | ✅ CONFIRMED | 5/5 公司获取成功 |\n| Albemarle IR | ✅ CONFIRMED | 但未解析出具体新闻条目 |\n| SQM IR | ❌ ERROR | 连接超时 |\n| 电池开工率 | ⚠️ DISCOVERY_ONLY | 仅有新闻线索，无官方数据 |\n| 供应端减产 | ⚠️ DISCOVERY_ONLY | **无官方确认** |\n\n---\n\n## 九、仓位风险评估\n\n### 🟠 当前信号：谨慎偏空\n\n**利空因素**：\n1. 碳酸锂期货主力单日下跌 -3.24%，跌破 155,000 元/吨关口\n2. A股锂矿板块全线下跌，平均跌幅 -3.96%，H股跌幅更深（-5.34%）\n3. 远月合约跌幅大于近月，市场对远期价格预期悲观\n4. PLS 出现大股东减持公告\n\n**中性/待观察因素**：\n1. 美股 ALB/SQM 逆势上涨，与 A 股走势分化\n2. 9月15-16日 FOMC 会议临近（约2周），存在政策不确定性\n3. 人民币汇率稳定，无额外宏观压力\n\n**⚠️ 重要提醒**：\n- 当前**没有官方确认的供应端减产**，任何基于\"减产预期\"的做多逻辑缺乏事实支撑\n- 期货价格下跌是盘面事实，但**现货价格缺失**，无法验证期货贴水/升水状态\n- 新闻中提到的\"检修减产\"仅为市场传闻，不可作为投资依据\n\n**操作建议**：\n- 短期情绪偏弱，建议**谨慎对待板块反弹，等待企稳信号**\n- 若持有仓位，考虑在 FOMC 会议前（9月15-16日）适当降低仓位\n- 关注后续是否有 ASX 公司发布官方减产/产量指引调整公告\n\n---\n\n*报告结束。数据来源已标注，未经验证的信息已明确区分。*\n\n## 二、数据真实性规则\n\n- 实际开工率没有来源就显示缺失。\n- 预测排产不能作为实际生产数据。\n- 境外减产必须寻找官方来源。\n- 期货价格不能等同现货价格。\n- USD/CNH 作为离岸人民币指标。\n- FOMC 以美联储官方信息为准。\n- AI 不得自行补充数据。\n",
+  "snapshot": {
+    "meta": {
+      "generated_at": "2026-09-02T22:37:42.118219+08:00",
+      "timezone": "Asia/Shanghai",
+      "mode": "daily",
+      "system_version": "3.0"
+    },
+    "lithium": {
+      "carbonate_futures": {
+        "status": "confirmed",
+        "source": "新浪财经-广期所碳酸锂期货",
+        "source_url": "https://finance.sina.com.cn/futures/quotes/LC0.shtml",
+        "retrieved_at": "2026-09-02T14:37:42.760630+00:00",
+        "main_contract": {
+          "contract": "碳酸锂连续",
+          "open": 157000.0,
+          "high": 157820.0,
+          "low": 153200.0,
+          "close": 154780.0,
+          "last": 154780.0,
+          "settle": 155660.0,
+          "prev_settle": 159960.0,
+          "volume": 395794.0,
+          "open_interest": 186331.0,
+          "product": "碳酸锂",
+          "date": "2026-09-02",
+          "is_main": true,
+          "change_pct": -3.2383095773943484
+        },
+        "top_contracts": [
+          {
+            "contract": "碳酸锂2611",
+            "open": 155600.0,
+            "high": 156940.0,
+            "low": 152600.0,
+            "close": 154020.0,
+            "last": 154020.0,
+            "settle": 154880.0,
+            "prev_settle": 158840.0,
+            "volume": 151217.0,
+            "open_interest": 34663.0,
+            "product": "碳酸锂",
+            "date": "2026-09-02",
+            "is_main": false,
+            "change_pct": -3.0345001259128686
+          },
+          {
+            "contract": "碳酸锂2705",
+            "open": 154000.0,
+            "high": 154000.0,
+            "low": 149740.0,
+            "close": 150840.0,
+            "last": 150840.0,
+            "settle": 152060.0,
+            "prev_settle": 156200.0,
+            "volume": 65201.0,
+            "open_interest": 11816.0,
+            "product": "碳酸锂",
+            "date": "2026-09-02",
+            "is_main": false,
+            "change_pct": -3.4314980793854035
+          },
+          {
+            "contract": "碳酸锂2610",
+            "open": 156760.0,
+            "high": 156760.0,
+            "low": 152500.0,
+            "close": 153680.0,
+            "last": 153680.0,
+            "settle": 154600.0,
+            "prev_settle": 158800.0,
+            "volume": 29229.0,
+            "open_interest": 9066.0,
+            "product": "碳酸锂",
+            "date": "2026-09-02",
+            "is_main": false,
+            "change_pct": -3.224181360201511
+          },
+          {
+            "contract": "碳酸锂2612",
+            "open": 158140.0,
+            "high": 158140.0,
+            "low": 153600.0,
+            "close": 154960.0,
+            "last": 154960.0,
+            "settle": 155800.0,
+            "prev_settle": 159940.0,
+            "volume": 32019.0,
+            "open_interest": 4171.0,
+            "product": "碳酸锂",
+            "date": "2026-09-02",
+            "is_main": false,
+            "change_pct": -3.11366762535951
+          },
+          {
+            "contract": "碳酸锂2609",
+            "open": 156200.0,
+            "high": 156200.0,
+            "low": 152840.0,
+            "close": 155000.0,
+            "last": 155000.0,
+            "settle": 154740.0,
+            "prev_settle": 158340.0,
+            "volume": 11146.0,
+            "open_interest": 692.0,
+            "product": "碳酸锂",
+            "date": "2026-09-02",
+            "is_main": false,
+            "change_pct": -2.1093848680055576
+          }
+        ],
+        "note": "价格为广期所碳酸锂期货结算行情，单位为元/吨；现货价未获得可靠公开源时，以主力期货价格作为价格锚。"
+      }
+    },
+    "market": {
+      "a_shares_lithium": {
+        "天齐锂业": {
+          "name": "天齐锂业",
+          "open": 48.3,
+          "prev_close": 49.22,
+          "last": 47.08,
+          "high": 48.3,
+          "low": 46.85,
+          "volume": 44257072.0,
+          "amount": 2096391102.86,
+          "date": "2026-09-02",
+          "time": "15:35:15",
+          "change_pct": -4.347826086956523,
+          "label": "天齐锂业"
+        },
+        "赣锋锂业": {
+          "name": "赣锋锂业",
+          "open": 51.51,
+          "prev_close": 52.53,
+          "last": 50.23,
+          "high": 51.57,
+          "low": 49.8,
+          "volume": 42189426.0,
+          "amount": 2125917869.4,
+          "date": "2026-09-02",
+          "time": "15:35:00",
+          "change_pct": -4.378450409289938,
+          "label": "赣锋锂业"
+        },
+        "盐湖股份": {
+          "name": "盐湖股份",
+          "open": 27.55,
+          "prev_close": 27.85,
+          "last": 26.94,
+          "high": 27.55,
+          "low": 26.65,
+          "volume": 70135967.0,
+          "amount": 1891262147.19,
+          "date": "2026-09-02",
+          "time": "15:35:15",
+          "change_pct": -3.2675044883303417,
+          "label": "盐湖股份"
+        },
+        "中矿资源": {
+          "name": "中矿资源",
+          "open": 50.94,
+          "prev_close": 52.05,
+          "last": 49.3,
+          "high": 50.96,
+          "low": 48.66,
+          "volume": 27291762.0,
+          "amount": 1348894864.1,
+          "date": "2026-09-02",
+          "time": "15:35:45",
+          "change_pct": -5.283381364073008,
+          "label": "中矿资源"
+        },
+        "永兴材料": {
+          "name": "永兴材料",
+          "open": 44.78,
+          "prev_close": 45.35,
+          "last": 44.2,
+          "high": 44.86,
+          "low": 43.4,
+          "volume": 9813281.0,
+          "amount": 431943614.84,
+          "date": "2026-09-02",
+          "time": "15:35:00",
+          "change_pct": -2.53583241455347,
+          "label": "永兴材料"
+        }
+      },
+      "h_shares_lithium": {
+        "赣锋锂业H": {
+          "name": "赣锋锂业",
+          "open": 39.78,
+          "prev_close": 40.48,
+          "high": 39.96,
+          "low": 37.6,
+          "last": 38.32,
+          "change_pct": -5.336,
+          "change": -2.16,
+          "label": "赣锋锂业H"
+        }
+      },
+      "usd_cnh": {
+        "value": 6.7174,
+        "change_pct": -0.07,
+        "change": -0.0047,
+        "high": 6.7266,
+        "low": 6.7159,
+        "date": "2026-09-02",
+        "source": "新浪财经 离岸人民币",
+        "source_url": "https://finance.sina.com.cn/forex/",
+        "status": "confirmed",
+        "error": null
+      },
+      "us_stocks": {
+        "ALB": {
+          "symbol": "ALB",
+          "value": 135.04,
+          "change_pct": 0.39402274923797576,
+          "currency": "USD",
+          "market_state": null,
+          "exchange": "NYQ",
+          "source": "Yahoo Finance chart",
+          "source_url": "https://finance.yahoo.com/quote/ALB",
+          "status": "confirmed"
+        },
+        "SQM": {
+          "symbol": "SQM",
+          "value": 80.12,
+          "change_pct": 2.3505365355135455,
+          "currency": "USD",
+          "market_state": null,
+          "exchange": "NYQ",
+          "source": "Yahoo Finance chart",
+          "source_url": "https://finance.yahoo.com/quote/SQM",
+          "status": "confirmed"
+        },
+        "LAC": {
+          "symbol": "LAC",
+          "value": 3.03,
+          "change_pct": -5.607476635514024,
+          "currency": "USD",
+          "market_state": null,
+          "exchange": "NYQ",
+          "source": "Yahoo Finance chart",
+          "source_url": "https://finance.yahoo.com/quote/LAC",
+          "status": "confirmed"
+        }
+      }
+    },
+    "macro": {
+      "fomc": {
+        "source": "Federal Reserve",
+        "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "retrieved_at": "2026-09-02T14:37:44.916604+00:00",
+        "status": "confirmed",
+        "meetings": [
+          {
+            "month": "January",
+            "dates": "27-28",
+            "status": "past"
+          },
+          {
+            "month": "March",
+            "dates": "17-18*",
+            "status": "past"
+          },
+          {
+            "month": "April",
+            "dates": "28-29",
+            "status": "past"
+          },
+          {
+            "month": "June",
+            "dates": "16-17*",
+            "status": "past"
+          },
+          {
+            "month": "July",
+            "dates": "28-29",
+            "status": "past"
+          },
+          {
+            "month": "September",
+            "dates": "15-16*",
+            "status": "upcoming"
+          },
+          {
+            "month": "October",
+            "dates": "27-28",
+            "status": "upcoming"
+          },
+          {
+            "month": "December",
+            "dates": "8-9*",
+            "status": "upcoming"
+          },
+          {
+            "month": "January",
+            "dates": "26-27",
+            "status": "upcoming"
+          },
+          {
+            "month": "March",
+            "dates": "16-17*",
+            "status": "upcoming"
+          },
+          {
+            "month": "April",
+            "dates": "27-28",
+            "status": "upcoming"
+          },
+          {
+            "month": "June",
+            "dates": "8-9*",
+            "status": "upcoming"
+          },
+          {
+            "month": "July",
+            "dates": "27-28",
+            "status": "upcoming"
+          },
+          {
+            "month": "September",
+            "dates": "14-15*",
+            "status": "upcoming"
+          },
+          {
+            "month": "October",
+            "dates": "26-27",
+            "status": "upcoming"
+          },
+          {
+            "month": "December",
+            "dates": "7-8*",
+            "status": "upcoming"
+          }
+        ],
+        "note": "会议时间以美联储官方FOMC页面为准。"
+      }
+    },
+    "official_supply": {
+      "ASX": {
+        "PLS": {
+          "code": "PLS",
+          "label": "Pilbara Minerals（皮尔巴拉矿业）",
+          "source_url": "https://asx.api.markitdigital.com/asx-research/1.0/companies/PLS/announcements?fields=code,announcement-date,date,file-type,headline,id,market-sensitive,page,price-sensitive,release-date,type,url",
+          "retrieved_at": "2026-09-02T14:37:45.548404+00:00",
+          "status": "confirmed",
+          "announcements": [
+            {
+              "headline": "Ceasing to be a substantial holder",
+              "date": "2026-09-02T07:13:16.000Z",
+              "type": "SECURITY HOLDER DETAILS",
+              "price_sensitive": false,
+              "file_size": "342KB"
+            },
+            {
+              "headline": "Change of Director's Interest Notice",
+              "date": "2026-08-31T07:50:31.000Z",
+              "type": "SECURITY HOLDER DETAILS",
+              "price_sensitive": false,
+              "file_size": "319KB"
+            },
+            {
+              "headline": "Notification regarding unquoted securities - PLS",
+              "date": "2026-08-31T07:38:46.000Z",
+              "type": "ISSUED CAPITAL",
+              "price_sensitive": false,
+              "file_size": "18KB"
+            },
+            {
+              "headline": "Application for quotation of securities - PLS",
+              "date": "2026-08-31T02:18:50.000Z",
+              "type": "ISSUED CAPITAL",
+              "price_sensitive": false,
+              "file_size": "17KB"
+            },
+            {
+              "headline": "Change in substantial holding",
+              "date": "2026-08-27T07:54:46.000Z",
+              "type": "SECURITY HOLDER DETAILS",
+              "price_sensitive": false,
+              "file_size": "2503KB"
+            }
+          ]
+        },
+        "MIN": {
+          "code": "MIN",
+          "label": "Mineral Resources（矿产资源）",
+          "source_url": "https://asx.api.markitdigital.com/asx-research/1.0/companies/MIN/announcements?fields=code,announcement-date,date,file-type,headline,id,market-sensitive,page,price-sensitive,release-date,type,url",
+          "retrieved_at": "2026-09-02T14:37:46.089940+00:00",
+          "status": "confirmed",
+          "announcements": [
+            {
+              "headline": "Conclusion of ASIC investigation",
+              "date": "2026-09-01T04:03:40.000Z",
+              "type": "COMPANY ADMINISTRATION",
+              "price_sensitive": false,
+              "file_size": "123KB"
+            },
+            {
+              "headline": "2026 Corporate Governance Statement",
+              "date": "2026-08-26T21:31:44.000Z",
+              "type": "PERIODIC REPORTS",
+              "price_sensitive": false,
+              "file_size": "11153KB"
+            },
+            {
+              "headline": "Appendix 4G",
+              "date": "2026-08-26T21:31:24.000Z",
+              "type": "PERIODIC REPORTS",
+              "price_sensitive": false,
+              "file_size": "355KB"
+            },
+            {
+              "headline": "FY26 Financial Results Presentation",
+              "date": "2026-08-26T21:31:09.000Z",
+              "type": "PERIODIC REPORTS",
+              "price_sensitive": true,
+              "file_size": "4058KB"
+            },
+            {
+              "headline": "FY26 Financial Results Announcement",
+              "date": "2026-08-26T21:30:49.000Z",
+              "type": "OTHER",
+              "price_sensitive": true,
+              "file_size": "323KB"
+            }
+          ]
+        },
+        "IGO": {
+          "code": "IGO",
+          "label": "IGO Limited（天齐澳洲合资方）",
+          "source_url": "https://asx.api.markitdigital.com/asx-research/1.0/companies/IGO/announcements?fields=code,announcement-date,date,file-type,headline,id,market-sensitive,page,price-sensitive,release-date,type,url",
+          "retrieved_at": "2026-09-02T14:37:46.715039+00:00",
+          "status": "confirmed",
+          "announcements": [
+            {
+              "headline": "Notification regarding unquoted securities - IGO",
+              "date": "2026-09-02T07:55:21.000Z",
+              "type": "ISSUED CAPITAL",
+              "price_sensitive": false,
+              "file_size": "15KB"
+            },
+            {
+              "headline": "Notification regarding unquoted securities - IGO",
+              "date": "2026-09-01T06:47:41.000Z",
+              "type": "ISSUED CAPITAL",
+              "price_sensitive": false,
+              "file_size": "16KB"
+            },
+            {
+              "headline": "Initial Director's Interest Notice",
+              "date": "2026-08-31T22:13:59.000Z",
+              "type": "SECURITY HOLDER DETAILS",
+              "price_sensitive": false,
+              "file_size": "148KB"
+            },
+            {
+              "headline": "Non-Executive Director Appointment",
+              "date": "2026-08-31T22:13:49.000Z",
+              "type": "COMPANY ADMINISTRATION",
+              "price_sensitive": false,
+              "file_size": "130KB"
+            },
+            {
+              "headline": "FY26 Mineral Resources and Ore Reserves Report",
+              "date": "2026-08-26T21:34:29.000Z",
+              "type": "PROGRESS REPORT",
+              "price_sensitive": false,
+              "file_size": "2288KB"
+            }
+          ]
+        },
+        "LTR": {
+          "code": "LTR",
+          "label": "Lithium Plus Minerals",
+          "source_url": "https://asx.api.markitdigital.com/asx-research/1.0/companies/LTR/announcements?fields=code,announcement-date,date,file-type,headline,id,market-sensitive,page,price-sensitive,release-date,type,url",
+          "retrieved_at": "2026-09-02T14:37:47.325037+00:00",
+          "status": "confirmed",
+          "announcements": [
+            {
+              "headline": "Notification under section 708A(5)(e)",
+              "date": "2026-09-02T05:52:20.000Z",
+              "type": "ISSUED CAPITAL",
+              "price_sensitive": false,
+              "file_size": "195KB"
+            },
+            {
+              "headline": "Application for quotation of securities - LTR",
+              "date": "2026-09-02T05:45:00.000Z",
+              "type": "ISSUED CAPITAL",
+              "price_sensitive": false,
+              "file_size": "15KB"
+            },
+            {
+              "headline": "Proposed issue of securities - LTR",
+              "date": "2026-08-31T23:21:24.000Z",
+              "type": "ISSUED CAPITAL",
+              "price_sensitive": false,
+              "file_size": "15KB"
+            },
+            {
+              "headline": "Liontown to earn up to 100% of the Centenario brine project",
+              "date": "2026-08-31T22:59:54.000Z",
+              "type": "PROGRESS REPORT",
+              "price_sensitive": true,
+              "file_size": "470KB"
+            },
+            {
+              "headline": "FY26 full-year results presentation",
+              "date": "2026-08-30T21:58:09.000Z",
+              "type": "PERIODIC REPORTS",
+              "price_sensitive": true,
+              "file_size": "7419KB"
+            }
+          ]
+        },
+        "CXO": {
+          "code": "CXO",
+          "label": "Core Lithium（核心锂业）",
+          "source_url": "https://asx.api.markitdigital.com/asx-research/1.0/companies/CXO/announcements?fields=code,announcement-date,date,file-type,headline,id,market-sensitive,page,price-sensitive,release-date,type,url",
+          "retrieved_at": "2026-09-02T14:37:47.809423+00:00",
+          "status": "confirmed",
+          "announcements": [
+            {
+              "headline": "Becoming a substantial holder from CXO",
+              "date": "2026-09-02T06:27:01.000Z",
+              "type": "SECURITY HOLDER DETAILS",
+              "price_sensitive": false,
+              "file_size": "1227KB"
+            },
+            {
+              "headline": "Axiant Resources Lists on the ASX",
+              "date": "2026-09-01T23:53:24.000Z",
+              "type": "COMPANY ADMINISTRATION",
+              "price_sensitive": false,
+              "file_size": "179KB"
+            },
+            {
+              "headline": "New High-Grade Lithium Drill Results at BP33",
+              "date": "2026-08-10T22:36:15.000Z",
+              "type": "PROGRESS REPORT",
+              "price_sensitive": true,
+              "file_size": "1053KB"
+            },
+            {
+              "headline": "Receipt of Tranche 2 Convertible Note Funds",
+              "date": "2026-08-04T04:26:29.000Z",
+              "type": "ISSUED CAPITAL",
+              "price_sensitive": false,
+              "file_size": "137KB"
+            },
+            {
+              "headline": "Notification regarding unquoted securities - CXO",
+              "date": "2026-08-04T04:22:14.000Z",
+              "type": "ISSUED CAPITAL",
+              "price_sensitive": false,
+              "file_size": "14KB"
+            }
+          ]
+        }
+      },
+      "ALB": {
+        "name": "Albemarle Investor Relations",
+        "source_url": "https://investors.albemarle.com/news-and-events/news/default.aspx",
+        "retrieved_at": "2026-09-02T14:37:48.095589+00:00",
+        "status": "confirmed",
+        "note": "IR页面多为动态渲染，若标题为空表示未能解析出新闻条目。",
+        "titles": [
+          {
+            "title": "https://www.albemarle.com/news",
+            "href": "https://www.albemarle.com/news"
+          },
+          {
+            "title": "News & Events",
+            "href": "https://investors.albemarle.com/news-and-events/default.aspx"
+          },
+          {
+            "title": "Quarterly Results",
+            "href": "https://investors.albemarle.com/financials/quarterly-results/default.aspx"
+          },
+          {
+            "title": "Annual Reports",
+            "href": "https://investors.albemarle.com/financials/annual-reports/default.aspx"
+          },
+          {
+            "title": "IRS Form 8937",
+            "href": "https://investors.albemarle.com/financials/IRS-Form-8937/default.aspx"
+          },
+          {
+            "title": "Board of Directors",
+            "href": "https://investors.albemarle.com/governance/board-of-directors/default.aspx"
+          },
+          {
+            "title": "Corporate Governance",
+            "href": "https://investors.albemarle.com/governance/corporate-governance/governance-documents/default.aspx"
+          },
+          {
+            "title": "Governance Documents",
+            "href": "https://investors.albemarle.com/governance/corporate-governance/governance-documents/default.aspx"
+          },
+          {
+            "title": "Code of Conduct",
+            "href": "https://investors.albemarle.com/governance/corporate-governance/code-of-conduct/default.aspx"
+          },
+          {
+            "title": "Integrity Helpline",
+            "href": "https://investors.albemarle.com/governance/corporate-governance/integrity-helpline/default.aspx"
+          }
+        ]
+      },
+      "SQM": {
+        "name": "SQM Investor Relations",
+        "source_url": "https://ir.sqm.com/news-events/news",
+        "status": "error",
+        "error": "HTTPSConnectionPool(host='ir.sqm.com', port=443): Read timed out. (read timeout=15)",
+        "titles": []
+      },
+      "verification_rule": "供应端减产信息只有在官方来源中找到原始证据后才允许标记为 VERIFIED。"
+    },
+    "industry": {
+      "battery_operating_rate": {
+        "status": "discovery_only",
+        "source": "Bing News",
+        "source_url": "https://www.bing.com/news/search?q=%E9%94%82%E7%94%B5%E6%B1%A0%20%E7%A2%B3%E9%85%B8%E9%94%82%20%E4%BB%B7%E6%A0%BC%20%E5%BC%80%E5%B7%A5%E7%8E%87&format=rss&setlang=zh-hans",
+        "retrieved_at": "2026-09-02T14:38:03.524852+00:00",
+        "items": [],
+        "warning": "RSS搜索结果只能作为线索，不能直接作为真实开工率。",
+        "fallback_items": [
+          {
+            "title": "“行业库存仅一周”！六氟磷酸锂价格“淡季逆袭”单周涨超12% 业内预测仍存推涨空间 - cls.cn",
+            "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9wOGZkQ1U2MUU4aEt1aVZkM3FrX3d5QUpLa19KQVRoYTVTZDNZQnZlbzFSTXNiTW5nblE1aHcwM05jS3pINUhKRQ?oc=5",
+            "published": "Tue, 01 Sep 2026 07:00:00 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE9wOGZkQ1U2MUU4aEt1aVZkM3FrX3d5QUpLa19KQVRoYTVTZDNZQnZlbzFSTXNiTW5nblE1aHcwM05jS3pINUhKRQ?oc=5\" target=\"_blank\">“行业库存仅一周”！六氟磷酸锂价格“淡季逆袭”单周涨超12% 业内预测仍存推涨空间</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cls.cn</font>"
+          },
+          {
+            "title": "生意社：下游需求不佳 磷酸铁锂整体价格波动幅度有限 - 新浪财经",
+            "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaDZ2N09Bb1l3TTBodkNWcDI4NVNPd0FwWTBoQ2tsTHVzYVlpUTFZbDVPc1VtdzNqNmEzdGJiYkdIQW92bWNiQjlUV2t5eDhzM0FQWUdyQkdab2QtMGFVZnVHZlE1TXA3amdNQ0h5M1hfdWYtajJaTXVaVXNEcXdybUJid3FMb2t5SGc?oc=5",
+            "published": "Fri, 28 Aug 2026 07:49:00 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxOaDZ2N09Bb1l3TTBodkNWcDI4NVNPd0FwWTBoQ2tsTHVzYVlpUTFZbDVPc1VtdzNqNmEzdGJiYkdIQW92bWNiQjlUV2t5eDhzM0FQWUdyQkdab2QtMGFVZnVHZlE1TXA3amdNQ0h5M1hfdWYtajJaTXVaVXNEcXdybUJid3FMb2t5SGc?oc=5\" target=\"_blank\">生意社：下游需求不佳 磷酸铁锂整体价格波动幅度有限</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>"
+          },
+          {
+            "title": "爆单！磷酸铁锂开工率超85%！9个项目或新增产能约118.6万吨 - 盖世汽车社区",
+            "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE11aHhjODYzdHVaNjlWRmp0WmFSRUhJVnpITGdXUHZLM0NoZ3Y0S3g5ZmdQYkNROVhDME5aWWpnWU10SnZpaVhOLXRBZGJVZ2lF?oc=5",
+            "published": "Sat, 27 Jun 2026 07:00:00 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE11aHhjODYzdHVaNjlWRmp0WmFSRUhJVnpITGdXUHZLM0NoZ3Y0S3g5ZmdQYkNROVhDME5aWWpnWU10SnZpaVhOLXRBZGJVZ2lF?oc=5\" target=\"_blank\">爆单！磷酸铁锂开工率超85%！9个项目或新增产能约118.6万吨</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">盖世汽车社区</font>"
+          },
+          {
+            "title": "阶段性机会来临，锂能买了么？| A股2026投资策略⑪ - 界面新闻",
+            "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5mNzMtZE92VTJNeUhfX3MwU0w0U3VMUTR2bzFjUldEaVNCbnNEUy1TZGY2aFk0YVdQOEZObmliTFNTMVFFYTlQN2FVdTdlVUhBbHhfREdvV28?oc=5",
+            "published": "Thu, 01 Jan 2026 08:00:00 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5mNzMtZE92VTJNeUhfX3MwU0w0U3VMUTR2bzFjUldEaVNCbnNEUy1TZGY2aFk0YVdQOEZObmliTFNTMVFFYTlQN2FVdTdlVUhBbHhfREdvV28?oc=5\" target=\"_blank\">阶段性机会来临，锂能买了么？| A股2026投资策略⑪</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">界面新闻</font>"
+          },
+          {
+            "title": "天量订单接连爆场，电解液产业链“梦回”周期峰顶 - 21财经",
+            "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcVIxQWtIc3kwN3dRN3NIeXFsSW0wbEYwZl9tVS02S25HTGxMTEc4QkJqb1dKY2RFdjNKQ3lKRnU0MWstdzlnRkFMaHBlVFoyMU02OXdPRGRldllHTDBaQ3l0OUVjd3RONDB0RjFOaTRQVDdRX1NPVFZNU0ZUVndPeHlTdlltMTJMdHNsbmlzVQ?oc=5",
+            "published": "Fri, 14 Nov 2025 08:00:00 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPcVIxQWtIc3kwN3dRN3NIeXFsSW0wbEYwZl9tVS02S25HTGxMTEc4QkJqb1dKY2RFdjNKQ3lKRnU0MWstdzlnRkFMaHBlVFoyMU02OXdPRGRldllHTDBaQ3l0OUVjd3RONDB0RjFOaTRQVDdRX1NPVFZNU0ZUVndPeHlTdlltMTJMdHNsbmlzVQ?oc=5\" target=\"_blank\">天量订单接连爆场，电解液产业链“梦回”周期峰顶</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">21财经</font>"
+          }
+        ]
+      },
+      "lithium_supply": {
+        "status": "discovery_only",
+        "source": "Bing News",
+        "source_url": "https://www.bing.com/news/search?q=%E9%94%82%E7%9B%90%20%E7%A2%B3%E9%85%B8%E9%94%82%20%E5%87%8F%E4%BA%A7%20%E4%BE%9B%E5%BA%94&format=rss&setlang=zh-hans",
+        "retrieved_at": "2026-09-02T14:38:04.034383+00:00",
+        "items": [],
+        "warning": "RSS搜索结果只能作为线索，不能直接作为真实开工率。",
+        "fallback_items": [
+          {
+            "title": "检修减产 VS 产能释放！碳酸锂反弹，拐点来了吗？ - 电子工程专辑",
+            "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1MUWd3eV96bVVzS1JOYmdneHNZMkdWWnBnRll1aDZMVVZxYWhmVm0yNDBzYk9kS2x1dUNraGZwWHVuWGxDUDY0VEo4RTBNZ2oySjJB?oc=5",
+            "published": "Sun, 16 Aug 2026 07:00:00 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE1MUWd3eV96bVVzS1JOYmdneHNZMkdWWnBnRll1aDZMVVZxYWhmVm0yNDBzYk9kS2x1dUNraGZwWHVuWGxDUDY0VEo4RTBNZ2oySjJB?oc=5\" target=\"_blank\">检修减产 VS 产能释放！碳酸锂反弹，拐点来了吗？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">电子工程专辑</font>"
+          },
+          {
+            "title": "长安期货张晨：碳酸锂供应仍有扰动 需求韧性显现 - 新浪财经",
+            "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQU2hWMTh3aHNlX1BadU95eDU4RnNxZXFRQy00WUpkMFdpZWtXXzhSaEZ6SWE1cTc2T0JBcFNFLU9ISWpiVnRoc0VKdklaM3RqNWFxN3dLVWZNSF91NWhHbVRPNUs1b2xOeXgyUTd3SHA2M0NTNTYzNVljMmhiQ0k5MzJnRjhmX0NaSlluUi1ETVVSSGc0R19HYWgydnp1WWloV2xhb1pKa2E4WUxwVTR4c2xTR281cUhldnByY2JScE5yblVJODU2V0Y0STF5TzBlOTJzTEtTRlJjVkJ5Ul92dnRBeDE?oc=5",
+            "published": "Mon, 16 Mar 2026 07:00:00 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxQU2hWMTh3aHNlX1BadU95eDU4RnNxZXFRQy00WUpkMFdpZWtXXzhSaEZ6SWE1cTc2T0JBcFNFLU9ISWpiVnRoc0VKdklaM3RqNWFxN3dLVWZNSF91NWhHbVRPNUs1b2xOeXgyUTd3SHA2M0NTNTYzNVljMmhiQ0k5MzJnRjhmX0NaSlluUi1ETVVSSGc0R19HYWgydnp1WWloV2xhb1pKa2E4WUxwVTR4c2xTR281cUhldnByY2JScE5yblVJODU2V0Y0STF5TzBlOTJzTEtTRlJjVkJ5Ul92dnRBeDE?oc=5\" target=\"_blank\">长安期货张晨：碳酸锂供应仍有扰动 需求韧性显现</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>"
+          },
+          {
+            "title": "华泰期货：碳酸锂期货盘面冲高回落，未来预期持续向好 - 新浪财经",
+            "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZy1LWE9zdFpzUDBfanQ2UzYxLTR1Q2tYNExpTkNDcEkwdlA4Q2N5MWtaUEhzNmhoMk5SMTdBVldHQmN2OFNkQUNUN3M2TkV6aWh1ajY4VUJWN3llc2ZHbUZfZzkzMFFlTHYzc0JKdGkzUzVxSmFJelhnRVhxMDJzOXh4ZTJCNUs0UnRYQVJEUkY?oc=5",
+            "published": "Mon, 02 Feb 2026 08:00:00 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQZy1LWE9zdFpzUDBfanQ2UzYxLTR1Q2tYNExpTkNDcEkwdlA4Q2N5MWtaUEhzNmhoMk5SMTdBVldHQmN2OFNkQUNUN3M2TkV6aWh1ajY4VUJWN3llc2ZHbUZfZzkzMFFlTHYzc0JKdGkzUzVxSmFJelhnRVhxMDJzOXh4ZTJCNUs0UnRYQVJEUkY?oc=5\" target=\"_blank\">华泰期货：碳酸锂期货盘面冲高回落，未来预期持续向好</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>"
+          },
+          {
+            "title": "津巴布韦暂停锂矿出口，影响有多大？ - 华尔街见闻",
+            "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBTaW82RGgybUJleGxCa0w3dVplVU02YXpMclhjTURZTThmYklFZncxTzl4V25mWTVid283NDBCb3J5dm5lSmFKSHRHUkRfd2hVTl9R?oc=5",
+            "published": "Thu, 26 Feb 2026 08:00:00 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFBTaW82RGgybUJleGxCa0w3dVplVU02YXpMclhjTURZTThmYklFZncxTzl4V25mWTVid283NDBCb3J5dm5lSmFKSHRHUkRfd2hVTl9R?oc=5\" target=\"_blank\">津巴布韦暂停锂矿出口，影响有多大？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">华尔街见闻</font>"
+          },
+          {
+            "title": "每日期货全景复盘3.30：地缘冲突加剧，集运欧线大幅上涨-市场参考 - 金十数据",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1jSkotdUxQTW8zTm9qNUNpa01aNWV6aURkRnhzWTdxdzlHMUhDQmY4cU52bHNhUEs2ZkprVEZnT0ZEcElKRS1HYWhqLVVGdEk?oc=5",
+            "published": "Mon, 30 Mar 2026 09:15:06 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE1jSkotdUxQTW8zTm9qNUNpa01aNWV6aURkRnhzWTdxdzlHMUhDQmY4cU52bHNhUEs2ZkprVEZnT0ZEcElKRS1HYWhqLVVGdEk?oc=5\" target=\"_blank\">每日期货全景复盘3.30：地缘冲突加剧，集运欧线大幅上涨-市场参考</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">金十数据</font>"
+          }
+        ]
+      },
+      "lithium_price": {
+        "status": "discovery_only",
+        "source": "Bing News",
+        "source_url": "https://www.bing.com/news/search?q=%E7%A2%B3%E9%85%B8%E9%94%82%20%E4%BB%B7%E6%A0%BC%20%E6%9C%9F%E8%B4%A7%20%E7%8E%B0%E8%B4%A7&format=rss&setlang=zh-hans",
+        "retrieved_at": "2026-09-02T14:38:04.566623+00:00",
+        "items": [
+          {
+            "title": "下游传统消费旺季临近 碳酸锂期货和现货价格同步反弹",
+            "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a9834cc107d40378fb6d3f39cd7f79b&url=https%3a%2f%2ffinance.eastmoney.com%2fa%2f202608153842139993.html&c=12849357486840361165&mkt=en-us",
+            "published": "Fri, 14 Aug 2026 17:00:00 GMT",
+            "description": "近期，碳酸锂期货、现货价格同步反弹。8月14日，碳酸锂主力合约2609开盘报149700元/吨，收盘报153940元/吨，当日收盘价较上日 ..."
+          }
+        ],
+        "warning": "RSS搜索结果只能作为线索，不能直接作为真实开工率。",
+        "fallback_items": [
+          {
+            "title": "蒙了！碳酸锂“去库又增仓”，市场情况是…… - 新浪财经",
+            "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOS1NfRFQwd3JUemxjQzZWSnRPWGJZSjdiU0xNS1NVOVJjTFBxOHVCQkhJdEF2NDFjZ21aMElxTEFYUEgwMGxUTGo1d003SXFZWGhhT080ZS1iem1od29wSERYbW1yZTdaYVF0UUZNZGg3MFVNajZDUzRHUUQ3STAzbDNMZ0Vsc0s3Qm9YSElfcXdVVXlDUnR3SXpDdjhwb0t0d2pHV3ZiTF9PbHhVdXV1TENHdzRUbFRRbUFBNmtwd1pKSzhOalpXVGxnOEF5VURCQTByTmFoWXJaR1JmZS1EVXlrMDM?oc=5",
+            "published": "Sun, 30 Aug 2026 23:14:00 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxOS1NfRFQwd3JUemxjQzZWSnRPWGJZSjdiU0xNS1NVOVJjTFBxOHVCQkhJdEF2NDFjZ21aMElxTEFYUEgwMGxUTGo1d003SXFZWGhhT080ZS1iem1od29wSERYbW1yZTdaYVF0UUZNZGg3MFVNajZDUzRHUUQ3STAzbDNMZ0Vsc0s3Qm9YSElfcXdVVXlDUnR3SXpDdjhwb0t0d2pHV3ZiTF9PbHhVdXV1TENHdzRUbFRRbUFBNmtwd1pKSzhOalpXVGxnOEF5VURCQTByTmFoWXJaR1JmZS1EVXlrMDM?oc=5\" target=\"_blank\">蒙了！碳酸锂“去库又增仓”，市场情况是……</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>"
+          },
+          {
+            "title": "碳酸锂期货价格高位跳水失守19万关口，需求端势头强劲，后续或仍有支撑 - cls.cn",
+            "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9seFNqUnVKc3N2RWNwbFkzYmVfSjF4WVhaSW42eGRSRTlGSEdCcnlnbTgtR1h6eDc3MXFYUXRwNmNJbG5kSm5KRQ?oc=5",
+            "published": "Tue, 19 May 2026 07:00:00 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE9seFNqUnVKc3N2RWNwbFkzYmVfSjF4WVhaSW42eGRSRTlGSEdCcnlnbTgtR1h6eDc3MXFYUXRwNmNJbG5kSm5KRQ?oc=5\" target=\"_blank\">碳酸锂期货价格高位跳水失守19万关口，需求端势头强劲，后续或仍有支撑</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cls.cn</font>"
+          },
+          {
+            "title": "碳酸锂期货价格猛涨：一场偏离实体需求的危险游戏？ - 人民日报",
+            "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNWltaEdNTE5kLXU4SEFnX3VyQVNIM18zTC11Q3VONmhwTko0WTF6VHRyZTVNRmFGOGowZmpSUDJMWmduRFVmOURGYURHOHYtQnBXNnZWTHBGWVJiUHU3VDlIRk5OWVU3M3VjT2g1SGI4dDYzVV9UT1VDcHN3S0x3VlV3?oc=5",
+            "published": "Mon, 12 Jan 2026 08:00:00 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPNWltaEdNTE5kLXU4SEFnX3VyQVNIM18zTC11Q3VONmhwTko0WTF6VHRyZTVNRmFGOGowZmpSUDJMWmduRFVmOURGYURHOHYtQnBXNnZWTHBGWVJiUHU3VDlIRk5OWVU3M3VjT2g1SGI4dDYzVV9UT1VDcHN3S0x3VlV3?oc=5\" target=\"_blank\">碳酸锂期货价格猛涨：一场偏离实体需求的危险游戏？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">人民日报</font>"
+          },
+          {
+            "title": "从“减震器”到“定价锚”，一张期货合约重塑锂电产业生态 - 21财经",
+            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOY3g5STZqbXN1NUdHaEg0RDh6elFzUDg0RWcxT1JfeC04VWZiVGtNV0lqSDlRTE83dUNZWE5yU2ZtOFBJZFhNV1JEQXRPLVNuOEZwTHhDMmF1Q1dzX2xwbi1PRC1XRFVZdjNPRTFra2dJUWVCQlJIYmRxa3JRSnlrcGpsck9SalFrV3RmcG81VnkwbXJD?oc=5",
+            "published": "Wed, 22 Jul 2026 07:00:00 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOY3g5STZqbXN1NUdHaEg0RDh6elFzUDg0RWcxT1JfeC04VWZiVGtNV0lqSDlRTE83dUNZWE5yU2ZtOFBJZFhNV1JEQXRPLVNuOEZwTHhDMmF1Q1dzX2xwbi1PRC1XRFVZdjNPRTFra2dJUWVCQlJIYmRxa3JRSnlrcGpsck9SalFrV3RmcG81VnkwbXJD?oc=5\" target=\"_blank\">从“减震器”到“定价锚”，一张期货合约重塑锂电产业生态</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">21财经</font>"
+          },
+          {
+            "title": "碳酸锂期货价格大跌！后市怎么走？ - 东方财富",
+            "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB3c3pWeDBHR1FaVXliWndmdTc1N1dlZ01NY29TazFwZzZYTnE0Z2g5ejF4VVRLNXl2a1h2QXlsLU80XzZFTXVSQVBKSy1aVXF1czJ5eFhXQy13dHpjUFd6VXNhSFFfYms?oc=5",
+            "published": "Thu, 04 Jun 2026 07:00:00 GMT",
+            "description": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB3c3pWeDBHR1FaVXliWndmdTc1N1dlZ01NY29TazFwZzZYTnE0Z2g5ejF4VVRLNXl2a1h2QXlsLU80XzZFTXVSQVBKSy1aVXF1czJ5eFhXQy13dHpjUFd6VXNhSFFfYms?oc=5\" target=\"_blank\">碳酸锂期货价格大跌！后市怎么走？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">东方财富</font>"
+          }
+        ]
+      }
+    },
+    "signals": {
+      "lithium_price": {
+        "main_last": 154780.0,
+        "main_change_pct": -3.2383095773943484,
+        "main_volume": 395794.0,
+        "main_open_interest": 186331.0,
+        "top_contracts": [
+          {
+            "contract": "碳酸锂2611",
+            "last": 154020.0,
+            "change_pct": -3.0345001259128686,
+            "open_interest": 34663.0
+          },
+          {
+            "contract": "碳酸锂2705",
+            "last": 150840.0,
+            "change_pct": -3.4314980793854035,
+            "open_interest": 11816.0
+          },
+          {
+            "contract": "碳酸锂2610",
+            "last": 153680.0,
+            "change_pct": -3.224181360201511,
+            "open_interest": 9066.0
+          },
+          {
+            "contract": "碳酸锂2612",
+            "last": 154960.0,
+            "change_pct": -3.11366762535951,
+            "open_interest": 4171.0
+          },
+          {
+            "contract": "碳酸锂2609",
+            "last": 155000.0,
+            "change_pct": -2.1093848680055576,
+            "open_interest": 692.0
+          }
+        ],
+        "signal": "bearish",
+        "note": "碳酸锂期货主力下跌 -3.24%，价格走弱，留意供需恶化风险。",
+        "status": "confirmed"
+      },
+      "sector": {
+        "count": 5,
+        "up_count": 0,
+        "down_count": 5,
+        "avg_change_pct": -3.96,
+        "signal": "bearish",
+        "status": "confirmed"
+      },
+      "macro_watch": {
+        "cnh": "normal",
+        "fomc": "monitor"
+      },
+      "action": "🟠 锂价走弱：谨慎对待板块反弹，等待企稳信号。 风险提示：A股锂矿板块整体下跌，短期情绪偏弱。",
+      "data_health": {
+        "lithium_price": "confirmed",
+        "a_shares": "confirmed",
+        "asx_announcements": 5,
+        "ir_pages": 1,
+        "usd_cnh": "confirmed",
+        "summary": "锂价:OK | A股:confirmed | ASX公告:5/5 IR:1/2 | 汇率:OK",
+        "overall": "GOOD"
+      },
+      "industry_confirmed": false,
+      "rules": [
+        "预测排产不能等同实际开工率",
+        "搜索新闻不能等同官方减产公告",
+        "缺失数据不能让AI自行补全",
+        "宏观指标只能用于风险过滤",
+        "期货价格仅代表盘面预期，不等同于现货成交价"
+      ]
+    }
+  }
+}
