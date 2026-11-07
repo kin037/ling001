@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-07T01:38:01.737914+08:00",
+    "generated_at": "2026-11-08T00:34:51.391503+08:00",
     "timezone": "Asia/Shanghai",
     "mode": "daily",
     "system_version": "3.0"
@@ -10,7 +10,7 @@
       "status": "confirmed",
       "source": "新浪财经-广期所碳酸锂期货",
       "source_url": "https://finance.sina.com.cn/futures/quotes/LC0.shtml",
-      "retrieved_at": "2026-11-06T17:38:02.797942+00:00",
+      "retrieved_at": "2026-11-07T16:34:52.037387+00:00",
       "main_contract": {
         "contract": "碳酸锂连续",
         "open": 90100.0,
@@ -124,7 +124,7 @@
         "volume": 40709760.0,
         "amount": 1531669038.49,
         "date": "2026-11-06",
-        "time": "15:35:30",
+        "time": "16:29:30",
         "change_pct": -2.2619673855865505,
         "label": "天齐锂业"
       },
@@ -138,7 +138,7 @@
         "volume": 54957564.0,
         "amount": 2145253879.69,
         "date": "2026-11-06",
-        "time": "15:35:15",
+        "time": "16:29:15",
         "change_pct": -2.8222730739893196,
         "label": "赣锋锂业"
       },
@@ -152,7 +152,7 @@
         "volume": 50381022.0,
         "amount": 1173637047.82,
         "date": "2026-11-06",
-        "time": "15:36:00",
+        "time": "16:30:00",
         "change_pct": -1.3634426927993195,
         "label": "盐湖股份"
       },
@@ -166,7 +166,7 @@
         "volume": 27412182.0,
         "amount": 1036712434.3,
         "date": "2026-11-06",
-        "time": "15:35:00",
+        "time": "16:29:00",
         "change_pct": -2.7393686407513624,
         "label": "中矿资源"
       },
@@ -180,7 +180,7 @@
         "volume": 12932131.0,
         "amount": 470087772.75,
         "date": "2026-11-06",
-        "time": "15:35:15",
+        "time": "16:29:15",
         "change_pct": -2.575921908893717,
         "label": "永兴材料"
       }
@@ -199,9 +199,9 @@
       }
     },
     "usd_cnh": {
-      "value": 6.6715,
-      "change_pct": 0.1,
-      "change": 0.0067,
+      "value": 6.6736,
+      "change_pct": 0.13,
+      "change": 0.0088,
       "high": 6.6748,
       "low": 6.661,
       "date": "2026-11-07",
@@ -213,8 +213,8 @@
     "us_stocks": {
       "ALB": {
         "symbol": "ALB",
-        "value": 98.385,
-        "change_pct": 8.115384615384622,
+        "value": 99.25,
+        "change_pct": 9.065934065934066,
         "currency": "USD",
         "market_state": null,
         "exchange": "NYQ",
@@ -224,8 +224,8 @@
       },
       "SQM": {
         "symbol": "SQM",
-        "value": 57.54,
-        "change_pct": 5.288197621225985,
+        "value": 57.52,
+        "change_pct": 5.251601097895708,
         "currency": "USD",
         "market_state": null,
         "exchange": "NYQ",
@@ -235,8 +235,8 @@
       },
       "LAC": {
         "symbol": "LAC",
-        "value": 1.9,
-        "change_pct": -6.403940886699503,
+        "value": 1.93,
+        "change_pct": -4.92610837438423,
         "currency": "USD",
         "market_state": null,
         "exchange": "NYQ",
@@ -250,7 +250,7 @@
     "fomc": {
       "source": "Federal Reserve",
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-      "retrieved_at": "2026-11-06T17:38:05.173576+00:00",
+      "retrieved_at": "2026-11-07T16:34:54.143323+00:00",
       "status": "confirmed",
       "meetings": [
         {
@@ -343,7 +343,7 @@
         "code": "PLS",
         "label": "Pilbara Minerals（皮尔巴拉矿业）",
         "source_url": "https://asx.api.markitdigital.com/asx-research/1.0/companies/PLS/announcements?fields=code,announcement-date,date,file-type,headline,id,market-sensitive,page,price-sensitive,release-date,type,url",
-        "retrieved_at": "2026-11-06T17:38:05.598552+00:00",
+        "retrieved_at": "2026-11-07T16:34:54.819253+00:00",
         "status": "confirmed",
         "announcements": [
           {
@@ -387,7 +387,7 @@
         "code": "MIN",
         "label": "Mineral Resources（矿产资源）",
         "source_url": "https://asx.api.markitdigital.com/asx-research/1.0/companies/MIN/announcements?fields=code,announcement-date,date,file-type,headline,id,market-sensitive,page,price-sensitive,release-date,type,url",
-        "retrieved_at": "2026-11-06T17:38:05.994116+00:00",
+        "retrieved_at": "2026-11-07T16:34:55.495175+00:00",
         "status": "confirmed",
         "announcements": [
           {
@@ -431,7 +431,7 @@
         "code": "IGO",
         "label": "IGO Limited（天齐澳洲合资方）",
         "source_url": "https://asx.api.markitdigital.com/asx-research/1.0/companies/IGO/announcements?fields=code,announcement-date,date,file-type,headline,id,market-sensitive,page,price-sensitive,release-date,type,url",
-        "retrieved_at": "2026-11-06T17:38:06.385428+00:00",
+        "retrieved_at": "2026-11-07T16:34:56.376997+00:00",
         "status": "confirmed",
         "announcements": [
           {
@@ -475,7 +475,7 @@
         "code": "LTR",
         "label": "Lithium Plus Minerals",
         "source_url": "https://asx.api.markitdigital.com/asx-research/1.0/companies/LTR/announcements?fields=code,announcement-date,date,file-type,headline,id,market-sensitive,page,price-sensitive,release-date,type,url",
-        "retrieved_at": "2026-11-06T17:38:06.860680+00:00",
+        "retrieved_at": "2026-11-07T16:34:57.041137+00:00",
         "status": "confirmed",
         "announcements": [
           {
@@ -519,7 +519,7 @@
         "code": "CXO",
         "label": "Core Lithium（核心锂业）",
         "source_url": "https://asx.api.markitdigital.com/asx-research/1.0/companies/CXO/announcements?fields=code,announcement-date,date,file-type,headline,id,market-sensitive,page,price-sensitive,release-date,type,url",
-        "retrieved_at": "2026-11-06T17:38:07.175628+00:00",
+        "retrieved_at": "2026-11-07T16:34:57.867932+00:00",
         "status": "confirmed",
         "announcements": [
           {
@@ -563,7 +563,7 @@
     "ALB": {
       "name": "Albemarle Investor Relations",
       "source_url": "https://investors.albemarle.com/news-and-events/news/default.aspx",
-      "retrieved_at": "2026-11-06T17:38:07.451862+00:00",
+      "retrieved_at": "2026-11-07T16:34:58.211586+00:00",
       "status": "confirmed",
       "note": "IR页面多为动态渲染，若标题为空表示未能解析出新闻条目。",
       "titles": [
@@ -623,67 +623,67 @@
       "status": "discovery_only",
       "source": "Bing News",
       "source_url": "https://www.bing.com/news/search?q=%E9%94%82%E7%94%B5%E6%B1%A0%20%E7%A2%B3%E9%85%B8%E9%94%82%20%E4%BB%B7%E6%A0%BC%20%E5%BC%80%E5%B7%A5%E7%8E%87&format=rss&setlang=zh-hans",
-      "retrieved_at": "2026-11-06T17:38:07.923916+00:00",
+      "retrieved_at": "2026-11-07T16:34:58.672110+00:00",
       "items": [
         {
           "title": "国内电池厂开工率有望5月回升，碳酸锂二季度或触10万元/吨后反弹",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee107f731a453083647de2b43ab0fe&url=https%3a%2f%2fnews.qq.com%2frain%2fa%2f20230417A08XKO00&c=16067762873668343163&mkt=en-us",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef5332242c4edba408e73f4342869d&url=https%3a%2f%2fnews.qq.com%2frain%2fa%2f20230417A08XKO00&c=16067762873668343163&mkt=en-us",
           "published": "Mon, 17 Apr 2023 13:20:00 GMT",
           "description": "锂电池关键材料碳酸锂价格暴跌不止，已经引发了业内人士对行业发展的担忧。 4月17日，澎湃新闻记者从部分电池厂商和行业人士处了解到，目前国内主要电池厂商的去库存工作或将延续至5月，此后产能的开工率有望回升，这或将带动原材料采购需求的提振。"
         },
         {
-          "title": "年内价格腰斩 碳酸锂后市走向何方",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee107f731a453083647de2b43ab0fe&url=https%3a%2f%2fwww.sohu.com%2fa%2f1097953318_120988576&c=11320065166132020832&mkt=en-us",
-          "published": "Fri, 06 Nov 2026 03:31:00 GMT",
-          "description": "上证报中国证券网讯（记者 霍星羽）11月6日，碳酸锂主力合约价格盘中继续上涨，截至10时10分，盘中最大涨幅达3.17%，触及9.368万元/吨。前一交易日，该合约一度上涨6.29%，收盘上涨3.64%。此前，该合约已连续多日回调，相较年内高点价格已经腰斩。 碳酸锂价格为何大幅回调？供需格局将如何演变？后市价格又会走向何方？上证报记者采访了产业链多方人士，试图寻找答案。 本轮锂价大幅回调 5月13 ..."
-        },
-        {
           "title": "电池级碳酸锂重回十万关口：减产落地排产信号与锂盐底部确认",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee107f731a453083647de2b43ab0fe&url=https%3a%2f%2fwww.sohu.com%2fa%2f1093867028_122950782&c=14937900814282298956&mkt=en-us",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef5332242c4edba408e73f4342869d&url=https%3a%2f%2fwww.sohu.com%2fa%2f1093867028_122950782&c=14937900814282298956&mkt=en-us",
           "published": "Fri, 30 Oct 2026 16:08:00 GMT",
           "description": "电池级碳酸锂价格在十月下旬重回每吨十万元关口上方，据第三方现货机构口径，十月二十七日电池级碳酸锂中间价报约十万零四千元，单日上涨约一千四百元，行业联合减产的供给收缩预期正从纸面走向兑现。这一价格水平较月内早些时候刷新年内低点的位置明显反弹，锂盐市场在持续近一年的磨底后，首次出现供给端主动收缩带来的价格企稳信号，市场情绪从悲观转向谨慎修复。"
         },
         {
-          "title": "碳酸锂再暴涨，电车又要涨价？",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee107f731a453083647de2b43ab0fe&url=https%3a%2f%2fwww.36kr.com%2fp%2f2273975784541829&c=1152821659233913206&mkt=en-us",
-          "published": "Thu, 25 May 2023 17:00:00 GMT",
-          "description": "回顾碳酸锂跌价前夕，有知情人士透露，国内某动力电池龙头产能利用率严重下滑，开工率40%左右，而且排名前几的电芯厂开工率都不高。连锁反应下，动力电池产业链更上游的正负极材料、电解液供应商们，也都面临着产能过剩的问题。"
-        },
-        {
           "title": "碳讨|碳酸锂单日暴涨逾万元，锂价激变下的储能生态重构",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee107f731a453083647de2b43ab0fe&url=https%3a%2f%2fnews.sina.cn%2f2026-01-30%2fdetail-inhkakfp0667670.d.html%3fvt%3d4&c=8510104501201825812&mkt=en-us",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef5332242c4edba408e73f4342869d&url=https%3a%2f%2fnews.sina.cn%2f2026-01-30%2fdetail-inhkakfp0667670.d.html%3fvt%3d4&c=8510104501201825812&mkt=en-us",
           "published": "Fri, 30 Jan 2026 07:23:00 GMT",
           "description": "据上海有色（SMM），1月26日SMM电池级碳酸锂指数价格178964元/吨，环比上一工作日上涨10004元/吨；电池级碳酸锂17.8-18.5万元/吨，均价18.15万元/吨，环比上一工作日上涨10500元/吨。这一涨幅在价格敏感的新能源产业链中引发震动，意 ..."
         },
         {
+          "title": "锂业分会：8月国内碳酸锂价格小幅上涨 下游电池排产超出预期",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef5332242c4edba408e73f4342869d&url=https%3a%2f%2fnews.qq.com%2frain%2fa%2f20260921A04OVY00&c=17940665277057575747&mkt=en-us",
+          "published": "Mon, 21 Sep 2026 04:21:00 GMT",
+          "description": "智通财经APP获悉，9月21日，锂业分会发布2026年8月锂行业运行情况。2026年8月，碳酸锂价格小幅上涨，津巴布韦锂矿到港不及预期，部分企业停产检修，市场预期短期供应收紧。同时，下游电池排产超出预期，储能与动力电池同步拉动需求上涨。 2026年8月，国内 ..."
+        },
+        {
+          "title": "年内价格腰斩 碳酸锂后市走向何方",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef5332242c4edba408e73f4342869d&url=https%3a%2f%2fwww.sohu.com%2fa%2f1097953318_120988576&c=11320065166132020832&mkt=en-us",
+          "published": "Fri, 06 Nov 2026 03:31:00 GMT",
+          "description": "上证报中国证券网讯（记者 霍星羽）11月6日，碳酸锂主力合约价格盘中继续上涨，截至10时10分，盘中最大涨幅达3.17%，触及9.368万元/吨。前一交易日，该合约一度上涨6.29%，收盘上涨3.64%。此前，该合约已连续多日回调，相较年内高点价格已经腰斩。 碳酸锂价格为何大幅回调？供需格局将如何演变？后市价格又会走向何方？上证报记者采访了产业链多方人士，试图寻找答案。 本轮锂价大幅回调 5月13 ..."
+        },
+        {
           "title": "“金九”落空，碳酸锂价格跌至12万元关口，下游10月排产增速或放缓",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee107f731a453083647de2b43ab0fe&url=https%3a%2f%2fnews.qq.com%2frain%2fa%2f20261002A036U000%3fadChannelId%3dfinance&c=7400493625967546871&mkt=en-us",
-          "published": "Fri, 02 Oct 2026 02:03:00 GMT",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef5332242c4edba408e73f4342869d&url=https%3a%2f%2ffinance.eastmoney.com%2fa%2f202610023888327118.html&c=11299580961784717987&mkt=en-us",
+          "published": "Fri, 02 Oct 2026 01:55:00 GMT",
           "description": "根据多平台数据，目前电池级碳酸锂的送到成交价最低已跌破12万元/吨，均价则跌至12万元/吨出头。9月30日，上海钢联电池级 ..."
         },
         {
-          "title": "碳酸锂供给压力仍存 工业硅需求低位回升",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee107f731a453083647de2b43ab0fe&url=https%3a%2f%2ffinance.sina.com.cn%2fmoney%2ffuture%2ffmnews%2f2026-11-06%2fdoc-inixuqhy8805189.shtml&c=16012141601782362835&mkt=en-us",
-          "published": "Fri, 06 Nov 2026 05:19:00 GMT",
-          "description": "1、基本面:供给端来看，上周碳酸锂产量为27821吨，环比增长5.48%,高于历史同期平均水平。需求端来看，上周磷酸铁锂样本企业库存为137500吨，环比增加2.30%,上周三元材料样本企业库存为19773吨，环比减少0.32%。"
-        },
-        {
           "title": "【碳酸锂】现实预期博弈 锂价震荡运行",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee107f731a453083647de2b43ab0fe&url=https%3a%2f%2fnews.10jqka.com.cn%2f20261028%2fc681165197.shtml&c=9082558042653690070&mkt=en-us",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef5332242c4edba408e73f4342869d&url=https%3a%2f%2fnews.10jqka.com.cn%2f20261028%2fc681165197.shtml&c=9082558042653690070&mkt=en-us",
           "published": "Tue, 27 Oct 2026 10:49:00 GMT",
           "description": "供应：随着津巴布韦锂矿到港、澳矿增量逐步兑现，辉石提锂原料短缺的问题有所缓解，预计后续辉石提锂产量呈小幅增长态势。云母提锂方面，江西头部矿山预计11月复产，内蒙、湖南等地新增云母项目预计后续逐步投产，云母提锂产量小幅增长。盐湖提锂进入生 ..."
         },
         {
           "title": "中国锂价暴跌7成 分析：中共将逼小企业降产能",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee107f731a453083647de2b43ab0fe&url=https%3a%2f%2fwww.epochtimes.com%2fgb%2f23%2f5%2f3%2fn13987515.htm&c=18128632942707475015&mkt=en-us",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef5332242c4edba408e73f4342869d&url=https%3a%2f%2fwww.epochtimes.com%2fgb%2f23%2f5%2f3%2fn13987515.htm&c=18128632942707475015&mkt=en-us",
           "published": "Wed, 03 May 2023 22:39:00 GMT",
           "description": "【大纪元2023年05月04日讯】（大纪元专题部记者张宛报导）中国电池级碳酸锂的价格自去年11月高点以来已暴跌7成，令去年以来疯狂抢锂的中国企业遭受巨大打击，天价锂矿也遭遇被悔拍，中国动力电池产业链中，下游企业向上游违约的情况增加。有分析认为 ..."
         },
         {
           "title": "碳酸锂价格刷新年内新低，未来走势如何研判？",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee107f731a453083647de2b43ab0fe&url=https%3a%2f%2fview.inews.qq.com%2fa%2f20261012A0CJHL00&c=15961133607841174337&mkt=en-us",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef5332242c4edba408e73f4342869d&url=https%3a%2f%2fview.inews.qq.com%2fa%2f20261012A0CJHL00&c=15961133607841174337&mkt=en-us",
           "published": "Mon, 12 Oct 2026 16:51:00 GMT",
           "description": "张贵杰用一句话概括底层逻辑：“锂矿赚的是锂价周期的钱，电池和材料赚的是产能利用率和 加工费 的钱。 ”锂价下跌，直接压缩锂矿企业的产品售价和毛利；但对电池厂来说， 碳酸锂 是主要原材料，价格持续下跌反而降低生产成本，加工利润有望修复。"
+        },
+        {
+          "title": "碳酸锂“新贵”签下20000吨订单！",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef5332242c4edba408e73f4342869d&url=https%3a%2f%2ffinance.sina.com.cn%2froll%2f2026-10-19%2fdoc-inivtynp6220960.shtml&c=9818781193960960408&mkt=en-us",
+          "published": "Mon, 19 Oct 2026 01:57:00 GMT",
+          "description": "国城矿业10月16日晚公告，公司控股子公司四川国城锂业有限公司与公司控股股东国城控股集团有限公司全资子公司天津国城贸易有限公司签署《碳酸锂购销合同》，约定自2026年11月至2029年10月，国城锂业向天津国城销售电池级碳酸锂不低于2万吨。 公告表示，本次碳酸锂购销合同的签署，有利于保障国城锂业电池级碳酸锂产品稳定销售，预计将在合作周期内为公司带来持续稳定的营业收入与毛利贡献。 国城锂业布局了五年 ..."
         }
       ],
       "warning": "RSS搜索结果只能作为线索，不能直接作为真实开工率。",
@@ -693,12 +693,6 @@
           "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9wOGZkQ1U2MUU4aEt1aVZkM3FrX3d5QUpLa19KQVRoYTVTZDNZQnZlbzFSTXNiTW5nblE1aHcwM05jS3pINUhKRQ?oc=5",
           "published": "Wed, 20 May 2026 11:35:20 GMT",
           "description": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE9wOGZkQ1U2MUU4aEt1aVZkM3FrX3d5QUpLa19KQVRoYTVTZDNZQnZlbzFSTXNiTW5nblE1aHcwM05jS3pINUhKRQ?oc=5\" target=\"_blank\">“行业库存仅一周”！六氟磷酸锂价格“淡季逆袭”单周涨超12% 业内预测仍存推涨空间</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">财联社</font>"
-        },
-        {
-          "title": "碳酸锂期价偏强震荡 2026年或维持供需双增 - 中国有色网",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ETFI0Tkt6dk11RlRhazNuSm80UFcxMk5RSWhaek9Zb0UtN05ENS1ZS25qbkRQY1J4SXJNUFpfRFF6aGIybnl2eEhSd0F0dENNZlI0U1dOdTBCMndV?oc=5",
-          "published": "Fri, 19 Dec 2025 08:00:00 GMT",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ETFI0Tkt6dk11RlRhazNuSm80UFcxMk5RSWhaek9Zb0UtN05ENS1ZS25qbkRQY1J4SXJNUFpfRFF6aGIybnl2eEhSd0F0dENNZlI0U1dOdTBCMndV?oc=5\" target=\"_blank\">碳酸锂期价偏强震荡 2026年或维持供需双增</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">中国有色网</font>"
         },
         {
           "title": "同比增39%！8月国内碳酸锂总产量再创新高 - https://www.itdcw.com/",
@@ -713,6 +707,12 @@
           "description": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE96cy1RWEctSDVXQWd5SmpRcDNnSEFNVHY1SC15VG5LVUUwOWJDUllJQmlka3FvaVVSZGk3MnBhYk4tWEVXaTE3ZlhnVURyejk0VVlwRE5R?oc=5\" target=\"_blank\">龙蟠科技(603906):江苏龙蟠科技集团股份有限公司关于日常经营重大合同相关事项的监管工作函的回复公告</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">中财网</font>"
         },
         {
+          "title": "生意社：2023年碳酸锂价格一落千丈 2024年跌幅或收窄 - finance.sina.com.cn",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQN1Y5bWRtclQwNHVnOG9ycFZyVzNPQWxteG15SWdBWlBLQm9wM0xtVGEzX3hqdWd4T2JaT2t5TEo5UXZIX0hjaDhLcWo1R3ZlbzZkSmRNM2Rtcnk2Nlpab1R5NmtDX3Nfbkc5cDNpQ2FWLWpILXZfQnY4ZHQ2N2MyUjhlSW14b0NMM0E?oc=5",
+          "published": "Wed, 17 Jan 2024 08:00:00 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQN1Y5bWRtclQwNHVnOG9ycFZyVzNPQWxteG15SWdBWlBLQm9wM0xtVGEzX3hqdWd4T2JaT2t5TEo5UXZIX0hjaDhLcWo1R3ZlbzZkSmRNM2Rtcnk2Nlpab1R5NmtDX3Nfbkc5cDNpQ2FWLWpILXZfQnY4ZHQ2N2MyUjhlSW14b0NMM0E?oc=5\" target=\"_blank\">生意社：2023年碳酸锂价格一落千丈 2024年跌幅或收窄</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.sina.com.cn</font>"
+        },
+        {
           "title": "赣锋锂业董事长惊天预言：2026年碳酸锂价格有望突破15甚至20万元一吨！ - 华尔街见闻",
           "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CaXVfOGhHLUFEckpjRWhnMVZKT0NXWVpFQTl5Q1VPczZjSTlsdVVkbzZuakg2dVNvU0FzLTMyWGpzUUJCYnF0bmUxeDJ5MFFiMjRj?oc=5",
           "published": "Sun, 16 Nov 2025 08:00:00 GMT",
@@ -724,76 +724,76 @@
       "status": "discovery_only",
       "source": "Bing News",
       "source_url": "https://www.bing.com/news/search?q=%E9%94%82%E7%9B%90%20%E7%A2%B3%E9%85%B8%E9%94%82%20%E5%87%8F%E4%BA%A7%20%E4%BE%9B%E5%BA%94&format=rss&setlang=zh-hans",
-      "retrieved_at": "2026-11-06T17:38:08.550605+00:00",
+      "retrieved_at": "2026-11-07T16:34:59.238908+00:00",
       "items": [
         {
-          "title": "碳酸锂下游减产拖累需求 多晶硅供应边际改善",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee108013074ba78675004e3b63d23e&url=https%3a%2f%2ffinance.sina.com.cn%2fmoney%2ffuture%2ffmnews%2f2026-11-04%2fdoc-inixqaay1592928.shtml&c=9823005121061585105&mkt=en-us",
-          "published": "Wed, 04 Nov 2026 05:25:00 GMT",
-          "description": "基本面上，碳酸锂供应端，海外锂矿发运逐步兑现，港口锂矿库存继续累积，现货流动相对充裕，强化市场对供应宽松的预期。需求端，未能支撑起盘面，传统旺季已经接近尾声，下游需求出现放缓，部分企业下调产量。库存方面维持去库，仓单去化，市场对此反应疲软。目前市场对碳酸锂远期基本面走弱的预期并未证伪，碳酸锂偏弱震荡。"
-        },
-        {
-          "title": "六年两轮大起落，碳酸锂正在走向新一轮底部吗？",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee108013074ba78675004e3b63d23e&url=https%3a%2f%2fwww.sohu.com%2fa%2f1094541422_122987885&c=5397015259417433230&mkt=en-us",
-          "published": "Thu, 29 Oct 2026 13:24:00 GMT",
-          "description": "碳酸锂又一次站在了市场分歧的中心。 2026年10月29日，碳酸锂主力期货收于88360元/吨，跌破9万元关口。Mysteel当天早盘电池级碳酸锂现货中间价为96900元/吨。两项报价的时点与交易属性不同，却共同反映出一个现实：锂价已经从年内高位明显回落，产业链正在重新评估未来供应与需求。 市场关心的已不只是某座矿山何时复产，而是更深一层的问题：这轮下跌会重复2023年的路径，还是正在为下一次反弹 ..."
-        },
-        {
           "title": "宁德时代宜春锂矿复产再进一步，碳酸锂还会跌多少？",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee108013074ba78675004e3b63d23e&url=https%3a%2f%2fwww.sohu.com%2fa%2f1092539070_122987885&c=12095969387250001496&mkt=en-us",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef533321384fdfb1507a5aece64d23&url=https%3a%2f%2fwww.sohu.com%2fa%2f1092539070_122987885&c=12095969387250001496&mkt=en-us",
           "published": "Sun, 25 Oct 2026 10:50:00 GMT",
           "description": "一座矿的审批进展，再次牵动整个锂电产业链。 10月22日，宜春市生态环境局发布枧下窝锂矿采矿项目生态环境影响报告书拟批准公示，公示期至10月28日。市场最关心的问题随之而来：如果这座宁德时代布局的重要锂矿恢复生产，碳酸锂价格还会承受多大压力？[1] 从产业观察的角度看，复产将削弱锂价上涨的供应约束，但不能把一座矿的恢复，直接换算成每吨碳酸锂必跌多少元。真正决定价格的，是复产后能形成多少有效增量、下 ..."
         },
         {
           "title": "逼近10万元关口，2个月内跌40%，碳酸锂为何又崩了",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee108013074ba78675004e3b63d23e&url=https%3a%2f%2fwww.huxiu.com%2farticle%2f4897215.html&c=99808744926920201&mkt=en-us",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef533321384fdfb1507a5aece64d23&url=https%3a%2f%2fwww.huxiu.com%2farticle%2f4897215.html&c=99808744926920201&mkt=en-us",
           "published": "Mon, 12 Oct 2026 22:06:00 GMT",
           "description": "2026年9月至10月，受供需偏弱、矿端宽松预期和高盛看空报告影响，碳酸锂期货与现货价格大幅下跌，主力合约跌破11万元/吨并创年内新低。市场担忧2027—2028年全球锂市场转向供应过剩，10万元/吨成本支撑成为后续观察重点。"
         },
         {
-          "title": "近半年价格“腰斩” 碳酸锂市场分歧仍显著",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee108013074ba78675004e3b63d23e&url=https%3a%2f%2ffinance.sina.com.cn%2fmoney%2fbond%2f2026-11-06%2fdoc-inixucte8870116.shtml&c=1730741234079627086&mkt=en-us",
-          "published": "Thu, 05 Nov 2026 16:00:00 GMT",
-          "description": "新华财经上海11月6日电（记者霍星羽）11月5日，碳酸锂主力合约盘中一度上涨6.29%，截至收盘上涨3.64%，报9.158万元／吨。此前，该合约已连续多日回调，相较年内高点价格已经“腰斩”。 碳酸锂价格前期为何大幅回调？供需格局将如何演变？后市价格将走向何方？记者采访多位业内人士，试图寻找答案。 5月13日，碳酸锂主力合约盘中触及20.984万元／吨，创下本轮行情阶段性高点。当时市场乐观情绪浓厚 ..."
-        },
-        {
-          "title": "碳酸锂期货跌破12万，单月跌21.81%，旺季为何不旺？",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee108013074ba78675004e3b63d23e&url=https%3a%2f%2fnews.qq.com%2frain%2fa%2f20260930A03PK100&c=15344031834614605528&mkt=en-us",
-          "published": "Wed, 30 Sep 2026 23:15:00 GMT",
-          "description": "会怎样影响电池成本和新能源车价格呢？旺季到来，为什么碳酸锂还处在下跌的路上呢？碳酸锂期货又跌了这么多。 9月28日主力合约2701延续下行趋势，当日跌幅达到5.69%，价格跌破12万元/吨，刷新年内低点。现货市场也呈下跌态势。富宝资讯显示，截至9月28日全国电池级碳酸锂市场均价为12.24万元/吨，较8月末下降了21.81%。 但是从更长时间来看该价格仍然比去年同期高出了67.44%。同品种来说, ..."
-        },
-        {
           "title": "【碳酸锂月报】水落鱼梁浅 天寒梦泽深",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee108013074ba78675004e3b63d23e&url=https%3a%2f%2fnews.10jqka.com.cn%2f20261105%2fc681483857.shtml&c=2830745956821804060&mkt=en-us",
-          "published": "Thu, 05 Nov 2026 00:48:00 GMT",
-          "description": "预计11月碳酸锂去库幅度逐步放缓，现货支撑有所松动，但考虑到11月较难出现碳酸锂大幅过剩的局面，预计锂价运行重心呈温和下移态势。　　10月碳酸锂主力合约延续下行趋势。尽管9月电芯排产下调，需求增长不及预期，但由于电池税窗口导致部分需求前 ..."
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef533321384fdfb1507a5aece64d23&url=https%3a%2f%2fnews.10jqka.com.cn%2ffield%2f20261105%2f681483857.shtml&c=12587085830374592403&mkt=en-us",
+          "published": "Wed, 04 Nov 2026 08:49:00 GMT",
+          "description": "预计11月碳酸锂去库幅度逐步放缓，现货支撑有所松动，但考虑到11月较难出现碳酸锂大幅过剩的局面，预计锂价运行重心呈温和下移态势。"
+        },
+        {
+          "title": "碳酸锂月报：碳酸锂价格走弱 远期供给与弱需求压制盘面",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef533321384fdfb1507a5aece64d23&url=https%3a%2f%2ffinance.sina.com.cn%2fmoney%2ffuture%2ffmnews%2f2026-11-02%2fdoc-inixicic0513931.shtml&c=3306570784202270533&mkt=en-us",
+          "published": "Sun, 01 Nov 2026 16:01:00 GMT",
+          "description": "价格方面：本周碳酸锂2701合约宽幅震荡下行，从周一的96740元/吨跌至周五的88500元/吨，周跌幅达9.03%。期间价格波动剧烈，最高达101520元/吨，周低点为88040元/吨，本周增仓1732手。 供应端：据SMM统计，碳酸锂周度总产量27821吨，环比+1446吨；其中辉石产碳酸锂16504吨，环比+1537吨；云母产碳酸锂3298吨，环比+114吨；盐湖产碳酸锂5664吨，环比-7 ..."
+        },
+        {
+          "title": "年内价格腰斩 碳酸锂后市走向何方",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef533321384fdfb1507a5aece64d23&url=https%3a%2f%2fnews.qq.com%2frain%2fa%2f20261106A06DLT00&c=6984388091007937602&mkt=en-us",
+          "published": "Fri, 06 Nov 2026 03:44:00 GMT",
+          "description": "上证报中国证券网讯（记者 霍星羽）11月6日，碳酸锂主力合约价格盘中继续上涨，截至10时10分，盘中最大涨幅达3.17%，触及9.368万元/吨。前一交易日，该合约一度上涨6.29%，收盘上涨3.64%。此前，该合约已连续多日回调，相较年内高点价格已经腰斩。"
         },
         {
           "title": "提前交易悲观预期，碳酸锂期货逼近10万元/吨 | 行业风向标",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee108013074ba78675004e3b63d23e&url=https%3a%2f%2fwww.tmtpost.com%2f8167507.html&c=8860213474969644724&mkt=en-us",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef533321384fdfb1507a5aece64d23&url=https%3a%2f%2fwww.tmtpost.com%2f8167507.html&c=8860213474969644724&mkt=en-us",
           "published": "Mon, 12 Oct 2026 17:01:00 GMT",
           "description": "连续8根周K阴线后，碳酸锂期货价格已经无限逼近10万元/吨，较今年5月中旬的20万元/吨腰斩。尤其10月12日跌超10%并13日再下挫后，直接将市场拉入冰点。 二级市场上，锂矿板块同步下跌，锂矿指数（884785.WI）两日累计跌5%。其中，个股永杉锂业（603399.SH）、融捷股份（002192.SZ）、天华新能（300390.SZ）和盛新锂能（002240.SZ） 跌幅更甚，两日累计均跌超8 ..."
         },
         {
+          "title": "碳酸锂行业深度报告：供需双击，碳酸锂新周期仍在途",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef533321384fdfb1507a5aece64d23&url=https%3a%2f%2ffinance.sina.com.cn%2fstock%2frelnews%2fcn%2f2026-05-20%2fdoc-inhyqcsk6356467.shtml&c=6083175439262318412&mkt=en-us",
+          "published": "Wed, 20 May 2026 13:49:00 GMT",
+          "description": "头部企业复产冲击下，25H1 锂价击穿成本支撑后流畅下跌。受行业龙头产能恢复 投产带来的市场冲击影响，2025 年上半年碳酸锂价格彻底失守成本防线，整体行情 呈现持续下行态势。2024 年开春之后，国内新能源汽车市场消费需求表现优于市场 预判，经历过 2023 ..."
+        },
+        {
           "title": "4家磷酸铁锂龙头逆势减产 为争夺碳酸锂定价权？ 业内呼吁：产业链 ...",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee108013074ba78675004e3b63d23e&url=https%3a%2f%2ffinance.eastmoney.com%2fa%2f202512293604517664.html&c=8791754235966575200&mkt=en-us",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef533321384fdfb1507a5aece64d23&url=https%3a%2f%2ffinance.eastmoney.com%2fa%2f202512293604517664.html&c=8791754235966575200&mkt=en-us",
           "published": "Mon, 29 Dec 2025 09:45:00 GMT",
           "description": "2025年末，行业供不应求之际，4家磷酸铁锂头部企业集体减产，进行为期1个月的检修。除德方纳米未披露减产规模外，另外3家共预计最多减产6万吨。 近日，多位分析师与业内人士在接受《每日经济新闻》记者（以下简称“每经记者”）采访时表示，磷酸铁锂 ..."
         },
         {
-          "title": "碳酸锂期货价格猛涨：一场偏离实体需求的危险游戏？",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee108013074ba78675004e3b63d23e&url=https%3a%2f%2fnews.sina.cn%2fsx%2f2026-01-20%2fdetail-inhhxznt6092687.d.html%3fvt%3d4&c=11646650448130897447&mkt=en-us",
-          "published": "Tue, 20 Jan 2026 09:42:00 GMT",
-          "description": "进入2026年以来，碳酸锂价格持续保持了强势上涨势头。1月7日，碳酸锂期货市场，主力合约价格已经攀升至14.5万元/吨；现货市场，SMM电池级碳酸锂指数、电池级碳酸锂和工业级碳酸锂价格在元旦后持续迅猛上涨，接连迈过12万元/吨、13万元/吨大关，目前价格已逼近 ..."
+          "title": "近半年价格“腰斩” 碳酸锂市场分歧仍显著",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef533321384fdfb1507a5aece64d23&url=http%3a%2f%2fwww.ce.cn%2fmacro%2fmore%2f202611%2ft20261106_3285486.shtml&c=10178728661924698371&mkt=en-us",
+          "published": "Thu, 05 Nov 2026 23:36:00 GMT",
+          "description": "5月13日，碳酸锂主力合约盘中触及20.984万元/吨，创下本轮行情阶段性高点。当时市场乐观情绪浓厚，有机构判断，“这波碳酸锂有望冲至25万元/吨”。然而，截至11月5日，锂价已较高点“腰斩”。"
+        },
+        {
+          "title": "短线反弹来袭！碳酸锂主力涨 2.27%，预期博弈下维持弱震荡格局",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef533321384fdfb1507a5aece64d23&url=https%3a%2f%2fwww.sohu.com%2fa%2f1098327284_121123923&c=5591081883407117273&mkt=en-us",
+          "published": "Sat, 07 Nov 2026 00:09:00 GMT",
+          "description": "据长江有色金属网数据显示，2026 年 11 月 6 日，长江综合电池级碳酸锂 99.5% 均价 94000 元 / 吨，较上一交易日上涨 750 元；工业级碳酸锂 99.2% 均价 91000 元 / 吨，同步上调 750 元。期货盘面表现强于现货，碳酸锂主力合约收涨 2.27%，报 92860 元 / 吨，期现价差持续博弈。虽然当日价格收涨，但市场定价重心依旧围绕远期供需预期展开，基本面并未出 ..."
         }
       ],
       "warning": "RSS搜索结果只能作为线索，不能直接作为真实开工率。",
       "fallback_items": [
         {
-          "title": "行业观察|碳酸锂价格逼近氢氧化锂 锂盐供需或进入“白热化”阶段 - 财联社电报",
-          "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9PQVlrQUJKRE12STJfRGp0QUUyeXRacU5Ca2N2M3gwR09MVk9SeThqOVJ6bVd3dVREZHNMcTBXRHRZMzFP?oc=5",
-          "published": "Sun, 12 Sep 2021 07:00:00 GMT",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE9PQVlrQUJKRE12STJfRGp0QUUyeXRacU5Ca2N2M3gwR09MVk9SeThqOVJ6bVd3dVREZHNMcTBXRHRZMzFP?oc=5\" target=\"_blank\">行业观察|碳酸锂价格逼近氢氧化锂 锂盐供需或进入“白热化”阶段</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">财联社电报</font>"
+          "title": "供需有进一步宽松预期，价格仍有下行空间 | 碳酸锂机构要评 - 财联社电报",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9VbG9tSjA3SjVLRjR1UFd2MzNZbXB4UGpFUmpmN0E3WjBpNV9mMExiX1NYdUNsekk4RHR3aEViaGNoZl9UWXc?oc=5",
+          "published": "Mon, 23 Oct 2023 07:00:00 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiRkFVX3lxTE9VbG9tSjA3SjVLRjR1UFd2MzNZbXB4UGpFUmpmN0E3WjBpNV9mMExiX1NYdUNsekk4RHR3aEViaGNoZl9UWXc?oc=5\" target=\"_blank\">供需有进一步宽松预期，价格仍有下行空间 | 碳酸锂机构要评</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">财联社电报</font>"
         },
         {
           "title": "检修减产 VS 产能释放！碳酸锂反弹，拐点来了吗？ - 电子工程专辑EE Times China",
@@ -808,16 +808,16 @@
           "description": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQN1Y5bWRtclQwNHVnOG9ycFZyVzNPQWxteG15SWdBWlBLQm9wM0xtVGEzX3hqdWd4T2JaT2t5TEo5UXZIX0hjaDhLcWo1R3ZlbzZkSmRNM2Rtcnk2Nlpab1R5NmtDX3Nfbkc5cDNpQ2FWLWpILXZfQnY4ZHQ2N2MyUjhlSW14b0NMM0E?oc=5\" target=\"_blank\">生意社：2023年碳酸锂价格一落千丈 2024年跌幅或收窄</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.sina.com.cn</font>"
         },
         {
-          "title": "澳洲“柴油荒”碳酸锂面临减产 国内锂矿供应预期紧缩 - ChemNet News",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1pOVN2b1RDeXdGLW5tbVFyenZXUzBxZFJTVm1VTUlPanFRUEdoYnlyMFFmZ050ZkhMTnhYdHNZcWdEOG1XT0k0QWx0dEdycUZtZzZpek5vQklmRmMtSGlv?oc=5",
-          "published": "Mon, 30 Mar 2026 07:00:00 GMT",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1pOVN2b1RDeXdGLW5tbVFyenZXUzBxZFJTVm1VTUlPanFRUEdoYnlyMFFmZ050ZkhMTnhYdHNZcWdEOG1XT0k0QWx0dEdycUZtZzZpek5vQklmRmMtSGlv?oc=5\" target=\"_blank\">澳洲“柴油荒”碳酸锂面临减产 国内锂矿供应预期紧缩</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ChemNet News</font>"
+          "title": "行业观察|碳酸锂价格逼近氢氧化锂 锂盐供需或进入“白热化”阶段 - 财联社电报",
+          "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9PQVlrQUJKRE12STJfRGp0QUUyeXRacU5Ca2N2M3gwR09MVk9SeThqOVJ6bVd3dVREZHNMcTBXRHRZMzFP?oc=5",
+          "published": "Sun, 12 Sep 2021 07:00:00 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE9PQVlrQUJKRE12STJfRGp0QUUyeXRacU5Ca2N2M3gwR09MVk9SeThqOVJ6bVd3dVREZHNMcTBXRHRZMzFP?oc=5\" target=\"_blank\">行业观察|碳酸锂价格逼近氢氧化锂 锂盐供需或进入“白热化”阶段</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">财联社电报</font>"
         },
         {
-          "title": "碳酸锂之“殇”，低价徘徊下的减产与亏损 - 财联社电报",
-          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE4wazFRUVpob3haWU1MR2VXY2FHa09EdG1TRnBvcmlNZk4tUDc3dFhWWkRqbHRvSGhnSG14aExBdE95YVFxY3c?oc=5",
-          "published": "Wed, 24 Apr 2024 07:00:00 GMT",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiRkFVX3lxTE4wazFRUVpob3haWU1MR2VXY2FHa09EdG1TRnBvcmlNZk4tUDc3dFhWWkRqbHRvSGhnSG14aExBdE95YVFxY3c?oc=5\" target=\"_blank\">碳酸锂之“殇”，低价徘徊下的减产与亏损</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">财联社电报</font>"
+          "title": "跌跌不休！碳酸锂过剩格局不改，期价创上市来新低，减产节奏成焦点 - 新浪财经",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5LVHp0OWIxdWZIdURnNlVSdHVlT29PMGs2a2FUckFNdFVsd0VmZ1NOb3N4ZEpPbUVjQkRUWUNfd0NoaEg1RHRMblNXMVdFbzROeENZck9SamNJVk5pbEdhb3c1YXA5VlRJTnZtZkJjUVpSbWRFbGVoZg?oc=5",
+          "published": "Thu, 15 Aug 2024 07:00:00 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE5LVHp0OWIxdWZIdURnNlVSdHVlT29PMGs2a2FUckFNdFVsd0VmZ1NOb3N4ZEpPbUVjQkRUWUNfd0NoaEg1RHRMblNXMVdFbzROeENZck9SamNJVk5pbEdhb3c1YXA5VlRJTnZtZkJjUVpSbWRFbGVoZg?oc=5\" target=\"_blank\">跌跌不休！碳酸锂过剩格局不改，期价创上市来新低，减产节奏成焦点</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>"
         }
       ]
     },
@@ -825,82 +825,82 @@
       "status": "discovery_only",
       "source": "Bing News",
       "source_url": "https://www.bing.com/news/search?q=%E7%A2%B3%E9%85%B8%E9%94%82%20%E4%BB%B7%E6%A0%BC%20%E6%9C%9F%E8%B4%A7%20%E7%8E%B0%E8%B4%A7&format=rss&setlang=zh-hans",
-      "retrieved_at": "2026-11-06T17:38:08.987456+00:00",
+      "retrieved_at": "2026-11-07T16:34:59.711586+00:00",
       "items": [
         {
-          "title": "本周碳酸锂价格维稳，11月6日期货lc2701收盘价9.26万元/吨",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee10805e1a4c2c9b1770f8cd74e90b&url=https%3a%2f%2ffinance.sina.com.cn%2froll%2f2026-11-06%2fdoc-inixuywu8726677.shtml&c=13180906668650046406&mkt=en-us",
-          "published": "Fri, 06 Nov 2026 01:56:00 GMT",
-          "description": "电池工业网讯 11月6日，碳酸锂期货主力合约lc2701收盘价9.26万元/吨，较上周五上涨2.91%；现货价格同步止跌，电碳报价9.03万元/吨，较上周持平。碳酸锂上游锂矿，下游电池材料价格仍以小幅下跌为主。"
-        },
-        {
-          "title": "碳酸锂期货跌破10万元／吨，万润新能套保“踩坑”，浮亏近亿元",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee10805e1a4c2c9b1770f8cd74e90b&url=https%3a%2f%2fnews.qq.com%2frain%2fa%2f20261016A0D57Z00&c=7319446816310309774&mkt=en-us",
-          "published": "Fri, 16 Oct 2026 13:25:00 GMT",
-          "description": "湖北万润新能源科技股份有限公司（下称“万润新能”，688275.SH）近日公告称，公司碳酸锂套期保值业务浮亏9385万元，占最近一年净利润绝对值的20.48%。10月16日，飞思财经总经理石金鹏告诉《华夏时报》记者，“近期碳酸锂期货价格持续下行，公司大概率是买入套保导致亏损。从技术形态看，碳酸锂期货是明显的单边空头趋势，这种行情下多头和产业客户亏钱居多。” 今年下半年，万润新能刚把套保额度上调到保 ..."
-        },
-        {
           "title": "碳酸锂期货2701合约价格较5月份高点跌超50% 市场继续“看空”情绪浓厚",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee10805e1a4c2c9b1770f8cd74e90b&url=https%3a%2f%2ffinance.eastmoney.com%2fa%2f202610123892935892.html&c=6699858657684982917&mkt=en-us",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef53339d3344fbac0432e7bca4030d&url=https%3a%2f%2ffinance.eastmoney.com%2fa%2f202610123892935892.html&c=6699858657684982917&mkt=en-us",
           "published": "Mon, 12 Oct 2026 12:41:00 GMT",
           "description": "近期，碳酸锂期货价格持续大幅下跌，引发市场关注。截至10月12日收盘，碳酸锂期货2701合约跌11.79%，报收104740元/吨，跌破11万元关口。从价格水平看，这一收盘价较5月份该合约209840元/吨的高点下跌约50.09%。 现货市场方面，10月12日，中国五矿、上海钢联联合发布的MMLC碳酸锂现货价格指数显示，当日碳酸锂现货价格指数下跌4.91%，报114320元/吨。拉长时间来看，截至 ..."
         },
         {
-          "title": "碳酸锂期货跌破9万元大关！锂矿股集体下跌",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee10805e1a4c2c9b1770f8cd74e90b&url=https%3a%2f%2fnews.qq.com%2frain%2fa%2f20261030A06YGX00&c=9057977780890884114&mkt=en-us",
-          "published": "Fri, 30 Oct 2026 05:56:00 GMT",
-          "description": "10月29日，碳酸锂期货主力合约在午后跌破每吨9万元关口，收盘报88360元/吨，单日下跌8.4%，创下2025年11月以来的新低。同一天，A股锂矿股集体走低， 怡亚通 跌超6%， 欣旺达 、 科力远 跌超5%， 盛新锂能 、 中矿资源 、 天齐锂业 等跌超3%。"
+          "title": "矿厂将停产？宁德时代回应，碳酸锂期货现货双双大涨，机构分析 ...",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef53339d3344fbac0432e7bca4030d&url=https%3a%2f%2fwww.36kr.com%2fp%2f2945778186738564&c=18062865545723482652&mkt=en-us",
+          "published": "Wed, 11 Sep 2024 16:59:00 GMT",
+          "description": "目前看长期碳酸锂价格走势较难改善。 9月11日，“跌跌不休”的碳酸锂期货价格迎来上涨。 9月11日开盘后，碳酸锂期货主力合约一度大涨超7%，午间收盘涨幅为5.85%，报76950元/吨。现货方面，上海钢联发布数据显示，今日电池级碳酸锂价格较上日上涨1000元，均价报7.35万元/吨。 受此影响，能源金属板块多股高开高走，截至9月11收盘，赣锋锂业、天齐锂业涨停，中矿资源涨幅超7%；动力电池板块，南 ..."
         },
         {
           "title": "碳酸锂期货盘中突破10万元大关！2026年现货价格业内预测现分歧：8-12 ...",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee10805e1a4c2c9b1770f8cd74e90b&url=https%3a%2f%2ffinance.eastmoney.com%2fa%2f202511193568995492.html&c=253429029778065687&mkt=en-us",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef53339d3344fbac0432e7bca4030d&url=https%3a%2f%2ffinance.eastmoney.com%2fa%2f202511193568995492.html&c=253429029778065687&mkt=en-us",
           "published": "Wed, 19 Nov 2025 12:40:00 GMT",
           "description": "本月以来，碳酸锂期货主力合约持续发力，今日盘中突破10万元/吨大关。财联社记者注意到，碳酸锂价格持续大涨后，期货 ..."
         },
         {
+          "title": "碳酸锂期货跌破12万，单月跌21.81%，旺季为何不旺？",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef53339d3344fbac0432e7bca4030d&url=https%3a%2f%2fnews.qq.com%2frain%2fa%2f20260930A03PK100&c=15344031834614605528&mkt=en-us",
+          "published": "Wed, 30 Sep 2026 23:15:00 GMT",
+          "description": "会怎样影响电池成本和新能源车价格呢？旺季到来，为什么碳酸锂还处在下跌的路上呢？碳酸锂期货又跌了这么多。 9月28日主力合约2701延续下行趋势，当日跌幅达到5.69%，价格跌破12万元/吨，刷新年内低点。现货市场也呈下跌态势。富宝资讯显示，截至9月28日全国电池级碳酸锂市场均价为12.24万元/吨，较8月末下降了21.81%。 但是从更长时间来看该价格仍然比去年同期高出了67.44%。同品种来说, ..."
+        },
+        {
+          "title": "本周碳酸锂价格维稳，11月6日期货lc2701收盘价9.26万元/吨",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef53339d3344fbac0432e7bca4030d&url=https%3a%2f%2ffinance.sina.com.cn%2froll%2f2026-11-06%2fdoc-inixuywu8726677.shtml&c=13180906668650046406&mkt=en-us",
+          "published": "Fri, 06 Nov 2026 01:56:00 GMT",
+          "description": "电池工业网讯 11月6日，碳酸锂期货主力合约lc2701收盘价9.26万元/吨，较上周五上涨2.91%；现货价格同步止跌，电碳报价9.03万元/吨，较上周持平。碳酸锂上游锂矿，下游电池材料价格仍以小幅下跌为主。"
+        },
+        {
+          "title": "碳酸锂期货跌破9万元大关！锂矿股集体下跌",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef53339d3344fbac0432e7bca4030d&url=https%3a%2f%2fnews.qq.com%2frain%2fa%2f20261030A06YGX00&c=9057977780890884114&mkt=en-us",
+          "published": "Fri, 30 Oct 2026 05:56:00 GMT",
+          "description": "10月29日，碳酸锂期货主力合约在午后跌破每吨9万元关口，收盘报88360元/吨，单日下跌8.4%，创下2025年11月以来的新低。同一天，A股锂矿股集体走低， 怡亚通 跌超6%， 欣旺达 、 科力远 跌超5%， 盛新锂能 、 中矿资源 、 天齐锂业 等跌超3%。"
+        },
+        {
+          "title": "六年两轮大起落，碳酸锂正在走向新一轮底部吗？",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef53339d3344fbac0432e7bca4030d&url=https%3a%2f%2fwww.sohu.com%2fa%2f1094541422_122987885&c=5397015259417433230&mkt=en-us",
+          "published": "Thu, 29 Oct 2026 13:24:00 GMT",
+          "description": "碳酸锂又一次站在了市场分歧的中心。 2026年10月29日，碳酸锂主力期货收于88360元/吨，跌破9万元关口。Mysteel当天早盘电池级碳酸锂现货中间价为96900元/吨。两项报价的时点与交易属性不同，却共同反映出一个现实：锂价已经从年内高位明显回落，产业链正在重新评估未来供应与需求。 市场关心的已不只是某座矿山何时复产，而是更深一层的问题：这轮下跌会重复2023年的路径，还是正在为下一次反弹 ..."
+        },
+        {
           "title": "碳酸锂期货今日上市，国内锂价锚终于定下了",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee10805e1a4c2c9b1770f8cd74e90b&url=https%3a%2f%2fwww.36kr.com%2fp%2f2353353376671235&c=3860400992213681695&mkt=en-us",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef53339d3344fbac0432e7bca4030d&url=https%3a%2f%2fwww.36kr.com%2fp%2f2353353376671235&c=3860400992213681695&mkt=en-us",
           "published": "Thu, 20 Jul 2023 17:00:00 GMT",
           "description": "今年，中国的锂盐厂商也借着四月中旬国内碳酸锂景气度的一波回升开始了碳酸锂的拍卖。蓝科锂业和青海某盐湖企业都举行了小规模的碳酸锂拍卖会，且两次拍卖的最终价格都远超当日的现货价。"
         },
         {
-          "title": "提前交易悲观预期，碳酸锂期货逼近10万元/吨 | 行业风向标",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee10805e1a4c2c9b1770f8cd74e90b&url=https%3a%2f%2fwww.tmtpost.com%2f8167507.html&c=8860213474969644724&mkt=en-us",
-          "published": "Mon, 12 Oct 2026 17:01:00 GMT",
-          "description": "连续8根周K阴线后，碳酸锂期货价格已经无限逼近10万元/吨，较今年5月中旬的20万元/吨腰斩。尤其10月12日跌超10%并13日再下挫后，直接将市场拉入冰点。 二级市场上，锂矿板块同步下跌，锂矿指数（884785.WI）两日累计跌5%。其中，个股永杉锂业（603399.SH）、融捷股份（002192.SZ）、天华新能（300390.SZ）和盛新锂能（002240.SZ） 跌幅更甚，两日累计均跌超8 ..."
-        },
-        {
-          "title": "碳酸锂价格闪崩一百天",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee10805e1a4c2c9b1770f8cd74e90b&url=https%3a%2f%2fwww.sohu.com%2fa%2f1095035395_616701&c=9180739921719338271&mkt=en-us",
-          "published": "Fri, 30 Oct 2026 11:14:00 GMT",
-          "description": "2026年开年，电池级碳酸锂现货均价高达15.6万元/吨，1月中下旬一度冲到18.15万元/吨的阶段高点，随后期货市场继续点火。 5月13日，碳酸锂期货2609合约盘中最高摸到20.99万元/吨，收于20.2万元/吨——那是本轮周期乐观情绪的顶点。与此同时，“第三次锂价超级周期”的呼喊声四起。 没有人会知道，仅仅几个月，碳酸锂会一败涂地。 10月21日，主力合约LC2701收于95,040元/吨， ..."
-        },
-        {
           "title": "8月以来碳酸锂期货涨了10余天 后市怎么走",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee10805e1a4c2c9b1770f8cd74e90b&url=https%3a%2f%2ffund.eastmoney.com%2fa%2f202608233850259475.html&c=18338052057730491180&mkt=en-us",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef53339d3344fbac0432e7bca4030d&url=https%3a%2f%2ffund.eastmoney.com%2fa%2f202608233850259475.html&c=18338052057730491180&mkt=en-us",
           "published": "Sun, 23 Aug 2026 05:44:00 GMT",
           "description": "【8月以来碳酸锂期货涨了10余天 后市怎么走】进入8月以来，碳酸锂期货走出一轮明显反弹行情，价格从135000元/吨附近，上涨 ..."
         },
         {
-          "title": "逼近10万元关口，2个月内跌40%，碳酸锂为何又崩了",
-          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aee10805e1a4c2c9b1770f8cd74e90b&url=https%3a%2f%2fwww.huxiu.com%2farticle%2f4897215.html&c=99808744926920201&mkt=en-us",
-          "published": "Mon, 12 Oct 2026 22:06:00 GMT",
-          "description": "2026年9月至10月，受供需偏弱、矿端宽松预期和高盛看空报告影响，碳酸锂期货与现货价格大幅下跌，主力合约跌破11万元/吨并创年内新低。市场担忧2027—2028年全球锂市场转向供应过剩，10万元/吨成本支撑成为后续观察重点。"
+          "title": "提前交易悲观预期，碳酸锂期货逼近10万元/吨 | 行业风向标",
+          "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aef53339d3344fbac0432e7bca4030d&url=https%3a%2f%2fwww.tmtpost.com%2f8167507.html&c=8860213474969644724&mkt=en-us",
+          "published": "Mon, 12 Oct 2026 17:01:00 GMT",
+          "description": "连续8根周K阴线后，碳酸锂期货价格已经无限逼近10万元/吨，较今年5月中旬的20万元/吨腰斩。尤其10月12日跌超10%并13日再下挫后，直接将市场拉入冰点。 二级市场上，锂矿板块同步下跌，锂矿指数（884785.WI）两日累计跌5%。其中，个股永杉锂业（603399.SH）、融捷股份（002192.SZ）、天华新能（300390.SZ）和盛新锂能（002240.SZ） 跌幅更甚，两日累计均跌超8 ..."
         }
       ],
       "warning": "RSS搜索结果只能作为线索，不能直接作为真实开工率。",
       "fallback_items": [
         {
-          "title": "南方财经全媒体集团 - 南方财经",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8tNUtTSGc4M0MyTVFLUk5yMUYwaEJSSXNLc0dFdlJHUTVnSnVEVGEzOXlmM2Z3QWdoOU5fNkQyYlZyY2xXVlVzV21OM2V1T1pkWkFmck80TWRXLTEzSzlGUWJPQ2ZRQQ?oc=5",
-          "published": "Fri, 06 Nov 2026 08:34:40 GMT",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE8tNUtTSGc4M0MyTVFLUk5yMUYwaEJSSXNLc0dFdlJHUTVnSnVEVGEzOXlmM2Z3QWdoOU5fNkQyYlZyY2xXVlVzV21OM2V1T1pkWkFmck80TWRXLTEzSzlGUWJPQ2ZRQQ?oc=5\" target=\"_blank\">南方财经全媒体集团</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">南方财经</font>"
+          "title": "碳酸锂 期现双涨 - 东方财富",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0zcjBKa1M4MEd1R3FMVW1ZSzlxakhaMFdLV1dRVWlYWUdoY3NkTHQtZ1NLbDU5VlV2UkFyeE9xclgzOXJzLXZLVFlWYlIxc2NnRkVPel9hZUV2VUhZNnJBZGl0S3VTQQ?oc=5",
+          "published": "Fri, 06 Nov 2026 06:05:08 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE0zcjBKa1M4MEd1R3FMVW1ZSzlxakhaMFdLV1dRVWlYWUdoY3NkTHQtZ1NLbDU5VlV2UkFyeE9xclgzOXJzLXZLVFlWYlIxc2NnRkVPel9hZUV2VUhZNnJBZGl0S3VTQQ?oc=5\" target=\"_blank\">碳酸锂 期现双涨</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">东方财富</font>"
         },
         {
-          "title": "碳酸锂期货承压 车价会跟着降吗？ - 东方财富",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1FcFIyTHoycG1KQUUyaTNiTzNYblFlUUpRdGEyRjdZZDdXOUpnN05lUkJyb1VEVmhMQ1RHQ2RrdEQxdnZrUmtNdE9hTGJVVnprTV8zUG1iRE5kZWdYQllyYkxneEtOdw?oc=5",
-          "published": "Tue, 13 Oct 2026 15:13:10 GMT",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE1FcFIyTHoycG1KQUUyaTNiTzNYblFlUUpRdGEyRjdZZDdXOUpnN05lUkJyb1VEVmhMQ1RHQ2RrdEQxdnZrUmtNdE9hTGJVVnprTV8zUG1iRE5kZWdYQllyYkxneEtOdw?oc=5\" target=\"_blank\">碳酸锂期货承压 车价会跟着降吗？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">东方财富</font>"
+          "title": "提前交易悲观预期，碳酸锂期货逼近10万元/吨 | 行业风向标 - 钛媒体",
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE93M05Gd1hKUzdVRjVrYnYwQk84amx4Nm9TVk92S01Rc2N3a1M1dnBUSVBWVGJwY1BNS1pCV1F4SnFlTm1MVlBBNjVlQU0?oc=5",
+          "published": "Tue, 13 Oct 2026 07:00:00 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiTEFVX3lxTE93M05Gd1hKUzdVRjVrYnYwQk84amx4Nm9TVk92S01Rc2N3a1M1dnBUSVBWVGJwY1BNS1pCV1F4SnFlTm1MVlBBNjVlQU0?oc=5\" target=\"_blank\">提前交易悲观预期，碳酸锂期货逼近10万元/吨 | 行业风向标</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">钛媒体</font>"
         },
         {
           "title": "大跌34％！碳酸锂期货跌破11万元创年内新低，市场提前交易供给过剩预期 - 21财经",
@@ -909,10 +909,10 @@
           "description": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNOHhQdmdycHRiNHpxSURkMTNqdS1YcGs4TmZSNWtkSkNqN3B4eng1THBsd2ZuOVJfa3Q5Z2VTVWhFd1VsMGVSQmJVWndHNHJyOXVwWW9zOTVSLVM2MzhOLXdHOHpFNG85MWVMTXgwRzRGODNHaXVSdHRfdzlCcnNiOUxseWZJdFZscFVXLWloMA?oc=5\" target=\"_blank\">大跌34％！碳酸锂期货跌破11万元创年内新低，市场提前交易供给过剩预期</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">21财经</font>"
         },
         {
-          "title": "提前交易悲观预期，碳酸锂期货逼近10万元/吨 | 行业风向标 - 钛媒体",
-          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE93M05Gd1hKUzdVRjVrYnYwQk84amx4Nm9TVk92S01Rc2N3a1M1dnBUSVBWVGJwY1BNS1pCV1F4SnFlTm1MVlBBNjVlQU0?oc=5",
-          "published": "Tue, 13 Oct 2026 07:00:00 GMT",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiTEFVX3lxTE93M05Gd1hKUzdVRjVrYnYwQk84amx4Nm9TVk92S01Rc2N3a1M1dnBUSVBWVGJwY1BNS1pCV1F4SnFlTm1MVlBBNjVlQU0?oc=5\" target=\"_blank\">提前交易悲观预期，碳酸锂期货逼近10万元/吨 | 行业风向标</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">钛媒体</font>"
+          "title": "碳酸锂期货价格高位跳水失守19万关口，需求端势头强劲，后续或仍有支撑 - 财联社",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9seFNqUnVKc3N2RWNwbFkzYmVfSjF4WVhaSW42eGRSRTlGSEdCcnlnbTgtR1h6eDc3MXFYUXRwNmNJbG5kSm5KRQ?oc=5",
+          "published": "Tue, 19 May 2026 07:00:00 GMT",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE9seFNqUnVKc3N2RWNwbFkzYmVfSjF4WVhaSW42eGRSRTlGSEdCcnlnbTgtR1h6eDc3MXFYUXRwNmNJbG5kSm5KRQ?oc=5\" target=\"_blank\">碳酸锂期货价格高位跳水失守19万关口，需求端势头强劲，后续或仍有支撑</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">财联社</font>"
         },
         {
           "title": "碳酸锂期货价格猛涨：一场偏离实体需求的危险游戏？ - 人民日报",
